@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="334927ad2658670"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/1/2018 8:10:41 AM"
+		timestampiso="2018-10-01T13:10:41"
+		endtime="10/1/2018 8:11:13 AM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.312"
+			timeRelativeToTestModuleStartTime="00:01.312"
+			timeWallClock="08:10:42"
+			time="00:01.312"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.500"
+			timeRelativeToTestModuleStartTime="00:01.500"
+			timeWallClock="08:10:43"
+			time="00:01.500"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.921"
+			timeRelativeToTestModuleStartTime="00:01.921"
+			timeWallClock="08:10:43"
+			time="00:01.921"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.922"
+			timeRelativeToTestModuleStartTime="00:31.922"
+			timeWallClock="08:11:13"
+			time="00:31.922"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! DiffBetweenServWsBIN.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="49"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.969"
+			timeRelativeToTestModuleStartTime="00:31.969"
+			timeWallClock="08:11:13"
+			time="00:31.969"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN.txt vs. \\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\DiffBetweenServWsBIN - Copy.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="111"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="401a5605-5915-4d7a-978d-db1302934759"
+mode="Global"
+rxversion="8.1">
+	<name>
+		CloseHB
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseHB"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ea434f60-81ca-4f55-962d-3e42e2a9fc43"
+		sx="1007"
+		sy="538"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ea46238a-d60b-4249-89e0-f10e02abb1a0"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="980,529,75,22"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cancel
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+c
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Cancel
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						HotTracked, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@class~'DFDialogClass']/element[@controlid='2376']/?/?/button[@accessiblename='Cancel']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="370da116-c397-4769-903b-7f025abb5e58">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseHB.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15a372bd65c299"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/18/2018 8:24:14 AM"
+		timestampiso="2018-10-18T13:24:14"
+		endtime="10/18/2018 8:24:20 AM"
+		timeoutfactor="1"
+		module="ValidateCostPriceOutput">
+		<detail>
+			ValidateCostPriceOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.094"
+			timeRelativeToTestModuleStartTime="00:01.094"
+			timeWallClock="08:24:15"
+			time="00:01.094"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.140"
+			timeRelativeToTestModuleStartTime="00:01.140"
+			timeWallClock="08:24:15"
+			time="00:01.140"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCostPrice.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCostPriceOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.265"
+			timeRelativeToTestModuleStartTime="00:01.265"
+			timeWallClock="08:24:15"
+			time="00:01.265"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCostPriceOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="08:24:20"
+			time="00:06.281"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CostReport.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCostPriceOutput.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.328"
+			timeRelativeToTestModuleStartTime="00:06.328"
+			timeWallClock="08:24:20"
+			time="00:06.328"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCostPriceOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

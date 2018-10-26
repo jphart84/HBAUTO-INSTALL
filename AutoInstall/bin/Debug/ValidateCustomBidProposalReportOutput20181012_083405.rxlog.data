@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c41ad448893f698"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 8:34:10 AM"
+		timestampiso="2018-10-12T13:34:10"
+		endtime="10/12/2018 8:34:12 AM"
+		timeoutfactor="1"
+		module="ValidateCustomBidProposalReportOutput">
+		<detail>
+			ValidateCustomBidProposalReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.218"
+			timeRelativeToTestModuleStartTime="00:01.218"
+			timeWallClock="08:34:12"
+			time="00:01.218"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_3cd7d3fc_a4ace609_trace.jpg"
+			errthumb=".\Validate_3cd7d3fc_a4ace609_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.250"
+			timeRelativeToTestModuleStartTime="00:01.250"
+			timeWallClock="08:34:12"
+			time="00:01.250"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_3cd7d3fc_a4ace609_trace.jpg"
+			errthumb=".\Validate_3cd7d3fc_a4ace609_trace_thumb.jpg">
+			<message>
+				Run application 'runCustomizedBidProposal.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.421"
+			timeRelativeToTestModuleStartTime="00:01.421"
+			timeWallClock="08:34:12"
+			time="00:01.421"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_3cd7d3fc_cf0c8ccc_trace.jpg"
+			errthumb=".\Validate_3cd7d3fc_cf0c8ccc_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="94"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.437"
+			timeRelativeToTestModuleStartTime="00:01.437"
+			timeWallClock="08:34:12"
+			time="00:01.437"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_3cd7d3fc_cf0c8ccc_trace.jpg"
+			errthumb=".\Validate_3cd7d3fc_cf0c8ccc_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCustomBidProposalReportOutput.CustomizedBidProposalExists() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs:line 94
+   at AutoInstall.ValidateCustomBidProposalReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs:line 99
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="94"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

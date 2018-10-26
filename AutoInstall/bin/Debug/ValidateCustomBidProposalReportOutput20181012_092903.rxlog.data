@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17e3dab5eab868"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 9:29:10 AM"
+		timestampiso="2018-10-12T14:29:10"
+		endtime="10/12/2018 9:29:17 AM"
+		timeoutfactor="1"
+		module="ValidateCustomBidProposalReportOutput">
+		<detail>
+			ValidateCustomBidProposalReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.031"
+			timeRelativeToTestModuleStartTime="00:01.031"
+			timeWallClock="09:29:11"
+			time="00:01.031"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.078"
+			timeRelativeToTestModuleStartTime="00:01.078"
+			timeWallClock="09:29:11"
+			time="00:01.078"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCustomizedBidProposal.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.218"
+			timeRelativeToTestModuleStartTime="00:01.218"
+			timeWallClock="09:29:11"
+			time="00:01.218"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="09:29:16"
+			time="00:06.281"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="94"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="09:29:16"
+			time="00:06.281"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CustomizedBidProposal.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="53"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="09:29:16"
+			time="00:06.281"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Escape}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

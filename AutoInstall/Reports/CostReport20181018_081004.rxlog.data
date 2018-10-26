@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bd570e20524a124"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/18/2018 8:10:11 AM"
+		timestampiso="2018-10-18T13:10:11"
+		endtime="10/18/2018 8:11:45 AM"
+		timeoutfactor="1"
+		module="CostReport">
+		<detail>
+			CostReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.062"
+			timeRelativeToTestModuleStartTime="00:01.062"
+			timeWallClock="08:10:12"
+			time="00:01.062"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.172"
+			timeRelativeToTestModuleStartTime="00:11.172"
+			timeWallClock="08:10:22"
+			time="00:11.172"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Report.CostReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']"
+				itempath="?/?/toolbar/button[@text~'Cost Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Report.CostReportsButton"
+				id="c972e2915f874f21a5a43bc3f2feb563"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.109"
+			timeRelativeToTestModuleStartTime="00:13.109"
+			timeWallClock="08:10:24"
+			time="00:13.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				itempath="?/?/?/tree/?/?/treeitem[@text='Cost Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport"
+				id="9276b5650af9420689e0d0cf7040c0cb"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.406"
+			timeRelativeToTestModuleStartTime="00:15.406"
+			timeWallClock="08:10:26"
+			time="00:15.406"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.422"
+			timeRelativeToTestModuleStartTime="00:25.422"
+			timeWallClock="08:10:36"
+			time="00:25.422"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo"
+				id="d3a4583f51654e75b3236cc05b80c1bf"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.735"
+			timeRelativeToTestModuleStartTime="00:39.735"
+			timeWallClock="08:10:50"
+			time="00:39.735"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Return}' with focus on 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo"
+				id="d3a4583f51654e75b3236cc05b80c1bf"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.610"
+			timeRelativeToTestModuleStartTime="00:41.610"
+			timeWallClock="08:10:52"
+			time="00:41.610"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.844"
+			timeRelativeToTestModuleStartTime="00:41.844"
+			timeWallClock="08:10:52"
+			time="00:41.844"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.SaveAsExport.FilePathURL' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']//element[@class='Breadcrumb Parent']"
+				itempath=".//element[@class='Breadcrumb Parent']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.FilePathURL"
+				id="7e70db7860b4486d8c0089d996e95388"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.985"
+			timeRelativeToTestModuleStartTime="00:45.985"
+			timeWallClock="08:10:57"
+			time="00:45.985"
+			level="Info"
+			category="Keyboard">
+			<message>
+				(Optional Action)<br/>Key sequence 'W:\HBDaily\InstallAutomation\HBReportsExportFiles{Return}'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.625"
+			timeRelativeToTestModuleStartTime="00:51.625"
+			timeWallClock="08:11:02"
+			time="00:51.625"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.SaveAsExport.FileName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']"
+				itempath="element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.FileName"
+				id="542c7fc99f7f43f1bff83e4118ea322f"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="126"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.172"
+			timeRelativeToTestModuleStartTime="00:53.172"
+			timeWallClock="08:11:04"
+			time="00:53.172"
+			level="Info"
+			category="Keyboard">
+			<message>
+				(Optional Action)<br/>Key sequence 'CostReport.txt'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.954"
+			timeRelativeToTestModuleStartTime="00:54.954"
+			timeWallClock="08:11:05"
+			time="00:54.954"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']/button[@text~'Save']"
+				itempath="button[@text~'Save']"
+				fullname="AutoInstallRepository.HBReportViewers.SaveAsExport.SaveButton"
+				id="3b603e92fd9447dea5b7c3b9c4f848e5"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="138"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.860"
+			timeRelativeToTestModuleStartTime="00:55.860"
+			timeWallClock="08:11:06"
+			time="00:55.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Confirm Save As']//button[@text~'Yes']"
+				itempath=".//button[@text~'Yes']"
+				fullname="AutoInstallRepository.HBReportViewers.ConfirmSaveAs.YesButton"
+				id="8e6ab588c44d4a94ada01c708079e46e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="144"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.167"
+			timeRelativeToTestModuleStartTime="01:31.167"
+			timeWallClock="08:11:42"
+			time="01:31.167"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.HBReportViewers.ConfirmSaveAs.YesButton'.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="147"
+				loglvl="Warn"
+				id="8e6ab588c44d4a94ada01c708079e46e"
+				path="/form[@title='Confirm Save As']//button[@text~'Yes']"
+				fullname="AutoInstallRepository.HBReportViewers.ConfirmSaveAs.YesButton">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.170"
+			timeRelativeToTestModuleStartTime="01:31.170"
+			timeWallClock="08:11:42"
+			time="01:31.170"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.ExportScreen.NoButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export']/?/button[@accessiblename~'No']"
+				itempath="?/button[@accessiblename~'No']"
+				fullname="AutoInstallRepository.HBReportViewers.ExportScreen.NoButton"
+				id="0147988cb67640039684440548d7676f"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="149"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:32.130"
+			timeRelativeToTestModuleStartTime="01:32.130"
+			timeWallClock="08:11:43"
+			time="01:32.130"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']"
+				itempath="?//?/button[@text~'Close Print Preview']"
+				fullname="AutoInstallRepository.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton"
+				id="cb18577a8a9a44bab5892341b2976cd9"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CostReport.cs"
+				codeline="153"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

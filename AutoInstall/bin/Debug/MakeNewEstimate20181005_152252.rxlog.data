@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="690c6da6646690"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/5/2018 3:23:01 PM"
+		timestampiso="2018-10-05T20:23:01"
+		endtime="10/5/2018 3:23:13 PM"
+		timeoutfactor="1"
+		module="MakeNewEstimate">
+		<detail>
+			MakeNewEstimate
+		</detail>
+		<errormessage>
+			Setting attribute 'DFentry' failed on element '{Unknown:DFentry}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.203"
+			timeRelativeToTestModuleStartTime="00:01.203"
+			timeWallClock="15:23:02"
+			time="00:01.203"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>EstimateCode, EstimateName, EstimateDescription
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.281"
+			timeRelativeToTestModuleStartTime="00:01.281"
+			timeWallClock="15:23:02"
+			time="00:01.281"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.FileTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'File']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'File']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.FileTab"
+				id="0295fd3ffff74963a5b3c56a9ac69481"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="121"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.718"
+			timeRelativeToTestModuleStartTime="00:05.718"
+			timeWallClock="15:23:06"
+			time="00:05.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.File.NewEstimateButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'New']"
+				itempath=".///toolbar/button[@text~'New']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.File.NewEstimateButton"
+				id="6eb328db5a1040e9a492311077d8cafc"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="125"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.718"
+			timeRelativeToTestModuleStartTime="00:08.718"
+			timeWallClock="15:23:09"
+			time="00:08.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.NewEstimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'New Estimate']"
+				itempath="?/?/menuitem[@text~'New Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.NewEstimate"
+				id="ad0a95efc3a64a2f949d52f0d5f0202f"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="129"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.750"
+			timeRelativeToTestModuleStartTime="00:09.750"
+			timeWallClock="15:23:10"
+			time="00:09.750"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'New Estimate']/?/?/?/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/?/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox"
+				id="c1389a8404ae45b3a5c50be6064a83b0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="134"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.015"
+			timeRelativeToTestModuleStartTime="00:11.015"
+			timeWallClock="15:23:12"
+			time="00:11.015"
+			level="Info"
+			category="Keyboard"
+			errimg=".\MakeNewE_6ffa6203_3003dcc6_trace.jpg"
+			errthumb=".\MakeNewE_6ffa6203_3003dcc6_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$EstimateCode' with focus on 'HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'New Estimate']/?/?/?/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/?/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox"
+				id="c1389a8404ae45b3a5c50be6064a83b0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="139"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.859"
+			timeRelativeToTestModuleStartTime="00:11.859"
+			timeWallClock="15:23:12"
+			time="00:11.859"
+			level="Info"
+			category="Set value"
+			errimg=".\MakeNewE_6ffa6203_cb32c0f8_trace.jpg"
+			errthumb=".\MakeNewE_6ffa6203_cb32c0f8_trace_thumb.jpg">
+			<message>
+				Setting attribute DFentry to '$EstimateCode' on item 'HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'New Estimate']/?/?/?/element[@class='DFentry' and @enabled='True']"
+				itempath="?/?/?/element[@class='DFentry' and @enabled='True']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.EstimateCodeTextBox"
+				id="c1389a8404ae45b3a5c50be6064a83b0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="143"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.984"
+			timeRelativeToTestModuleStartTime="00:11.984"
+			timeWallClock="15:23:13"
+			time="00:11.984"
+			level="Error"
+			category="Module"
+			errimg=".\MakeNewE_6ffa6203_0e4eb853_trace.jpg"
+			errthumb=".\MakeNewE_6ffa6203_0e4eb853_trace_thumb.jpg">
+			<message>
+				Setting attribute 'DFentry' failed on element '{Unknown:DFentry}'.<br/>The operation is not supported.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at AutoInstall.MakeNewEstimate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs:line 144
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\MakeNewEstimate.cs"
+				codeline="144"
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

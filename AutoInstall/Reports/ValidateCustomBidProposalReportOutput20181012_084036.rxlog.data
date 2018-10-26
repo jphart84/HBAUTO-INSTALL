@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e884236c8847420"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 8:40:52 AM"
+		timestampiso="2018-10-12T13:40:52"
+		endtime="10/12/2018 8:40:54 AM"
+		timeoutfactor="1"
+		module="ValidateCustomBidProposalReportOutput">
+		<detail>
+			ValidateCustomBidProposalReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.031"
+			timeRelativeToTestModuleStartTime="00:01.031"
+			timeWallClock="08:40:53"
+			time="00:01.031"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.046"
+			timeRelativeToTestModuleStartTime="00:01.046"
+			timeWallClock="08:40:53"
+			time="00:01.046"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCustomizedBidProposal.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.187"
+			timeRelativeToTestModuleStartTime="00:01.187"
+			timeWallClock="08:40:54"
+			time="00:01.187"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CustomizedBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="94"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.187"
+			timeRelativeToTestModuleStartTime="00:01.187"
+			timeWallClock="08:40:54"
+			time="00:01.187"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CustomizedBidProposal.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="53"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.203"
+			timeRelativeToTestModuleStartTime="00:01.203"
+			timeWallClock="08:40:54"
+			time="00:01.203"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Escape}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4172d913ee41c70"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2018 6:08:01 PM"
+		timestampiso="2018-09-28T23:08:01"
+		endtime="9/28/2018 6:08:13 PM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<errormessage>
+			Comparing content of files (\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\Reference\dllComparison.txt vs. \\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.171"
+			timeRelativeToTestModuleStartTime="00:01.171"
+			timeWallClock="18:08:02"
+			time="00:01.171"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.233"
+			timeRelativeToTestModuleStartTime="00:01.233"
+			timeWallClock="18:08:02"
+			time="00:01.233"
+			level="Info"
+			category="Application">
+			<message>
+				script to check DLL and OCX in HB against masterlist on V:<br/>Run application 'CompareDLLs.ps1' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.398"
+			timeRelativeToTestModuleStartTime="00:01.398"
+			timeWallClock="18:08:03"
+			time="00:01.398"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.428"
+			timeRelativeToTestModuleStartTime="00:11.428"
+			timeWallClock="18:08:13"
+			time="00:11.428"
+			level="Success"
+			category="File Exist"
+			errimg=".\CheckMis_9a4d3d37_e2bb855b_trace.jpg"
+			errthumb=".\CheckMis_9a4d3d37_e2bb855b_trace_thumb.jpg">
+			<message>
+				Success! dllComparison.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="50"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.443"
+			timeRelativeToTestModuleStartTime="00:11.443"
+			timeWallClock="18:08:13"
+			time="00:11.443"
+			level="Failure"
+			category="Validation"
+			errimg=".\CheckMis_9a4d3d37_e2bb855b_trace.jpg"
+			errthumb=".\CheckMis_9a4d3d37_e2bb855b_trace_thumb.jpg">
+			<message>
+				Comparing content of files (\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\Reference\dllComparison.txt vs. \\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="95"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.459"
+			timeRelativeToTestModuleStartTime="00:11.459"
+			timeWallClock="18:08:13"
+			time="00:11.459"
+			level="Error"
+			category="Module"
+			errimg=".\CheckMis_9a4d3d37_e2bb855b_trace.jpg"
+			errthumb=".\CheckMis_9a4d3d37_e2bb855b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\Reference\dllComparison.txt vs. \\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.CheckMissingDLLsOCXs.ValidateDLLReportContent() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs:line 95
+   at AutoInstall.CheckMissingDLLsOCXs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.cs:line 108
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="95"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

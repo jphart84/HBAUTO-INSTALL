@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b6126f0de145fc4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 10:51:24 AM"
+		timestampiso="2018-10-12T15:51:24"
+		endtime="10/12/2018 10:51:31 AM"
+		timeoutfactor="1"
+		module="ValidateEstimateRecapOutput">
+		<detail>
+			ValidateEstimateRecapOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.155"
+			timeRelativeToTestModuleStartTime="00:01.155"
+			timeWallClock="10:51:25"
+			time="00:01.155"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.202"
+			timeRelativeToTestModuleStartTime="00:01.202"
+			timeWallClock="10:51:25"
+			time="00:01.202"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runEstimateRecap.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.343"
+			timeRelativeToTestModuleStartTime="00:01.343"
+			timeWallClock="10:51:25"
+			time="00:01.343"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.358"
+			timeRelativeToTestModuleStartTime="00:06.358"
+			timeWallClock="10:51:30"
+			time="00:06.358"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_d826db36_5eac3276_trace.jpg"
+			errthumb=".\Validate_d826db36_5eac3276_trace_thumb.jpg">
+			<message>
+				Success! EstimateRecapReport.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.468"
+			timeRelativeToTestModuleStartTime="00:06.468"
+			timeWallClock="10:51:31"
+			time="00:06.468"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_d826db36_c126e5ab_trace.jpg"
+			errthumb=".\Validate_d826db36_c126e5ab_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.483"
+			timeRelativeToTestModuleStartTime="00:06.483"
+			timeWallClock="10:51:31"
+			time="00:06.483"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_d826db36_c126e5ab_trace.jpg"
+			errthumb=".\Validate_d826db36_c126e5ab_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateEstimateRecapOutput.ValidateContentEstimateRecap() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs:line 93
+   at AutoInstall.ValidateEstimateRecapOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

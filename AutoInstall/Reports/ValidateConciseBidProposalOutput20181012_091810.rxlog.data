@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16f5395d444210a1"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 9:18:18 AM"
+		timestampiso="2018-10-12T14:18:18"
+		endtime="10/12/2018 9:18:19 AM"
+		timeoutfactor="1"
+		module="ValidateConciseBidProposalOutput">
+		<detail>
+			ValidateConciseBidProposalOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.062"
+			timeRelativeToTestModuleStartTime="00:01.062"
+			timeWallClock="09:18:19"
+			time="00:01.062"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.093"
+			timeRelativeToTestModuleStartTime="00:01.093"
+			timeWallClock="09:18:19"
+			time="00:01.093"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runConciseBidProposalCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateConciseBidProposalOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.218"
+			timeRelativeToTestModuleStartTime="00:01.218"
+			timeWallClock="09:18:19"
+			time="00:01.218"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ConciseBidProposal.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateConciseBidProposalOutput.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.328"
+			timeRelativeToTestModuleStartTime="00:01.328"
+			timeWallClock="09:18:19"
+			time="00:01.328"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\ConciseBidProposalSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\ConciseBidProposalSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateConciseBidProposalOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

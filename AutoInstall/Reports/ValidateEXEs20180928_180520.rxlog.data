@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2173fd572f35cdd5"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2018 6:05:26 PM"
+		timestampiso="2018-09-28T23:05:26"
+		endtime="9/28/2018 6:05:58 PM"
+		timeoutfactor="1"
+		module="ValidateEXEs">
+		<detail>
+			ValidateEXEs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.132"
+			timeRelativeToTestModuleStartTime="00:01.132"
+			timeWallClock="18:05:27"
+			time="00:01.132"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.226"
+			timeRelativeToTestModuleStartTime="00:01.226"
+			timeWallClock="18:05:27"
+			time="00:01.226"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for file version reports<br/>Run application 'CheckExeVersion.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.398"
+			timeRelativeToTestModuleStartTime="00:01.398"
+			timeWallClock="18:05:28"
+			time="00:01.398"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.419"
+			timeRelativeToTestModuleStartTime="00:31.419"
+			timeWallClock="18:05:58"
+			time="00:31.419"
+			level="Failure"
+			category="File Exist">
+			<message>
+				Fail. CheckExeVersionServer.txt does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="53"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.450"
+			timeRelativeToTestModuleStartTime="00:31.450"
+			timeWallClock="18:05:58"
+			time="00:31.450"
+			level="Failure"
+			category="File Exist">
+			<message>
+				Fail. CheckExeVersionWS.txt does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.UserCode.cs"
+				codeline="62"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.481"
+			timeRelativeToTestModuleStartTime="00:31.481"
+			timeWallClock="18:05:58"
+			time="00:31.481"
+			level="Warn"
+			category="Module"
+			errimg=".\Validate_1c1231dc_c0a1697c_trace.jpg"
+			errthumb=".\Validate_1c1231dc_c0a1697c_trace_thumb.jpg">
+			<message>
+				(Optional Action) File not found for comparison in Validate_FileContentEqual: Downloads\InternFinal\InternFinal\Script\Reports\Reference\CheckExeVersionServer.txt
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.cs"
+				codeline="113"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.481"
+			timeRelativeToTestModuleStartTime="00:31.481"
+			timeWallClock="18:05:58"
+			time="00:31.481"
+			level="Warn"
+			category="Module"
+			errimg=".\Validate_1c1231dc_c0a1697c_trace.jpg"
+			errthumb=".\Validate_1c1231dc_c0a1697c_trace_thumb.jpg">
+			<message>
+				(Optional Action) File not found for comparison in Validate_FileContentEqual: Downloads\InternFinal\InternFinal\Script\Reports\Reference\CheckExeVersionWS.txt
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEXEs.cs"
+				codeline="118"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.481"
+			timeRelativeToTestModuleStartTime="00:31.481"
+			timeWallClock="18:05:58"
+			time="00:31.481"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_1c1231dc_c0a1697c_trace.jpg"
+			errthumb=".\Validate_1c1231dc_c0a1697c_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

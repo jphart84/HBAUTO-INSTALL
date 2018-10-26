@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.18s"
+		durationms="9175"
+		type="root"
+		rid="730b59ada5feeee"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 1:53:01 PM"
+		timestampiso="2018-10-12T18:53:01"
+		endtime="10/12/2018 1:53:10 PM"
+		timeoutfactor="1"
+		module="CloseHB">
+		<detail>
+			CloseHB
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.400"
+			timeRelativeToTestModuleStartTime="00:01.401"
+			timeWallClock="13:53:02"
+			time="00:01.400"
+			level="Info"
+			category="Application">
+			<message>
+				Killing application containing item 'HeavyBidApp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']"
+				itempath="/form[@title~'HB']"
+				fullname="AutoInstallRepository.HeavyBidApp.Self"
+				id="52c006538bd0447bab870bfa9eb0f1f7"
+				timeout="30000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CloseHB.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.174"
+			timeRelativeToTestModuleStartTime="00:09.175"
+			timeWallClock="13:53:10"
+			time="00:09.174"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

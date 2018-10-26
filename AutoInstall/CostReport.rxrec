@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f2dca640-d155-4bc2-8763-41db5cf29aee"
+mode="Global"
+rxversion="8.1">
+	<name>
+		CostReport
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CostReport"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8bab1a6c-519a-482d-a7f6-6bd9a7c0dcc5"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5048bb26-2beb-4526-b63f-95ca95f2b8d1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ffd6397c-2ad8-4f73-8bb4-a44d70830141"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c972e291-5f87-4f21-a5a4-3bc3f2feb563"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HB']/?/?/toolbar/button[@text~'Cost Reports']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b9a376aa-d7b0-4c1e-a7b9-a6b1f088fcbe"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9276b565-0af9-4206-89e0-d0cf7040c0cb"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text='Cost Report']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="LowerCenter"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d0274917-98f4-4763-a795-2ec36a18af5b"
+		sx="1119"
+		sy="113"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d3a4583f-5165-4e75-b323-6cc05b80c1bf"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="1102,55,44,68"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Export To
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Export To
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, HotTracked, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="35ac1c58-c716-47ef-b311-5ad31b64b41a">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bdb826bc-d8b2-4c04-96ed-2128ccbf5a13">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d3a4583f-5165-4e75-b323-6cc05b80c1bf"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="1102,55,44,68"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Export To
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Export To
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, HotTracked, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'HeavyBid Reports Plus']/element[@controlname='ribbon']//toolbar[@accessiblename='Export']/button[@accessiblename='Export To']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="fcc4bb24-0a3c-4e97-a2be-6c45a9fccf35">
+				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
+PpQM/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c3440883-701b-48eb-92d4-7be3f3dfae14"
+		sx="960"
+		sy="590"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b28a9ab-0355-4a48-bc51-4f4c7b844dc7"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Text Export Options']//button[@accessiblename='OK']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="346fd6eb-bb11-421f-bc70-6977ab4ef6ad">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="CenterRight"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="4d8bc2c8-c569-4e15-af6e-f4e22ebb62fe"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7e70db78-60b4-486d-8c00-89d996e95388"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Save As']//element[@class='Breadcrumb Parent']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="W:\HBDaily\InstallAutomation\HBReportsExportFiles{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="True"
+		presstime="100ms"
+		searchpropertyid="31c48e27-502a-428f-87b6-56590edb0ab7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="0a8e1310-f8c9-47e3-9815-d6986375f56e"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="542c7fc9-9f7f-43f1-bff8-3e4118ea322f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="5"
+				prefcap="text"
+				rect="166,449,791,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Report.txt
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1001
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						267682
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						7160
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						HbReportViewer
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Report.txt
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Save As']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="CostReport.txt"
+		duration="100ms"
+		enabled="True"
+		optional="True"
+		presstime="100ms"
+		searchpropertyid="0c5c4d04-baa2-4b40-b59f-57195db42ef6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="42d8d3cf-8aa2-47a8-a954-d0c26fd02b28"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b603e92-fd94-47de-a5b7-c3b9c4f848e5"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Save As']/button[@text~'Save']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="39bb4473-67d2-47bf-83e1-23daa036062b"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8e6ab588-c44d-4a94-ada0-1c708079e46e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Confirm Save As']//button[@text~'Yes']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="186a5ab5-2864-4216-b9c9-c2a96e7e75aa"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0147988c-b676-4003-9684-440548d7676f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="973,536,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;No
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+n
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						&amp;No
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Export']/?/button[@accessiblename~'No']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ffd6397c-2ad8-4f73-8bb4-a44d70830141"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cb18577a-8a9a-44ba-b589-2341b2976cd9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@text~'HeavyBid Reports Plus']/?//?/button[@text~'Close Print Preview']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CostReport.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

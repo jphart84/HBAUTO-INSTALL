@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11ce78586a740d66"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/27/2018 10:34:07 AM"
+		timestampiso="2018-09-27T15:34:07"
+		endtime="9/27/2018 10:34:09 AM"
+		timeoutfactor="1"
+		module="OpenInstallFile">
+		<detail>
+			OpenInstallFile
+		</detail>
+		<errormessage>
+			Failed to run application 'C:\Users\hayyaan.merchant\Desktop\BATCH\PullLatestInstall.bat'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.657"
+			timeRelativeToTestModuleStartTime="00:01.657"
+			timeWallClock="10:34:08"
+			time="00:01.657"
+			level="Info"
+			category="Application"
+			errimg=".\OpenInst_287d3908_5549dbdf_trace.jpg"
+			errthumb=".\OpenInst_287d3908_5549dbdf_trace_thumb.jpg">
+			<message>
+				B.1<br/>Run application 'C:\Users\hayyaan.merchant\Desktop\BATCH\PullLatestInstall.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\OpenInstallFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.782"
+			timeRelativeToTestModuleStartTime="00:01.782"
+			timeWallClock="10:34:08"
+			time="00:01.782"
+			level="Error"
+			category="Module"
+			errimg=".\OpenInst_287d3908_ebd8ce3b_trace.jpg"
+			errthumb=".\OpenInst_287d3908_ebd8ce3b_trace_thumb.jpg">
+			<message>
+				Failed to run application 'C:\Users\hayyaan.merchant\Desktop\BATCH\PullLatestInstall.bat'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at AutoInstall.OpenInstallFile.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\OpenInstallFile.cs:line 84
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\OpenInstallFile.cs"
+				codeline="84"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

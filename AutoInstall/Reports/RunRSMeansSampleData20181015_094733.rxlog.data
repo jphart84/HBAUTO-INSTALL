@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="145bd3a7645f7f38"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/15/2018 9:47:41 AM"
+		timestampiso="2018-10-15T14:47:41"
+		endtime="10/15/2018 9:47:49 AM"
+		timeoutfactor="1"
+		module="RunRSMeansSampleData">
+		<detail>
+			RunRSMeansSampleData
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.109"
+			timeRelativeToTestModuleStartTime="00:01.109"
+			timeWallClock="09:47:42"
+			time="00:01.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem"
+				itempath="treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity"
+				id="96fc5c334e4642f9baafaba1ff09d141"
+				timeout="120000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.906"
+			timeRelativeToTestModuleStartTime="00:03.906"
+			timeWallClock="09:47:45"
+			time="00:03.906"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.140"
+			timeRelativeToTestModuleStartTime="00:04.140"
+			timeWallClock="09:47:45"
+			time="00:04.140"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem/treeitem"
+				itempath="treeitem/treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableBiditem"
+				id="18beab79b8694bc6ba7a7df4060cbb30"
+				timeout="120000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.396"
+			timeRelativeToTestModuleStartTime="00:05.396"
+			timeWallClock="09:47:46"
+			time="00:05.396"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.630"
+			timeRelativeToTestModuleStartTime="00:05.630"
+			timeWallClock="09:47:47"
+			time="00:05.630"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/element[@class='DFmenu']//button[@accessiblename='Add Activities']"
+				itempath="?/element[@class='DFmenu']//button[@accessiblename='Add Activities']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.AddActivitiesButton"
+				id="0cfd403486e4477a8ca60b8da559a846"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.661"
+			timeRelativeToTestModuleStartTime="00:06.661"
+			timeWallClock="09:47:48"
+			time="00:06.661"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Expanded to 'True' on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Activities for Biditem:']//treeitem[@accessiblename='RSMeans']"
+				itempath=".//treeitem[@accessiblename='RSMeans']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.RSMeansTreeItem"
+				id="9a2b06b5179e4ae18853e5ed85a602c6"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.881"
+			timeRelativeToTestModuleStartTime="00:06.881"
+			timeWallClock="09:47:48"
+			time="00:06.881"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating Exists on item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Activities for Biditem:']//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']"
+				itempath=".//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItem"
+				id="07bd18be003f4d9da2761874e0853d30"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.052"
+			timeRelativeToTestModuleStartTime="00:07.052"
+			timeWallClock="09:47:48"
+			time="00:07.052"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SampleDataTreeItem' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Activities for Biditem:']//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']"
+				itempath=".//treeitem[@accessiblename='RSMeans']/treeitem[@accessiblename='Sample Data']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.SampleDataTreeItem"
+				id="07bd18be003f4d9da2761874e0853d30"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.068"
+			timeRelativeToTestModuleStartTime="00:07.068"
+			timeWallClock="09:47:48"
+			time="00:07.068"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Activities for Biditem:']//button[@text='Cancel']"
+				itempath=".//button[@text='Cancel']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.RSMeanRelated.AddActivitesBiditem.CancelButton"
+				id="35a63024df1247d6b04a04e9fe332f6d"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

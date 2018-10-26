@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="28a81d0b72867a8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2018 9:25:33 AM"
+		timestampiso="2018-10-12T14:25:33"
+		endtime="10/12/2018 9:25:35 AM"
+		timeoutfactor="1"
+		module="ValidateCustomBidProposalReportOutput">
+		<detail>
+			ValidateCustomBidProposalReportOutput
+		</detail>
+		<errormessage>
+			File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.125"
+			timeRelativeToTestModuleStartTime="00:01.125"
+			timeWallClock="09:25:34"
+			time="00:01.125"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_3ca2bd33_c428551d_trace.jpg"
+			errthumb=".\Validate_3ca2bd33_c428551d_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.140"
+			timeRelativeToTestModuleStartTime="00:01.140"
+			timeWallClock="09:25:34"
+			time="00:01.140"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_3ca2bd33_c428551d_trace.jpg"
+			errthumb=".\Validate_3ca2bd33_c428551d_trace_thumb.jpg">
+			<message>
+				Run application 'runCustomizedBidProposal.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.296"
+			timeRelativeToTestModuleStartTime="00:01.296"
+			timeWallClock="09:25:34"
+			time="00:01.296"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_3ca2bd33_570b3654_trace.jpg"
+			errthumb=".\Validate_3ca2bd33_570b3654_trace_thumb.jpg">
+			<message>
+				File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\HBReportsExportFiles\CustomizedBidProposalSimiliarContent.txt
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.ValidateCustomBidProposalReportOutput.CustomizedBidProposalExists() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs:line 81
+   at AutoInstall.ValidateCustomBidProposalReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.cs:line 99
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateCustomBidProposalReportOutput.UserCode.cs"
+				codeline="81"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

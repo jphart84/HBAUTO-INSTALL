@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.87s"
+		durationms="27866"
+		type="root"
+		rid="2b46c810dd7a91e0"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/1/2018 10:33:15 AM"
+		timestampiso="2018-10-01T15:33:15"
+		endtime="10/1/2018 10:33:43 AM"
+		timeoutfactor="1"
+		module="ValidateHBStrayDate">
+		<detail>
+			ValidateHBStrayDate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.968"
+			timeRelativeToTestModuleStartTime="00:00.968"
+			timeWallClock="10:33:16"
+			time="00:00.968"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_6d8df0ba_ba683a82_trace.jpg"
+			errthumb=".\Validate_6d8df0ba_ba683a82_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>YearVersion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.999"
+			timeRelativeToTestModuleStartTime="00:00.999"
+			timeWallClock="10:33:16"
+			time="00:00.999"
+			level="Info"
+			category="Application"
+			errimg=".\Validate_6d8df0ba_ba683a82_trace.jpg"
+			errthumb=".\Validate_6d8df0ba_ba683a82_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\STRAY.XML' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.671"
+			timeRelativeToTestModuleStartTime="00:01.671"
+			timeWallClock="10:33:16"
+			time="00:01.671"
+			level="Info"
+			category="Mouse"
+			errimg=".\Validate_6d8df0ba_234e1002_trace.jpg"
+			errthumb=".\Validate_6d8df0ba_234e1002_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.OpenXML.xmlTable' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open XML']/radiobutton[@accessiblename='As an XML table']"
+				itempath="radiobutton[@accessiblename='As an XML table']"
+				fullname="AutoInstallRepository.ExcelRelated.OpenXML.xmlTable"
+				id="16eb6a78000f485e830c2bc07388ac5f"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="102"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.866"
+			timeRelativeToTestModuleStartTime="00:27.866"
+			timeWallClock="10:33:43"
+			time="00:27.866"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.241"
+			timeRelativeToTestModuleStartTime="00:28.241"
+			timeWallClock="10:33:43"
+			time="00:28.241"
+			level="Warn"
+			category="Module"
+			errimg=".\Validate_6d8df0ba_78dd229a_trace.jpg"
+			errthumb=".\Validate_6d8df0ba_78dd229a_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateHBStrayDate.cs"
+				codeline="105"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

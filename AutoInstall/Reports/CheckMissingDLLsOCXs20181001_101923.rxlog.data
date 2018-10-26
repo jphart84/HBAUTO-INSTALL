@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="23e20811b8d5487"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/1/2018 10:19:37 AM"
+		timestampiso="2018-10-01T15:19:37"
+		endtime="10/1/2018 10:19:49 AM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.421"
+			timeRelativeToTestModuleStartTime="00:01.421"
+			timeWallClock="10:19:39"
+			time="00:01.421"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.578"
+			timeRelativeToTestModuleStartTime="00:01.578"
+			timeWallClock="10:19:39"
+			time="00:01.578"
+			level="Info"
+			category="Application">
+			<message>
+				script to check DLL and OCX in HB against masterlist on V:<br/>Run application 'CompareDLLs.ps1' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.172"
+			timeRelativeToTestModuleStartTime="00:02.172"
+			timeWallClock="10:19:39"
+			time="00:02.172"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.202"
+			timeRelativeToTestModuleStartTime="00:12.202"
+			timeWallClock="10:19:49"
+			time="00:12.202"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! dllComparison.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="50"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.218"
+			timeRelativeToTestModuleStartTime="00:12.218"
+			timeWallClock="10:19:49"
+			time="00:12.218"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\Reference\dllComparison.txt vs. \\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\dllComparison.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="95"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

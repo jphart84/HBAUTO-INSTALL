@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5c4c0df02c50a3c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/19/2018 9:38:53 AM"
+		timestampiso="2018-10-19T14:38:53"
+		endtime="10/19/2018 9:39:10 AM"
+		timeoutfactor="1"
+		module="CloseHB1_">
+		<detail>
+			CloseHB1_
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.229"
+			timeRelativeToTestModuleStartTime="00:01.229"
+			timeWallClock="09:38:54"
+			time="00:01.229"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'HeavyBidApp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']"
+				itempath="/form[@title~'HB']"
+				fullname="AutoInstallRepository.HeavyBidApp.Self"
+				id="52c006538bd0447bab870bfa9eb0f1f7"
+				timeout="30000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\CloseHB1_.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

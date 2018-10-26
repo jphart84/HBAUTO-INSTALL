@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bb2e8b2ed948e28"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/17/2018 10:17:46 AM"
+		timestampiso="2018-10-17T15:17:46"
+		endtime="10/17/2018 10:17:52 AM"
+		timeoutfactor="1"
+		module="ValidateEstimateRecapOutput">
+		<detail>
+			ValidateEstimateRecapOutput
+		</detail>
+		<errormessage>
+			File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.062"
+			timeRelativeToTestModuleStartTime="00:01.062"
+			timeWallClock="10:17:47"
+			time="00:01.062"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.109"
+			timeRelativeToTestModuleStartTime="00:01.109"
+			timeWallClock="10:17:47"
+			time="00:01.109"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runEstimateRecap.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.250"
+			timeRelativeToTestModuleStartTime="00:01.250"
+			timeWallClock="10:17:47"
+			time="00:01.250"
+			level="Info"
+			category="Delay"
+			errimg=".\Validate_e19e1315_0615dfd2_trace.jpg"
+			errthumb=".\Validate_e19e1315_0615dfd2_trace_thumb.jpg">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.265"
+			timeRelativeToTestModuleStartTime="00:06.265"
+			timeWallClock="10:17:52"
+			time="00:06.265"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_e19e1315_95679f45_trace.jpg"
+			errthumb=".\Validate_e19e1315_95679f45_trace_thumb.jpg">
+			<message>
+				Success! EstimateRecapReport.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="10:17:52"
+			time="00:06.281"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_e19e1315_95679f45_trace.jpg"
+			errthumb=".\Validate_e19e1315_95679f45_trace_thumb.jpg">
+			<message>
+				File not found for comparison in Validate_FileContentEqual: W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.ValidateEstimateRecapOutput.ValidateContentEstimateRecap() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs:line 80
+   at AutoInstall.ValidateEstimateRecapOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\ValidateEstimateRecapOutput.UserCode.cs"
+				codeline="80"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

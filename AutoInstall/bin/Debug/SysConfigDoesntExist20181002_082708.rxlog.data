@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c0573859dd25f7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/2/2018 8:27:15 AM"
+		timestampiso="2018-10-02T13:27:15"
+		endtime="10/2/2018 8:27:16 AM"
+		timeoutfactor="1"
+		module="SysConfigDoesntExist">
+		<detail>
+			SysConfigDoesntExist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.046"
+			timeRelativeToTestModuleStartTime="00:01.046"
+			timeWallClock="08:27:16"
+			time="00:01.046"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success. C:\HeavyBid\SYS\Heavybid.exe.Config does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\SysConfigDoesntExist.UserCode.cs"
+				codeline="53"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.078"
+			timeRelativeToTestModuleStartTime="00:01.078"
+			timeWallClock="08:27:16"
+			time="00:01.078"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success. C:\HeavyBid\BIN\Heavybid.exe.Config exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\SysConfigDoesntExist.UserCode.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

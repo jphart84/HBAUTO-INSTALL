@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="180985258728d68e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/3/2018 8:25:42 AM"
+		timestampiso="2018-10-03T13:25:42"
+		endtime="10/3/2018 8:25:52 AM"
+		timeoutfactor="1"
+		module="AboutHBButton">
+		<detail>
+			AboutHBButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.078"
+			timeRelativeToTestModuleStartTime="00:01.093"
+			timeWallClock="08:25:43"
+			time="00:01.078"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>YearVersion, CompanyName, HBType, InstallType, Licenses
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.140"
+			timeRelativeToTestModuleStartTime="00:01.156"
+			timeWallClock="08:25:43"
+			time="00:01.140"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.HelpTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/tabpagelist/tabpage[@title~'Help']"
+				itempath=".//toolbar/tabpagelist/tabpage[@title~'Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.HelpTab"
+				id="f776058332ad4ea0ae2b7afacacf7a0a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="145"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.765"
+			timeRelativeToTestModuleStartTime="00:04.781"
+			timeWallClock="08:25:47"
+			time="00:04.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Help.HelpAboutHeavyBidButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@text~'About HeavyBid']"
+				itempath=".//toolbar/button[@text~'About HeavyBid']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Help.HelpAboutHeavyBidButton"
+				id="abeec274cb754ff4be97d76ab7a91a22"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="149"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.875"
+			timeRelativeToTestModuleStartTime="00:06.890"
+			timeWallClock="08:25:49"
+			time="00:06.875"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$YearVersion) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="154"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.125"
+			timeRelativeToTestModuleStartTime="00:07.140"
+			timeWallClock="08:25:49"
+			time="00:07.125"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="155"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.125"
+			timeRelativeToTestModuleStartTime="00:07.140"
+			timeWallClock="08:25:49"
+			time="00:07.125"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$HBType) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="160"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.171"
+			timeRelativeToTestModuleStartTime="00:07.187"
+			timeWallClock="08:25:50"
+			time="00:07.171"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'HeavyBid']"
+				itempath=".//text[@text~'HeavyBid']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.HBTextLine"
+				id="78abad0f07524e53a0930f0c8446d2b4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="161"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.171"
+			timeRelativeToTestModuleStartTime="00:07.187"
+			timeWallClock="08:25:50"
+			time="00:07.171"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$CompanyName) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'Licensed to']"
+				itempath=".//text[@text~'Licensed to']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine"
+				id="8f3121ee6fcb490ab9491f58060118cb"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="166"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.203"
+			timeRelativeToTestModuleStartTime="00:07.218"
+			timeWallClock="08:25:50"
+			time="00:07.203"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'Licensed to']"
+				itempath=".//text[@text~'Licensed to']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CompanyNameTextLine"
+				id="8f3121ee6fcb490ab9491f58060118cb"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="167"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.218"
+			timeRelativeToTestModuleStartTime="00:07.234"
+			timeWallClock="08:25:50"
+			time="00:07.218"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$Licenses) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="172"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.265"
+			timeRelativeToTestModuleStartTime="00:07.281"
+			timeWallClock="08:25:50"
+			time="00:07.265"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="173"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.265"
+			timeRelativeToTestModuleStartTime="00:07.281"
+			timeWallClock="08:25:50"
+			time="00:07.265"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~$InstallType) on item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="178"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.328"
+			timeRelativeToTestModuleStartTime="00:07.343"
+			timeWallClock="08:25:50"
+			time="00:07.328"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//text[@text~'registered users']"
+				itempath=".//text[@text~'registered users']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.LicenseAmountTextLine"
+				id="0d6dfa93c3d64fbd8cd8a4a0b9a27705"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="179"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.328"
+			timeRelativeToTestModuleStartTime="00:07.343"
+			timeWallClock="08:25:50"
+			time="00:07.328"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.SystemInfo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//button[@text~'System Info']"
+				itempath=".//button[@text~'System Info']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.SystemInfo"
+				id="f9b508e4f6b34b25b9fae48c87faa15c"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="183"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.156"
+			timeRelativeToTestModuleStartTime="00:08.171"
+			timeWallClock="08:25:51"
+			time="00:08.156"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'System Information']//button[@text~'Close']"
+				itempath=".//button[@text~'Close']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.SystemInformationAboutHB.CloseButton"
+				id="f80cd0171f8f467caae04ae848efd853"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="187"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.125"
+			timeRelativeToTestModuleStartTime="00:09.140"
+			timeWallClock="08:25:51"
+			time="00:09.125"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'About HeavyBid']//button[@text~'Close']"
+				itempath=".//button[@text~'Close']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromHelpButtons.AboutHeavyBid.CloseButton"
+				id="66b54addd8ea49d8936299e8425f9bc4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\AboutHBButton.cs"
+				codeline="191"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

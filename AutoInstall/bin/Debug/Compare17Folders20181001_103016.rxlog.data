@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="112cf9bdb79947"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/1/2018 10:30:22 AM"
+		timestampiso="2018-10-01T15:30:22"
+		endtime="10/1/2018 10:30:38 AM"
+		timeoutfactor="1"
+		module="Compare17Folders">
+		<detail>
+			Compare17Folders
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.968"
+			timeRelativeToTestModuleStartTime="00:00.968"
+			timeWallClock="10:30:23"
+			time="00:00.968"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.000"
+			timeRelativeToTestModuleStartTime="00:01.000"
+			timeWallClock="10:30:23"
+			time="00:01.000"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell scripts to find files not in both versions<br/>Run application 'DiffBetween2017.1.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.375"
+			timeRelativeToTestModuleStartTime="00:01.375"
+			timeWallClock="10:30:23"
+			time="00:01.375"
+			level="Info"
+			category="Delay">
+			<message>
+				(Optional Action)<br/>Waiting for 15s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.375"
+			timeRelativeToTestModuleStartTime="00:16.375"
+			timeWallClock="10:30:38"
+			time="00:16.375"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! BINdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.375"
+			timeRelativeToTestModuleStartTime="00:16.375"
+			timeWallClock="10:30:38"
+			time="00:16.375"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! HCSSdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="60"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.390"
+			timeRelativeToTestModuleStartTime="00:16.390"
+			timeWallClock="10:30:38"
+			time="00:16.390"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! SYSdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="69"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.390"
+			timeRelativeToTestModuleStartTime="00:16.390"
+			timeWallClock="10:30:38"
+			time="00:16.390"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! DiffUTIL.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="78"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.468"
+			timeRelativeToTestModuleStartTime="00:16.468"
+			timeWallClock="10:30:38"
+			time="00:16.468"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\BINdiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\BINdiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="163"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.562"
+			timeRelativeToTestModuleStartTime="00:16.562"
+			timeWallClock="10:30:38"
+			time="00:16.562"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\DiffUTIL.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\DiffUTIL.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="123"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.578"
+			timeRelativeToTestModuleStartTime="00:16.578"
+			timeWallClock="10:30:38"
+			time="00:16.578"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\SYSdiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\SYSdiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="203"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.672"
+			timeRelativeToTestModuleStartTime="00:16.672"
+			timeWallClock="10:30:38"
+			time="00:16.672"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\Script\Reports\HCSSdiff.txt vs. W:\HBDaily\InstallAutomation\Script\Reports\Reference\HCSSdiff.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="243"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>
