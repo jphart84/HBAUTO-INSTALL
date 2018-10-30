@@ -34,3 +34,12 @@ C:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\
 C:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\obj\x86\Debug\AutoInstall.csprojResolveAssemblyReference.cache
 C:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\obj\x86\Debug\AutoInstall.exe
 C:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\AutoInstall\obj\x86\Debug\AutoInstall.pdb
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.rxtmg
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.rxtst
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.exe.config
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.exe
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.pdb
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.csprojResolveAssemblyReference.cache
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.exe
+C:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.pdb

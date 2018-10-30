@@ -54,7 +54,7 @@ rxversion="8.1">
 			</info>
 		</mouseitem>
 		<mouseitem
-		action="Click"
+		action="Down"
 		button="Left"
 		duration="500ms"
 		enabled="True"
@@ -551,7 +551,7 @@ rxversion="8.1">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="Center"
+		loc="CenterLeft"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="11dd5347-fa68-45da-a69c-d12a49184513"
@@ -723,6 +723,15 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

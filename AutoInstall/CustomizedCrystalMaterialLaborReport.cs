@@ -83,8 +83,9 @@ namespace AutoInstall
             repo.HeavyBidApp.Tabs.ReportTab.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton' at Center.", repo.HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButtonInfo, new RecordItemIndex(1));
-            repo.HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton' at Center.", repo.HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButtonInfo, new RecordItemIndex(1));
+            repo.HeavyBidApp.Buttons.Report.CustomizedCrystalReportsButton.MoveTo();
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBDropDownOptions.BidProposalLaborAndMaterialUP' at Center.", repo.HBDropDownOptions.BidProposalLaborAndMaterialUPInfo, new RecordItemIndex(2));
@@ -138,13 +139,16 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(14));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
-            repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at CenterLeft.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
+            repo.HBReportViewers.FileAlreadyExists.YesButton.Click(Location.CenterLeft);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at Center.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButtonInfo, new RecordItemIndex(16));
             repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton.Click();
             Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(17));
+            Delay.Duration(10000, false);
             
         }
 

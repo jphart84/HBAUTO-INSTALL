@@ -2390,54 +2390,6 @@ rxversion="8.1">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79">
-			</testcontainer>
-			<testcontainer
-			id="4ac000f8-7ec6-47df-99ca-83ef07eb4960">
-			</testcontainer>
-			<testcontainer
-			id="66d2715a-ad00-480a-960b-dbed18e79ed5">
-			</testcontainer>
-			<testcontainer
-			id="6a412808-ed56-4b80-a5de-ab2592885875">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="807f20b6-1d75-4a9c-95b9-7a66eda85d22">
-			</testcontainer>
-			<testcontainer
-			id="8d10eccb-2fce-4313-b590-cb538c166d75">
-			</testcontainer>
-			<testcontainer
-			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87">
-			</testcontainer>
-			<testcontainer
-			id="c03c3bc1-c9a8-4347-a065-f2983a0f4777">
-			</testcontainer>
-			<testcontainer
-			id="e2647272-bd9d-4014-811f-c32ebdcd6137">
-			</testcontainer>
-			<testcontainer
-			id="eadc5bef-9c56-48a2-b7b6-cec597079296">
-			</testcontainer>
-			<testcontainer
-			id="eb269b62-171b-46e6-a194-de77eefa5ac4">
-			</testcontainer>
-			<testcontainer
-			id="f1b43b6c-fed6-4dbd-a2d1-84a7432b46cf">
-			</testcontainer>
-			<testcontainer
-			id="f56438ac-1bd6-4683-b5db-eb6565b67e7f">
-			</testcontainer>
-			<testcontainer
-			id="febe7363-b15c-4a59-80ce-69f92cfeac38">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

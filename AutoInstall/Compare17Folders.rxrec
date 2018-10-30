@@ -57,7 +57,7 @@ rxversion="8.1">
 			</args>
 		</runapprecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="75000ms"
 		enabled="True"
 		optional="True">
 			<comment>
@@ -65,22 +65,6 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<userrecorditem
-		classname="Compare17Folders"
-		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidateHCSSReportContent"
-		namespace="AutoInstall"
-		optional="True"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="950115c0-e466-40e2-ba2b-26b35c85d5ad">
-			</arguments>
-		</userrecorditem>
 		<userrecorditem
 		classname="Compare17Folders"
 		enabled="True"
@@ -97,15 +81,22 @@ rxversion="8.1">
 			id="40b424ba-4b7c-4fa0-9735-ba28784d070c">
 			</arguments>
 		</userrecorditem>
-		<explicitdelayitem
-		duration="50000ms"
+		<userrecorditem
+		classname="Compare17Folders"
 		enabled="True"
-		optional="False">
+		isexternaltestmethod="False"
+		methodname="ValidateHCSSReportContent"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<arguments
+			id="950115c0-e466-40e2-ba2b-26b35c85d5ad">
+			</arguments>
+		</userrecorditem>
 		<userrecorditem
 		classname="Compare17Folders"
 		enabled="True"
@@ -138,15 +129,6 @@ rxversion="8.1">
 			id="955f1fdf-19b7-4740-9106-bb6a6a2cfa4e">
 			</arguments>
 		</userrecorditem>
-		<explicitdelayitem
-		duration="5000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<userrecorditem
 		classname="Compare17Folders"
 		enabled="True"
