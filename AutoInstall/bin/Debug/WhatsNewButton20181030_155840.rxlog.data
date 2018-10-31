@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="396994e83105f700"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/30/2018 3:58:49 PM"
+		timestampiso="2018-10-30T20:58:49"
+		endtime="10/30/2018 3:59:03 PM"
+		timeoutfactor="1"
+		module="WhatsNewButton">
+		<detail>
+			WhatsNewButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.062"
+			timeRelativeToTestModuleStartTime="00:01.062"
+			timeWallClock="15:58:51"
+			time="00:01.062"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.WhatsNewTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'What''s New']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'What''s New']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.WhatsNewTab"
+				id="840fcc6bd04e419f9b950058e7db6b96"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\WhatsNewButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.234"
+			timeRelativeToTestModuleStartTime="00:05.234"
+			timeWallClock="15:58:55"
+			time="00:05.234"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'New HeavyBid Features']"
+				itempath=".///toolbar/button[@text~'New HeavyBid Features']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.WhatsNew.NewHeavyBidFeaturesButton"
+				id="86f8a615a73941c783d8b9ea1053dc08"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\WhatsNewButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.781"
+			timeRelativeToTestModuleStartTime="00:07.781"
+			timeWallClock="15:58:57"
+			time="00:07.781"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\WhatsNewButton.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.793"
+			timeRelativeToTestModuleStartTime="00:12.793"
+			timeWallClock="15:59:02"
+			time="00:12.793"
+			level="Info"
+			category="Wait">
+			<message>
+				(Optional Action)<br/>Waiting 5s for the attribute 'Title' to contain the specified value 'Article'. Associated repository item: 'GoogleChrome.Tab'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\WhatsNewButton.cs"
+				codeline="106"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.011"
+			timeRelativeToTestModuleStartTime="00:13.011"
+			timeWallClock="15:59:03"
+			time="00:13.011"
+			level="Info"
+			category="Application">
+			<message>
+				E.6<br/>Closing application containing item 'GoogleChrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']"
+				itempath="/form[@processname~'chrome']"
+				fullname="AutoInstallRepository.GoogleChrome.Self"
+				id="e7acade6bed6418d96873159f4910c60"
+				timeout="30000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\WhatsNewButton.cs"
+				codeline="118"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

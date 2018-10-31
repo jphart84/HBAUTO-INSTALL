@@ -126,6 +126,15 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="False"
 		matchname="Text"
@@ -171,9 +180,9 @@ rxversion="8.1">
 			</matchvalue>
 		</validationitem>
 		<WaitForRecordItem
-		enabled="False"
+		enabled="True"
 		matchname="Title"
-		matchvalue="HCSS"
+		matchvalue="Article"
 		optional="True"
 		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
 		waitaction="AttributeContains"
@@ -211,11 +220,11 @@ rxversion="8.1">
 				Title
 			</matchname>
 			<matchvalue>
-				HCSS
+				Article
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem
-		enabled="False"
+		enabled="True"
 		graceperiod="10000ms"
 		method="CloseWindow"
 		optional="False"

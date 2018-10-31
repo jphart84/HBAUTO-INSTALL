@@ -920,7 +920,7 @@ wkMjdDjFFFPuBJ5a+go8tfQUUUgEESkDilES+lFFADxGvpS+WvpRRQB//9k=
 			</info>
 		</mouseitem>
 		<mouseitem
-		action="Move"
+		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"

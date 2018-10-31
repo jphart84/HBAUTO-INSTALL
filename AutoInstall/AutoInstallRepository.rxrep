@@ -651,7 +651,7 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					id="f0e4f1c2-2e54-4411-9701-e54b7dc90e5d"
 					name="SpreadsheetCalculationButton"
 					searchtimeout="30000ms">
-						/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='512']/element[@controlid='3840']/?/?/button[@accessiblerole='PushButton']
+						/form[@title~'HB']/element[@class='DFMDIClient']/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']
 					</item>
 					<item
 					capname="button"
@@ -2203,7 +2203,7 @@ SUVORK5CYII=
 				</basepath>
 			</appfolder>
 			<appfolder
-			capname="form"
+			capname="button"
 			id="60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1"
 			isrooted="True"
 			name="SpreadsheetCalculationViewer"
@@ -2214,10 +2214,10 @@ SUVORK5CYII=
 				id="bea879ce-a31c-4e33-b41b-471a9b4cd36c"
 				name="CloseButton"
 				searchtimeout="30000ms">
-					/form[@title~'Spreadsheet Calculation']/?/?/?/button[@text~'Close']
+					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']/?/?/?/button[@text~'Close']
 				</item>
 				<basepath>
-					/form[@title~'Spreadsheet Calculation']
+					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']
 				</basepath>
 			</appfolder>
 			<appfolder

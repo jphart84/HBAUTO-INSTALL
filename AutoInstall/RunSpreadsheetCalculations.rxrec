@@ -242,6 +242,15 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"

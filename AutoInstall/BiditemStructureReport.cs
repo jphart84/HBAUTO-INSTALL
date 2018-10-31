@@ -148,8 +148,8 @@ namespace AutoInstall
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(13)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(14));
-            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton' at Center.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButtonInfo, new RecordItemIndex(14));
+            repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ClosePreviewButton.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.ReportsPopup.CloseButton' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.ReportsPopup.CloseButtonInfo, new RecordItemIndex(15));

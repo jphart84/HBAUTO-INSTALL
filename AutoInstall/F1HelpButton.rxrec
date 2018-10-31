@@ -122,9 +122,9 @@ rxversion="8.1">
 			</matchvalue>
 		</validationitem>
 		<WaitForRecordItem
-		enabled="False"
+		enabled="True"
 		matchname="Title"
-		matchvalue="HCSS"
+		matchvalue="Category Home"
 		optional="True"
 		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
 		waitaction="AttributeContains"
@@ -162,11 +162,11 @@ rxversion="8.1">
 				Title
 			</matchname>
 			<matchvalue>
-				HCSS
+				Category Home
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem
-		enabled="False"
+		enabled="True"
 		graceperiod="10000ms"
 		method="CloseWindow"
 		optional="False"

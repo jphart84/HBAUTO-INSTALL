@@ -513,7 +513,7 @@ rxversion="8.1">
 			</bindings>
 		</keysequenceitem>
 		<mouseitem
-		action="Up"
+		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"
@@ -543,7 +543,7 @@ rxversion="8.1">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="5629c9d9-a65b-43d0-a951-4e51e5eda325"
 		sx="0"
 		sy="0"

@@ -115,14 +115,15 @@ namespace AutoInstall
             Keyboard.Press("CostReportClassic.txt");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'HBReportViewers.SaveAsExport.SaveButton' at Center.", repo.HBReportViewers.SaveAsExport.SaveButtonInfo, new RecordItemIndex(9));
-            repo.HBReportViewers.SaveAsExport.SaveButton.MoveTo();
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SaveAsExport.SaveButton' at Center.", repo.HBReportViewers.SaveAsExport.SaveButtonInfo, new RecordItemIndex(9));
+            repo.HBReportViewers.SaveAsExport.SaveButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(10));
-            repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(10));
+                repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
             Delay.Duration(10000, false);

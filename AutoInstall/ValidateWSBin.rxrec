@@ -45,6 +45,15 @@ rxversion="8.1">
 			id="b11065f9-caf5-406b-9548-1d9e3b8c0881">
 			</arguments>
 		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

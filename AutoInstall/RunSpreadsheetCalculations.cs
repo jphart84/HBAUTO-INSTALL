@@ -103,11 +103,14 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.FirstAvailableCalculations.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Title~'Spreadsheet Calculation') on item 'HBReportViewers.SpreadsheetCalculationViewer'.", repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Title~'Spreadsheet Calculation') on item 'HBReportViewers.SpreadsheetCalculationViewer'.", repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, new RecordItemIndex(7));
             Validate.AttributeRegex(repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, "Title", new Regex("Spreadsheet Calculation"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(8));
             repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButton.Click();
             Delay.Milliseconds(200);
             

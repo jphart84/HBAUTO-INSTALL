@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e028fafe3354cae"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/30/2018 3:57:38 PM"
+		timestampiso="2018-10-30T20:57:38"
+		endtime="10/30/2018 3:57:53 PM"
+		timeoutfactor="1"
+		module="F1HelpButton">
+		<detail>
+			F1HelpButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.609"
+			timeRelativeToTestModuleStartTime="00:01.609"
+			timeWallClock="15:57:39"
+			time="00:01.609"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.HelpTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/tabpagelist/tabpage[@title~'Help']"
+				itempath=".//toolbar/tabpagelist/tabpage[@title~'Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.HelpTab"
+				id="f776058332ad4ea0ae2b7afacacf7a0a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\F1HelpButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.125"
+			timeRelativeToTestModuleStartTime="00:08.125"
+			timeWallClock="15:57:46"
+			time="00:08.125"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Help.HBF1Button' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/button[@text~'HeavyBid Help']"
+				itempath=".///toolbar/button[@text~'HeavyBid Help']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Help.HBF1Button"
+				id="4f3db4c162c441549c8ac222de37f5b7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\F1HelpButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.125"
+			timeRelativeToTestModuleStartTime="00:11.125"
+			timeWallClock="15:57:49"
+			time="00:11.125"
+			level="Info"
+			category="Wait">
+			<message>
+				(Optional Action)<br/>Waiting 5s for the attribute 'Title' to contain the specified value 'Category Home'. Associated repository item: 'GoogleChrome.Tab'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//tabpage[@selected='True']"
+				itempath=".//tabpage[@selected='True']"
+				fullname="AutoInstallRepository.GoogleChrome.Tab"
+				id="7c40f878c55b4e419ad4b3b65419a942"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\F1HelpButton.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.782"
+			timeRelativeToTestModuleStartTime="00:14.782"
+			timeWallClock="15:57:52"
+			time="00:14.782"
+			level="Info"
+			category="Application">
+			<message>
+				E.6<br/>Closing application containing item 'GoogleChrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']"
+				itempath="/form[@processname~'chrome']"
+				fullname="AutoInstallRepository.GoogleChrome.Self"
+				id="e7acade6bed6418d96873159f4910c60"
+				timeout="30000"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\F1HelpButton.cs"
+				codeline="115"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

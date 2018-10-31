@@ -54,6 +54,15 @@ rxversion="8.1">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="False"
 		matchname="Text"
@@ -143,7 +152,7 @@ rxversion="8.1">
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem
-		enabled="False"
+		enabled="True"
 		graceperiod="10000ms"
 		method="CloseWindow"
 		optional="False"

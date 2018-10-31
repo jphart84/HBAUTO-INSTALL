@@ -2373,7 +2373,7 @@ namespace AutoInstall
                 _exportbuttonInfo = new RepoItemInfo(this, "ExportButton", "?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']", 30000, null, "2db6a250-cf4f-4383-bacf-321ac6b57879");
                 _okbuttonInfo = new RepoItemInfo(this, "OKButton", ".//button[@text='OK']", 30000, null, "5daa53c6-434e-4668-a0f7-e362ad6c061e");
                 _exporttoheavyjobbuttonInfo = new RepoItemInfo(this, "ExportToHeavyJobButton", "?/?//button[@text~'Export to HeavyJob']", 30000, null, "7240d090-e159-402d-8559-add9d5617a4a");
-                _spreadsheetcalculationbuttonInfo = new RepoItemInfo(this, "SpreadsheetCalculationButton", "form[@controlid='512']/element[@controlid='3840']/?/?/button[@accessiblerole='PushButton']", 30000, null, "f0e4f1c2-2e54-4411-9701-e54b7dc90e5d");
+                _spreadsheetcalculationbuttonInfo = new RepoItemInfo(this, "SpreadsheetCalculationButton", "form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']", 30000, null, "f0e4f1c2-2e54-4411-9701-e54b7dc90e5d");
                 _expandalltreeviewbuttonInfo = new RepoItemInfo(this, "ExpandAllTreeviewButton", "?/element[@class='DFmenu' and @controlid='3355']//button", 30000, null, "928c2480-db66-4c98-a3f3-5fd6e0e3da74");
                 _addactivitiesbuttonInfo = new RepoItemInfo(this, "AddActivitiesButton", "?/element[@class='DFmenu']//button[@accessiblename='Add Activities']", 30000, null, "0cfd4034-86e4-477a-8ca6-0b8da559a846");
             }
@@ -6058,6 +6058,7 @@ namespace AutoInstall
         public partial class SelectSpreadsheetAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _firstavailablecalculationsInfo;
+            RepoItemInfo _spreadsheetcalculationInfo;
 
             /// <summary>
             /// Creates a new SelectSpreadsheet  folder.
@@ -6066,6 +6067,7 @@ namespace AutoInstall
                     base("SelectSpreadsheet", "/form[@title~'Spreadsheet']", parentFolder, 30000, null, false, "370927f9-70b7-4337-abfe-9df4b629926f", "")
             {
                 _firstavailablecalculationsInfo = new RepoItemInfo(this, "FirstAvailableCalculations", "?/?//tree/?/?/treeitem/treeitem", 30000, null, "3554463e-4846-43e5-9df4-9a4e102c4bb4");
+                _spreadsheetcalculationInfo = new RepoItemInfo(this, "SpreadsheetCalculation", "titlebar[@accessiblerole='TitleBar']", 30000, null, "2fa80b07-0f4e-4865-954b-b6cdcfd04a0f");
             }
 
             /// <summary>
@@ -6113,6 +6115,30 @@ namespace AutoInstall
                 get
                 {
                     return _firstavailablecalculationsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SpreadsheetCalculation item.
+            /// </summary>
+            [RepositoryItem("2fa80b07-0f4e-4865-954b-b6cdcfd04a0f")]
+            public virtual Ranorex.TitleBar SpreadsheetCalculation
+            {
+                get
+                {
+                    return _spreadsheetcalculationInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SpreadsheetCalculation item info.
+            /// </summary>
+            [RepositoryItemInfo("2fa80b07-0f4e-4865-954b-b6cdcfd04a0f")]
+            public virtual RepoItemInfo SpreadsheetCalculationInfo
+            {
+                get
+                {
+                    return _spreadsheetcalculationInfo;
                 }
             }
         }
@@ -8200,7 +8226,7 @@ namespace AutoInstall
             /// Creates a new SpreadsheetCalculationViewer  folder.
             /// </summary>
             public SpreadsheetCalculationViewerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SpreadsheetCalculationViewer", "/form[@title~'Spreadsheet Calculation']", parentFolder, 30000, null, false, "60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1", "")
+                    base("SpreadsheetCalculationViewer", "/form[@title~'^HB\\ 2019\\ -\\ 1-BRIDGE\\ -\\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']", parentFolder, 30000, null, false, "60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1", "")
             {
                 _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "?/?/?/button[@text~'Close']", 30000, null, "bea879ce-a31c-4e33-b41b-471a9b4cd36c");
             }
@@ -8209,11 +8235,11 @@ namespace AutoInstall
             /// The Self item.
             /// </summary>
             [RepositoryItem("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-            public virtual Ranorex.Form Self
+            public virtual Ranorex.Button Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 

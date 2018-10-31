@@ -100,21 +100,21 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
             try {
-                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Title' to contain the specified value 'HCSS'. Associated repository item: 'GoogleChrome.Tab'", repo.GoogleChrome.TabInfo, new RecordItemIndex(4));
-                //repo.GoogleChrome.TabInfo.WaitForAttributeContains(5000, "Title", "HCSS");
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s for the attribute 'Title' to contain the specified value 'Category Home'. Associated repository item: 'GoogleChrome.Tab'", repo.GoogleChrome.TabInfo, new RecordItemIndex(4));
+                repo.GoogleChrome.TabInfo.WaitForAttributeContains(5000, "Title", "Category Home");
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
             // E.6
             try {
-                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'HCSS') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(5));
-                //Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("HCSS"), null, false);
+                //Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nE.6\r\nValidating AttributeRegex (Title~'Category Home') on item 'GoogleChrome.Tab'.", repo.GoogleChrome.TabInfo, new RecordItemIndex(5));
+                //Validate.AttributeRegex(repo.GoogleChrome.TabInfo, "Title", new Regex("Category Home"), null, false);
                 //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             // E.6
-            //Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(6));
-            //Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(6));
+            Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
+            Delay.Milliseconds(0);
             
         }
 
