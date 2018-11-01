@@ -1706,6 +1706,16 @@ SUVORK5CYII=
 						searchtimeout="30000ms">
 							/form[@title~'Spreadsheet']/?/?//tree/?/?/treeitem/treeitem
 						</item>
+						<item
+						addcaps="titlebar,accessible"
+						capname="titlebar"
+						id="2fa80b07-0f4e-4865-954b-b6cdcfd04a0f"
+						name="SpreadsheetCalculation"
+						refimgid="9b3b50a8-eeda-47ed-bb03-dfaad114c95d"
+						refpath="/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']"
+						searchtimeout="30000ms">
+							/form[@title~'Spreadsheet']/titlebar[@accessiblerole='TitleBar']
+						</item>
 						<basepath>
 							/form[@title~'Spreadsheet']
 						</basepath>
@@ -2203,7 +2213,7 @@ SUVORK5CYII=
 				</basepath>
 			</appfolder>
 			<appfolder
-			capname="button"
+			capname="titlebar"
 			id="60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1"
 			isrooted="True"
 			name="SpreadsheetCalculationViewer"
@@ -2214,10 +2224,10 @@ SUVORK5CYII=
 				id="bea879ce-a31c-4e33-b41b-471a9b4cd36c"
 				name="CloseButton"
 				searchtimeout="30000ms">
-					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']/?/?/?/button[@text~'Close']
+					/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']/?/?/?/button[@text~'Close']
 				</item>
 				<basepath>
-					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']
+					/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']
 				</basepath>
 			</appfolder>
 			<appfolder

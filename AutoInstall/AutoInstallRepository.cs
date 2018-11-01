@@ -8226,7 +8226,7 @@ namespace AutoInstall
             /// Creates a new SpreadsheetCalculationViewer  folder.
             /// </summary>
             public SpreadsheetCalculationViewerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SpreadsheetCalculationViewer", "/form[@title~'^HB\\ 2019\\ -\\ 1-BRIDGE\\ -\\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']", parentFolder, 30000, null, false, "60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1", "")
+                    base("SpreadsheetCalculationViewer", "/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']", parentFolder, 30000, null, false, "60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1", "")
             {
                 _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "?/?/?/button[@text~'Close']", 30000, null, "bea879ce-a31c-4e33-b41b-471a9b4cd36c");
             }
@@ -8235,11 +8235,11 @@ namespace AutoInstall
             /// The Self item.
             /// </summary>
             [RepositoryItem("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-            public virtual Ranorex.Button Self
+            public virtual Ranorex.TitleBar Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.TitleBar>(true);
                 }
             }
 
