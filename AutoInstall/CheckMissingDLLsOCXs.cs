@@ -71,7 +71,7 @@ namespace AutoInstall
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -83,7 +83,7 @@ namespace AutoInstall
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -93,20 +93,23 @@ namespace AutoInstall
             Init();
 
             // script to check DLL and OCX in HB against masterlist on V:
-            Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("runDLLcomparison.bat", "", ScriptLocation, false);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            //Host.Local.RunApplication("runDLLcomparison.bat", "", ScriptLocation, false);
+            //Delay.Milliseconds(0);
             
             try {
-                ValidateDLLComparison();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+                //ValidateDLLComparison();
+                //Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
-            ValidateDLLReportContent();
+            //ValidateDLLReportContent();
+            //Delay.Milliseconds(0);
+            
+            ValidateDLLComparison();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
+            Delay.Duration(2000, false);
             
         }
 

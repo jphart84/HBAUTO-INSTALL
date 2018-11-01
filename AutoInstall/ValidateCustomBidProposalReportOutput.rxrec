@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="c72ff7a6-47fa-4473-8ec4-5be94722d871"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ValidateCustomBidProposalReportOutput
 	</name>
@@ -110,7 +110,7 @@ rxversion="8.1">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

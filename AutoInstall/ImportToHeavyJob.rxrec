@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="c1b70293-8f10-40b3-b03f-0a7a2a6e3c19"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ImportToHeavyJob
 	</name>

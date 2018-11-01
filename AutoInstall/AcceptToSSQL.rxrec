@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="c5c08a7c-e59c-4b1e-a507-134912d45933"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		AcceptToSSQL
 	</name>

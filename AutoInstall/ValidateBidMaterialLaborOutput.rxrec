@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="b74955f0-d224-4390-b176-5deb93cf53c9"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ValidateBidMaterialLaborOutput
 	</name>
@@ -98,7 +98,7 @@ rxversion="8.1">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

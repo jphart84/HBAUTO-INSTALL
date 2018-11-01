@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="9269e0b8-6d70-4b1e-9f83-67340788d9c1"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ReadyToInstallCrystal
 	</name>

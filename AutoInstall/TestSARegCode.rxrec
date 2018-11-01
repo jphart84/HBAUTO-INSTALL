@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="49487010-896c-429c-91e4-51f488e53473"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		TestSARegCode
 	</name>
@@ -1339,7 +1339,7 @@ CjFFLQISlxRRTAKKWigBKWiimIWiiigR/9k=
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

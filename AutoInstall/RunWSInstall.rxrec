@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="162e91d1-9a3c-49db-bff1-e3d81f2456f1"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		RunWSInstall
 	</name>

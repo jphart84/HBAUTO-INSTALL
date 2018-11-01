@@ -22,7 +22,7 @@ namespace AutoInstall
     /// <summary>
     /// The class representing the AutoInstallRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("41d3209a-6b55-4d11-ade5-8b107ab3f7a7")]
     public partial class AutoInstallRepository : RepoGenBaseFolder
     {
@@ -310,7 +310,7 @@ namespace AutoInstall
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class AutoInstallRepositoryFolders
     {
         /// <summary>
@@ -6058,7 +6058,6 @@ namespace AutoInstall
         public partial class SelectSpreadsheetAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _firstavailablecalculationsInfo;
-            RepoItemInfo _spreadsheetcalculationInfo;
 
             /// <summary>
             /// Creates a new SelectSpreadsheet  folder.
@@ -6067,7 +6066,6 @@ namespace AutoInstall
                     base("SelectSpreadsheet", "/form[@title~'Spreadsheet']", parentFolder, 30000, null, false, "370927f9-70b7-4337-abfe-9df4b629926f", "")
             {
                 _firstavailablecalculationsInfo = new RepoItemInfo(this, "FirstAvailableCalculations", "?/?//tree/?/?/treeitem/treeitem", 30000, null, "3554463e-4846-43e5-9df4-9a4e102c4bb4");
-                _spreadsheetcalculationInfo = new RepoItemInfo(this, "SpreadsheetCalculation", "titlebar[@accessiblerole='TitleBar']", 30000, null, "2fa80b07-0f4e-4865-954b-b6cdcfd04a0f");
             }
 
             /// <summary>
@@ -6115,30 +6113,6 @@ namespace AutoInstall
                 get
                 {
                     return _firstavailablecalculationsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SpreadsheetCalculation item.
-            /// </summary>
-            [RepositoryItem("2fa80b07-0f4e-4865-954b-b6cdcfd04a0f")]
-            public virtual Ranorex.TitleBar SpreadsheetCalculation
-            {
-                get
-                {
-                    return _spreadsheetcalculationInfo.CreateAdapter<Ranorex.TitleBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SpreadsheetCalculation item info.
-            /// </summary>
-            [RepositoryItemInfo("2fa80b07-0f4e-4865-954b-b6cdcfd04a0f")]
-            public virtual RepoItemInfo SpreadsheetCalculationInfo
-            {
-                get
-                {
-                    return _spreadsheetcalculationInfo;
                 }
             }
         }

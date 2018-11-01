@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="5b87d040-7794-4c4e-8a73-47bb9c5eaf66"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		AddRemovePrograms
 	</name>

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="4a8614c1-5018-4048-b323-4ace8f176b90"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		NewUserLink
 	</name>
@@ -571,7 +571,7 @@ y60R+lEX7FO+NwPZf0ANRuj9SrXs31pNZtfVQq4nq5emRhz3E2Eqdhf8NqZbAAAAAElFTkSuQmCC
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

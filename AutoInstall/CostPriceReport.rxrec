@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="23548477-8c51-42cf-a427-727e0e4a8ec4"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		CostPriceReport
 	</name>
@@ -1021,7 +1021,7 @@ wkMjdDjFFFPuBJ5a+go8tfQUUUgEESkDilES+lFFADxGvpS+WvpRRQB//9k=
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

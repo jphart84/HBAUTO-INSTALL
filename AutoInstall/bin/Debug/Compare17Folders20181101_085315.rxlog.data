@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1aced9abde6f9b5"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.2.1.0"
+		host="HAYYAANM-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="11/1/2018 8:53:19 AM"
+		timestampiso="2018-11-01T13:53:19"
+		endtime="11/1/2018 8:53:20 AM"
+		timeoutfactor="1"
+		module="Compare17Folders">
+		<detail>
+			Compare17Folders
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.893"
+			timeRelativeToTestModuleStartTime="00:00.893"
+			timeWallClock="08:53:20"
+			time="00:00.893"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.924"
+			timeRelativeToTestModuleStartTime="00:00.924"
+			timeWallClock="08:53:20"
+			time="00:00.924"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! BINdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.940"
+			timeRelativeToTestModuleStartTime="00:00.940"
+			timeWallClock="08:53:20"
+			time="00:00.940"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! HCSSdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="60"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.940"
+			timeRelativeToTestModuleStartTime="00:00.940"
+			timeWallClock="08:53:20"
+			time="00:00.940"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! SYSdiff.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="69"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.940"
+			timeRelativeToTestModuleStartTime="00:00.940"
+			timeWallClock="08:53:20"
+			time="00:00.940"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! DiffUTIL.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\Compare17Folders.UserCode.cs"
+				codeline="78"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

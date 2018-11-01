@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="3f1ae4a1-f43b-49e5-953c-c9cd46fe916b"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		InstallWelcomeSQL
 	</name>

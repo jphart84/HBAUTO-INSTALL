@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="401a5605-5915-4d7a-978d-db1302934759"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		CloseHB
 	</name>
@@ -205,7 +205,7 @@ ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

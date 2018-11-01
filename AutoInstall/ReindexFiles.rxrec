@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="8a5b70e5-0a39-4536-90fe-dc74cc71554b"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ReindexFiles
 	</name>

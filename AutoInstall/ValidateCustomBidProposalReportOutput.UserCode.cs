@@ -31,7 +31,7 @@ namespace AutoInstall
         /// </summary>
         /// 
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-        string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+  //      string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"CustomizedBidProposal.txt";
 
         

@@ -1,7 +1,7 @@
 ﻿<repository
 id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 name="AutoInstallRepository"
-rxversion="8.1">
+rxversion="8.2">
 	<codegen
 	classname="AutoInstallRepository"
 	namespace="AutoInstall">

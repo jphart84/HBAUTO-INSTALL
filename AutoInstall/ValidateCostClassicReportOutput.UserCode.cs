@@ -32,9 +32,9 @@ namespace AutoInstall
         /// </summary>
         /// 
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-        string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+       // string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"CostReportClassic.txt";
-        string batch = @"CompareCostReportClassic.ps1";
+      //  string batch = @"CompareCostReportClassic.ps1";
         
         string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt";
     	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt";

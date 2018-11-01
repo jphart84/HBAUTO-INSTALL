@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="7a99ce87-770c-41f6-a490-245e139b0d9c"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ConfirmWSInstallFinish
 	</name>
@@ -1013,7 +1013,7 @@ gQtGaSigBaWkozTAWikzSZpAOopuaM0XHYdRmm5pKLhYdmjNJRRcLDs0ZpKKBC5opKWmB//Z
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4a2d27784a84fee"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.2.1.0"
+		host="HAYYAANM-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="11/1/2018 9:46:47 AM"
+		timestampiso="2018-11-01T14:46:47"
+		endtime="11/1/2018 9:47:00 AM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.858"
+			timeRelativeToTestModuleStartTime="00:00.858"
+			timeWallClock="09:46:48"
+			time="00:00.858"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.876"
+			timeRelativeToTestModuleStartTime="00:00.876"
+			timeWallClock="09:46:48"
+			time="00:00.876"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.899"
+			timeRelativeToTestModuleStartTime="00:10.899"
+			timeWallClock="09:46:58"
+			time="00:10.899"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatCert.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="84"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.899"
+			timeRelativeToTestModuleStartTime="00:10.899"
+			timeWallClock="09:46:58"
+			time="00:10.899"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatImap.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="93"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.899"
+			timeRelativeToTestModuleStartTime="00:10.899"
+			timeWallClock="09:46:58"
+			time="00:10.899"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatMail_v8.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="101"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.899"
+			timeRelativeToTestModuleStartTime="00:10.899"
+			timeWallClock="09:46:58"
+			time="00:10.899"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="114"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

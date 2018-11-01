@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="116b2f6fadc74931"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.2.1.0"
+		host="HAYYAANM-LT"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="11/1/2018 9:52:04 AM"
+		timestampiso="2018-11-01T14:52:04"
+		endtime="11/1/2018 9:52:16 AM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<errormessage>
+			Index was outside the bounds of the array.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.870"
+			timeRelativeToTestModuleStartTime="00:00.870"
+			timeWallClock="09:52:05"
+			time="00:00.870"
+			level="Warn"
+			category="Data"
+			errimg=".\CheckMis_6e5ce14_5da96624_trace.jpg"
+			errthumb=".\CheckMis_6e5ce14_5da96624_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.894"
+			timeRelativeToTestModuleStartTime="00:00.894"
+			timeWallClock="09:52:05"
+			time="00:00.894"
+			level="Info"
+			category="Delay"
+			errimg=".\CheckMis_6e5ce14_5da96624_trace.jpg"
+			errthumb=".\CheckMis_6e5ce14_5da96624_trace_thumb.jpg">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.919"
+			timeRelativeToTestModuleStartTime="00:10.919"
+			timeWallClock="09:52:15"
+			time="00:10.919"
+			level="Error"
+			category="Module"
+			errimg=".\CheckMis_6e5ce14_7abb673d_trace.jpg"
+			errthumb=".\CheckMis_6e5ce14_7abb673d_trace_thumb.jpg">
+			<message>
+				Index was outside the bounds of the array.
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.CheckMissingDLLsOCXs.ValidateDLLComparison() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs:line 81
+   at AutoInstall.CheckMissingDLLsOCXs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.cs:line 111
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="81"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

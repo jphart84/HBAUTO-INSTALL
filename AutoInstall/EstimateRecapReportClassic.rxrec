@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="e4bf8678-8c0f-4520-86d9-30a23e66d330"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		EstimateRecapReportClassic
 	</name>
@@ -598,7 +598,7 @@ rxversion="8.1">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

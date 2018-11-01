@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="40f298b4-d6fb-4496-a652-110be615e32d"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		SQLDriverReadmeExists
 	</name>

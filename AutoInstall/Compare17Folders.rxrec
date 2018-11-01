@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="f7cd7a70-f449-4bef-af7e-ef4d413fe3ed"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		Compare17Folders
 	</name>
@@ -150,7 +150,7 @@ rxversion="8.1">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

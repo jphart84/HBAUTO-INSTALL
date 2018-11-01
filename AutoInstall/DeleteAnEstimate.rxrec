@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="86517749-ad94-4a26-9fc2-cc4e93b3c806"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		DeleteAnEstimate
 	</name>

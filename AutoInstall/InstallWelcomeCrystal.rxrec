@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="61b87029-e35d-459c-a403-ec3c8744d87c"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		InstallWelcomeCrystal
 	</name>

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="0e43be61-ce2b-40e9-916a-d6cba4419ec3"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		ReadyToInstallSQL
 	</name>

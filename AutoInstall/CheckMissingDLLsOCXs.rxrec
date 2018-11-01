@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="a6f15c91-1e6d-43df-ab08-61a8a5bb251d"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		CheckMissingDLLsOCXs
 	</name>
@@ -35,7 +35,7 @@ rxversion="8.1">
 	</variables>
 	<recorditems>
 		<runapprecorditem
-		enabled="True"
+		enabled="False"
 		maximized="False"
 		optional="False">
 			<comment>
@@ -56,18 +56,9 @@ rxversion="8.1">
 			<args>
 			</args>
 		</runapprecorditem>
-		<explicitdelayitem
-		duration="10000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<userrecorditem
 		classname="CheckMissingDLLsOCXs"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="ValidateDLLComparison"
 		namespace="AutoInstall"
@@ -83,7 +74,7 @@ rxversion="8.1">
 		</userrecorditem>
 		<userrecorditem
 		classname="CheckMissingDLLsOCXs"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="ValidateDLLReportContent"
 		namespace="AutoInstall"
@@ -97,12 +88,37 @@ rxversion="8.1">
 			id="fe47bd9f-1a07-4f6f-8409-491945a41cb9">
 			</arguments>
 		</userrecorditem>
+		<userrecorditem
+		classname="CheckMissingDLLsOCXs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateDLLComparison"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a0f14b15-9234-4e7b-b416-f6d5440773b6">
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

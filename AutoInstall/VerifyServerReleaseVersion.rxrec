@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="bde2f0df-0f77-479a-b4a2-1a2a235f3d36"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		VerifyServerReleaseVersion
 	</name>
@@ -707,7 +707,7 @@ rxversion="8.1">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

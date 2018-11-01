@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="edeaf7cc-b74d-4e5a-82c8-fd27c03ed8ba"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		WelcomeImage
 	</name>
@@ -260,7 +260,7 @@ y60R+lEX7FO+NwPZf0ANRuj9SrXs31pNZtfVQq4nq5emRhz3E2Eqdhf8NqZbAAAAAElFTkSuQmCC
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">
