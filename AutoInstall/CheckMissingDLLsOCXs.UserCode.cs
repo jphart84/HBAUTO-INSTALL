@@ -31,10 +31,25 @@ namespace AutoInstall
         /// It can be used to execute recording specific initialization code.
         /// </summary>
         /// 
-        string dir = @"\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports";
-        string refDir = @"\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\Reports\Reference\";
-        string file = @"dllComparison.txt";
-        
+
+        string directory = @"C:\Program Files (x86)\Common Files\HCSS";
+        int numOfDll = 15;
+        string ChilkatCert = @"ChilkatCert.dll";
+        string ChikatImap = @"ChilkatImap.dll";
+        string ChilkatMailv8 = @"ChilkatMail_v8.dll";
+        string ChilkatUtil = @"ChilkatUtil.dll";
+        string ChilkatXml = @"ChilkatXml.dll";
+        string CodejockCommandBarsv1321 = @"Codejock.CommandBars.v13.2.1.ocx";
+        string CodejockReportControlv1342 = @"Codejock.ReportControl.v13.4.2.ocx";
+        string CodejockSkinFrameworkv1342 = @"Codejock.SkinFramework.v13.4.2.ocx";
+        string dsoframer = @"dsoframer.ocx";
+        string HHActiveX = @"HHActiveX.dll";
+        string officeviewer = @"officeviewer.ocx";
+        string RICHTX32 = @"RICHTX32.ocx";
+        string schedocx = @"schedocx.ocx";
+        string wspell = @"wspell.ocx"; 
+        string XCDZIP = @"XCDZIP35.ocx";
+        	
         private void Init()
         {
             // Your recording specific initialization code goes here.
@@ -42,61 +57,26 @@ namespace AutoInstall
 
         public void ValidateDLLComparison()
         {
-                        
-            string path = Path.Combine(dir,file);
-            
-      		if (File.Exists(path))
-			   {
-        		Report.Success("File Exist", "Success! " + file + " exists!");
-			   }
-			else                  
-			   {
-				Report.Failure("File Exist", "Fail. " + file + " does not exists.");
-			   }
-		}
+        	string[] dllArray = {ChilkatCert, ChikatImap, ChilkatMailv8, ChilkatUtil, ChilkatXml, CodejockCommandBarsv1321, CodejockReportControlv1342, CodejockSkinFrameworkv1342, dsoframer, HHActiveX, officeviewer, RICHTX32, schedocx, wspell, XCDZIP};
+        	string [] dllPath = new string[numOfDll];
 
-        public void ValidateDLLReportContent()
-        {
-            string filePath_Current = Path.Combine(dir,file);
-            string filePath_Expected = Path.Combine(refDir,file);
-            string customLogMessage = string.Empty;
-			
-    	
-		               // prepare log messages  
-		    const string fileNotFoundMessage = "File not found for comparison in Validate_FileContentEqual: {0}";  
-		    const string logMessage = "Comparing content of files ({0} vs. {1})";  
-		    if (string.IsNullOrEmpty(customLogMessage))  
-		    {  
-		        customLogMessage = string.Format(logMessage, filePath_Expected, filePath_Current);  
-		    }  
-		  
-		    // check if file exists  
-		    if (!System.IO.File.Exists(filePath_Current))  
-		    {  
-		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Current));  
-		    }  
-		  
-		    // check if referencing file exists  
-		    if (!System.IO.File.Exists(filePath_Expected))  
-		    {  
-		        throw new Ranorex.RanorexException(string.Format(fileNotFoundMessage, filePath_Expected));  
-		    }  
-		  
-		    // check if filenames are identical  
-		    if (filePath_Expected.Equals(filePath_Current))  
-		    {  
-		        Ranorex.Validate.IsTrue(true, customLogMessage);  
-		    }  
-		    else  
-		    {  
-		        string current = System.IO.File.ReadAllText(filePath_Current);  
-		        string expected = System.IO.File.ReadAllText(filePath_Expected);  
-		        // validate whether expected value equals to current value  
-		        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
-		    }  
-        }
-        
-        
+        	for (int pathcounter = 0; pathcounter <numOfDll; pathcounter++)
+        	{
+        		dllPath[pathcounter] = Path.Combine(directory, dllArray[pathcounter]);
+        	}
+        	
+        	for(int i = 0; i<numOfDll;i++)
+        	{
+        		if (File.Exists(dllPath[i]))
+			   {
+        			Report.Success("File Exist", "Success! " + dllArray[i] + " exists!");
+			   }
+				else                  
+			   {
+					Report.Failure("File Exist", "Fail. " + dllArray[i] + " does not exists.");
+			   }
+        	}
 
     }
+}
 }

@@ -34,31 +34,9 @@ rxversion="8.1">
 		</var>
 	</variables>
 	<recorditems>
-		<runapprecorditem
-		enabled="True"
-		maximized="False"
-		optional="False">
-			<comment>
-				script to check DLL and OCX in HB against masterlist on V:
-			</comment>
-			<bindings>
-				<binding
-				target="WorkingDirectory"
-				variable="ScriptLocation">
-				</binding>
-			</bindings>
-			<filename>
-				runDLLcomparison.bat
-			</filename>
-			<workingdir>
-				V:\alex.kwie\Script
-			</workingdir>
-			<args>
-			</args>
-		</runapprecorditem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -71,22 +49,6 @@ rxversion="8.1">
 		isexternaltestmethod="False"
 		methodname="ValidateDLLComparison"
 		namespace="AutoInstall"
-		optional="True"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="f7a91878-145c-493d-9d0b-68bc25b65ae7">
-			</arguments>
-		</userrecorditem>
-		<userrecorditem
-		classname="CheckMissingDLLsOCXs"
-		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidateDLLReportContent"
-		namespace="AutoInstall"
 		optional="False"
 		varname="">
 			<comment>
@@ -97,6 +59,15 @@ rxversion="8.1">
 			id="fe47bd9f-1a07-4f6f-8409-491945a41cb9">
 			</arguments>
 		</userrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
