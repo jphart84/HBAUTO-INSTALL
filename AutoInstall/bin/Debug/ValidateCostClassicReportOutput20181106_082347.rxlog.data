@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11630ee04d8b0e10"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/6/2018 8:23:52 AM"
+		timestampiso="2018-11-06T14:23:52"
+		endtime="11/6/2018 8:24:04 AM"
+		timeoutfactor="1"
+		module="ValidateCostClassicReportOutput">
+		<detail>
+			ValidateCostClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.156"
+			timeRelativeToTestModuleStartTime="00:01.156"
+			timeWallClock="08:23:54"
+			time="00:01.156"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.187"
+			timeRelativeToTestModuleStartTime="00:01.187"
+			timeWallClock="08:23:54"
+			time="00:01.187"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! CostReportClassic.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.187"
+			timeRelativeToTestModuleStartTime="00:01.187"
+			timeWallClock="08:23:54"
+			time="00:01.187"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.203"
+			timeRelativeToTestModuleStartTime="00:06.203"
+			timeWallClock="08:23:59"
+			time="00:06.203"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCostReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.281"
+			timeRelativeToTestModuleStartTime="00:06.281"
+			timeWallClock="08:23:59"
+			time="00:06.281"
+			level="Info"
+			category="Delay"
+			errimg=".\Validate_79049f9b_e5d80d0b_trace.jpg"
+			errthumb=".\Validate_79049f9b_e5d80d0b_trace_thumb.jpg">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.328"
+			timeRelativeToTestModuleStartTime="00:11.328"
+			timeWallClock="08:24:04"
+			time="00:11.328"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_79049f9b_f8bc186b_trace.jpg"
+			errthumb=".\Validate_79049f9b_f8bc186b_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.359"
+			timeRelativeToTestModuleStartTime="00:11.359"
+			timeWallClock="08:24:04"
+			time="00:11.359"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_79049f9b_f8bc186b_trace.jpg"
+			errthumb=".\Validate_79049f9b_f8bc186b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCostClassicReportOutput.ValidateContentCostReport() in c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs:line 95
+   at AutoInstall.ValidateCostClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs:line 108
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

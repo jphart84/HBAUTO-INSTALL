@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d835b64626d426"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/6/2018 8:22:28 AM"
+		timestampiso="2018-11-06T14:22:28"
+		endtime="11/6/2018 8:22:31 AM"
+		timeoutfactor="1"
+		module="ValidateCostClassicReportOutput">
+		<detail>
+			ValidateCostClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.828"
+			timeRelativeToTestModuleStartTime="00:01.843"
+			timeWallClock="08:22:30"
+			time="00:01.828"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_ed999f95_e388d447_trace.jpg"
+			errthumb=".\Validate_ed999f95_e388d447_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.203"
+			timeRelativeToTestModuleStartTime="00:02.218"
+			timeWallClock="08:22:31"
+			time="00:02.203"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_ed999f95_83a9efe7_trace.jpg"
+			errthumb=".\Validate_ed999f95_83a9efe7_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.218"
+			timeRelativeToTestModuleStartTime="00:02.234"
+			timeWallClock="08:22:31"
+			time="00:02.218"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_ed999f95_83a9efe7_trace.jpg"
+			errthumb=".\Validate_ed999f95_83a9efe7_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCostClassicReportOutput.ValidateContentCostReport() in c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs:line 95
+   at AutoInstall.ValidateCostClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

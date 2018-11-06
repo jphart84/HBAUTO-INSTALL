@@ -1,17 +1,24 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="ValidateCostClassicReportOutput.UserCode.cs" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="AutoInstall.rxtst" />
+    <Element value="ValidateCostClassicReportOutput.UserCode.cs" />
+    <Element value="ValidateCostClassicReportOutput.rxrec" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.CheckMissingDLLsOCXs.ValidateDLLComparison()" />
       <Element value="AutoInstall.DeleteHBFolder.DeleteHBDirectory(String HBDirectory)" />
       <Element value="AutoInstall.ValidateBiditemStructureOutput.ValidateContentBiditemStructure()" />
       <Element value="AutoInstall.ValidateBiditemStructureOutput.BiditemStructureExists()" />
       <Element value="AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice()" />
       <Element value="AutoInstall.ValidateCostPriceOutput.CostPriceExists()" />
-      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ValidateContentChiefEstimator()" />
     </Array>
   </Properties>
 </Properties>

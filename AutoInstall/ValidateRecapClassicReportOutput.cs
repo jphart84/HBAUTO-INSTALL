@@ -92,17 +92,17 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'runRecapReportClassicCompare.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("runRecapReportClassicCompare.bat", "", ScriptLocation, false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'EstimateClassicRecapCompare.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("EstimateClassicRecapCompare.bat", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
             Delay.Duration(5000, false);
             
-            RecapReportClassicExists();
+            EstimateRecapReportClassicExists();
             Delay.Milliseconds(0);
             
-            ValidateContentRecapReport();
+            ValidateContentEstimateRecapReport();
             Delay.Milliseconds(0);
             
         }

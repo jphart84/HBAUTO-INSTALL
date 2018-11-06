@@ -32,11 +32,11 @@ namespace AutoInstall
         /// 
         
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-        string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
-        string file = @"RecapReportClassic.txt";
+        //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+        string file = @"EstimateRecapReportClassic.txt";
         
-        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt";
+        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapClassicSimiliarContent.txt";
+    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapClassicSimiliarContent.txt";
         string customLogMessage = string.Empty;
         
         private void Init()
@@ -44,7 +44,7 @@ namespace AutoInstall
             // Your recording specific initialization code goes here.
         }
 
-        public void RecapReportClassicExists()
+        public void EstimateRecapReportClassicExists()
         {
             string path = Path.Combine(dir,file);
       		if (File.Exists(path))
@@ -53,7 +53,7 @@ namespace AutoInstall
 			   {	Report.Failure("File Exist", "Fail. " + file + " does not exists.");	}
         }
 
-        public void ValidateContentRecapReport()
+        public void ValidateContentEstimateRecapReport()
         {
             string path = Path.Combine(dir,file);
     	
