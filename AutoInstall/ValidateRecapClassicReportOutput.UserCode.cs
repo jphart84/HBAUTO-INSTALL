@@ -34,6 +34,7 @@ namespace AutoInstall
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"EstimateRecapReportClassic.txt";
 =======
@@ -44,6 +45,10 @@ namespace AutoInstall
         string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"RecapReportClassic.txt";
 >>>>>>> parent of a3c2ca3... 11/6/18
+=======
+        //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+        string file = @"EstimateRecapReportClassic.txt";
+>>>>>>> parent of ca2074c... Revert "11-1-2018"
         
         string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt";
     	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt";
