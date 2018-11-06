@@ -92,14 +92,21 @@ namespace AutoInstall
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            //Delay.Duration(10000, false);
-            
-            ValidateDLLComparison();
+            // script to check DLL and OCX in HB against masterlist on V:
+            Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("runDLLcomparison.bat", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            try {
+                ValidateDLLComparison();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            
+            ValidateDLLReportContent();
+            Delay.Milliseconds(0);
             
         }
 
