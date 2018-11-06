@@ -46,7 +46,7 @@ rxversion="8.1">
 			</arguments>
 		</userrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
