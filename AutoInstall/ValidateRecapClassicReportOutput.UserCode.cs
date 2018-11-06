@@ -32,8 +32,13 @@ namespace AutoInstall
         /// 
         
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
+<<<<<<< HEAD
         //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"EstimateRecapReportClassic.txt";
+=======
+        string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
+        string file = @"RecapReportClassic.txt";
+>>>>>>> parent of 502f3e6... 11-1-2018
         
         string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapClassicSimiliarContent.txt";
     	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapClassicSimiliarContent.txt";
