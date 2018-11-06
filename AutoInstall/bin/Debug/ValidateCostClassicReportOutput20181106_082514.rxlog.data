@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16d5460f2b151dd"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/6/2018 8:25:20 AM"
+		timestampiso="2018-11-06T14:25:20"
+		endtime="11/6/2018 8:25:21 AM"
+		timeoutfactor="1"
+		module="ValidateCostClassicReportOutput">
+		<detail>
+			ValidateCostClassicReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.156"
+			timeRelativeToTestModuleStartTime="00:01.156"
+			timeWallClock="08:25:21"
+			time="00:01.156"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.265"
+			timeRelativeToTestModuleStartTime="00:01.265"
+			timeWallClock="08:25:21"
+			time="00:01.265"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Desktop\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -134,6 +134,9 @@ namespace AutoInstall
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(10));
+            Delay.Duration(10000, false);
+            
         }
 
 #region Image Feature Data
