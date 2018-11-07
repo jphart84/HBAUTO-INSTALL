@@ -1,27 +1,10 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="BackupEstimate.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="BackupEstimate.rxrec" />
   </Array>
-=======
-  <Array name="bookmarks" />
-  <Array name="files" />
->>>>>>> parent of c88bdce... Revert "11-1-18 part 2"
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="AutoInstall.DeleteHBFolder.DeleteHBDirectory(String HBDirectory)" />
-      <Element value="AutoInstall.ValidateBiditemStructureOutput.ValidateContentBiditemStructure()" />
-      <Element value="AutoInstall.ValidateBiditemStructureOutput.BiditemStructureExists()" />
-      <Element value="AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice()" />
-      <Element value="AutoInstall.ValidateCostPriceOutput.CostPriceExists()" />
-      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ValidateContentChiefEstimator()" />
-    </Array>
-  </Properties>
+  <Properties name="projectSavedData" />
 </Properties>
