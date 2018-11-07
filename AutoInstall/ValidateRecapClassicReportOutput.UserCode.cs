@@ -35,16 +35,12 @@ namespace AutoInstall
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 2dc4079... Revert "11/6/18"
         //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"EstimateRecapReportClassic.txt";
 =======
         string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"RecapReportClassic.txt";
 >>>>>>> parent of 502f3e6... 11-1-2018
-<<<<<<< HEAD
 =======
         string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"RecapReportClassic.txt";
@@ -53,11 +49,9 @@ namespace AutoInstall
         //string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
         string file = @"EstimateRecapReportClassic.txt";
 >>>>>>> parent of ca2074c... Revert "11-1-2018"
-=======
->>>>>>> parent of 2dc4079... Revert "11/6/18"
         
-        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapClassicSimiliarContent.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapClassicSimiliarContent.txt";
+        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt";
+    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt";
         string customLogMessage = string.Empty;
         
         private void Init()
@@ -65,7 +59,7 @@ namespace AutoInstall
             // Your recording specific initialization code goes here.
         }
 
-        public void EstimateRecapReportClassicExists()
+        public void RecapReportClassicExists()
         {
             string path = Path.Combine(dir,file);
       		if (File.Exists(path))
@@ -74,7 +68,7 @@ namespace AutoInstall
 			   {	Report.Failure("File Exist", "Fail. " + file + " does not exists.");	}
         }
 
-        public void ValidateContentEstimateRecapReport()
+        public void ValidateContentRecapReport()
         {
             string path = Path.Combine(dir,file);
     	

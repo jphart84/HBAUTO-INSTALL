@@ -1,20 +1,11 @@
 ﻿<Properties>
 <<<<<<< HEAD
   <Array name="active">
-<<<<<<< HEAD
     <Element value="AutoInstall.rxtst" />
-=======
-    <Element value="ValidateCostClassicReportOutput.UserCode.cs" />
->>>>>>> parent of 2dc4079... Revert "11/6/18"
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-<<<<<<< HEAD
-=======
-    <Element value="ValidateCostClassicReportOutput.UserCode.cs" />
-    <Element value="ValidateCostClassicReportOutput.rxrec" />
->>>>>>> parent of 2dc4079... Revert "11/6/18"
   </Array>
 =======
   <Array name="bookmarks" />
@@ -25,12 +16,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="AutoInstall.CheckMissingDLLsOCXs.ValidateDLLComparison()" />
       <Element value="AutoInstall.DeleteHBFolder.DeleteHBDirectory(String HBDirectory)" />
       <Element value="AutoInstall.ValidateBiditemStructureOutput.ValidateContentBiditemStructure()" />
       <Element value="AutoInstall.ValidateBiditemStructureOutput.BiditemStructureExists()" />
       <Element value="AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice()" />
       <Element value="AutoInstall.ValidateCostPriceOutput.CostPriceExists()" />
+      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ValidateContentChiefEstimator()" />
     </Array>
   </Properties>
 </Properties>

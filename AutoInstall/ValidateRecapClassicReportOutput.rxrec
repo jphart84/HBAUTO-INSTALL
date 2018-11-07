@@ -47,7 +47,7 @@ rxversion="8.1">
 				</binding>
 			</bindings>
 			<filename>
-				EstimateClassicRecapCompare.bat
+				runRecapReportClassicCompare.bat
 			</filename>
 			<args>
 			</args>
@@ -65,7 +65,7 @@ rxversion="8.1">
 		classname="ValidateRecapClassicReportOutput"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="EstimateRecapReportClassicExists"
+		methodname="RecapReportClassicExists"
 		namespace="AutoInstall"
 		optional="False"
 		varname="">
@@ -81,7 +81,7 @@ rxversion="8.1">
 		classname="ValidateRecapClassicReportOutput"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="ValidateContentEstimateRecapReport"
+		methodname="ValidateContentRecapReport"
 		namespace="AutoInstall"
 		optional="False"
 		varname="">

@@ -5,7 +5,6 @@
 <<<<<<< HEAD
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}</string>
-<<<<<<< HEAD
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>a6f15c91-1e6d-43df-ab08-61a8a5bb251d</string>
@@ -17,6 +16,7 @@
     </ArrayOfString>
   </SerializedValue>
   <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[CheckHBConfigFile.rxrec[]crystalTESTING.rxrec[]ValidateEXEs.rxrec[]ValidateHBStrayDate.rxrec[]]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst&#xD;&#xA;Solution AutoInstall\AutoInstall\AutoInstall.rxtst" />
+<<<<<<< HEAD
 =======
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
@@ -28,5 +28,7 @@
   </SerializedValue>
   <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;&#xD;&#xA;Solution AutoInstall" />
 >>>>>>> parent of c88bdce... Revert "11-1-18 part 2"
+=======
+>>>>>>> parent of 10e6cec... Revert "Revert "11/6/18""
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>
