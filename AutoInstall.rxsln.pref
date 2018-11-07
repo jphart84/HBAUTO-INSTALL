@@ -2,6 +2,7 @@
   <ActiveConfiguration value="Debug" />
   <ActivePlatform value="x86" />
   <SerializedValue name="ModuleBrowserState">
+<<<<<<< HEAD
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}</string>
 <<<<<<< HEAD
@@ -22,5 +23,10 @@
   </SerializedValue>
   <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\ValidateCostClassicReportOutput.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\SelectInstallType.rxrec" />
 >>>>>>> parent of 2dc4079... Revert "11/6/18"
+=======
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;&#xD;&#xA;Solution AutoInstall" />
+>>>>>>> parent of c88bdce... Revert "11-1-18 part 2"
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>

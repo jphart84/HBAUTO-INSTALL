@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <Array name="active">
 <<<<<<< HEAD
     <Element value="AutoInstall.rxtst" />
@@ -15,6 +16,10 @@
     <Element value="ValidateCostClassicReportOutput.rxrec" />
 >>>>>>> parent of 2dc4079... Revert "11/6/18"
   </Array>
+=======
+  <Array name="bookmarks" />
+  <Array name="files" />
+>>>>>>> parent of c88bdce... Revert "11-1-18 part 2"
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
