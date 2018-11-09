@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="b7cf6cce-8c18-4a2f-afef-55e95e692e31"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		WhatsNewButton
 	</name>

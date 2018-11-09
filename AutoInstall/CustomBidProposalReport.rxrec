@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="192ecfb1-f9cd-4c22-8a6b-79d148535b72"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		CustomBidProposalReport
 	</name>

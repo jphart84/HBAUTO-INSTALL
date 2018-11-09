@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="7a99ce87-770c-41f6-a490-245e139b0d9c"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ConfirmWSInstallFinish
 	</name>

@@ -22,7 +22,7 @@ namespace AutoInstall
     /// <summary>
     /// The class representing the AutoInstallRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     [RepositoryFolder("41d3209a-6b55-4d11-ade5-8b107ab3f7a7")]
     public partial class AutoInstallRepository : RepoGenBaseFolder
     {
@@ -310,7 +310,7 @@ namespace AutoInstall
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     public partial class AutoInstallRepositoryFolders
     {
         /// <summary>

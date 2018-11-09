@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="b74955f0-d224-4390-b176-5deb93cf53c9"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateBidMaterialLaborOutput
 	</name>

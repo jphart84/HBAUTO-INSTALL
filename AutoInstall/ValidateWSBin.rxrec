@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="b53c1488-8b07-4c34-a868-f7481789c702"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateWSBin
 	</name>

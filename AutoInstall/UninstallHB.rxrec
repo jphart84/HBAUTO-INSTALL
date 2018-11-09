@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="9c7db922-7759-4227-abe7-c4d68ab45778"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		UninstallHB
 	</name>

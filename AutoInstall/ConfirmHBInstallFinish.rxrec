@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="43bbaf7d-2b67-498d-9ab4-5e9794b98f8f"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ConfirmHBInstallFinish
 	</name>

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="edeaf7cc-b74d-4e5a-82c8-fd27c03ed8ba"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		WelcomeImage
 	</name>

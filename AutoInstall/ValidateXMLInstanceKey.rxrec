@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="d7ad1879-29dd-45c1-b888-80a6d59d0282"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateXMLInstanceKey
 	</name>

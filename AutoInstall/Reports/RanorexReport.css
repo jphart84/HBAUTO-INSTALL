@@ -330,9 +330,6 @@ tr.Success {
     padding: 0;
 }
 
-.ui-treeList li.ui-treeList-item.Success ul {
-    display: none;
-}
 /*.ui-treeList li.ui-state-hover {
         }*/
 #treeList em {
@@ -1142,6 +1139,11 @@ tr.error .stacktrace, tr.error .stacktrace p, tr.failure .stacktrace, tr.failure
 
 .htmlDescription em, u, strong {
     color: #606060 !important;
+}
+
+.htmlDescription ul li  {
+    list-style-type: circle;
+    list-style-position: outside;
 }
 
 .filter {

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="63bb37b0-fede-45e3-bd41-bf349ce4925f"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		SysConfigDoesntExist
 	</name>

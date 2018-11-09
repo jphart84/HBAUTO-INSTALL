@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="90fff12e-39e9-48c1-b93a-3043239bad50"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateCostReportOutput
 	</name>

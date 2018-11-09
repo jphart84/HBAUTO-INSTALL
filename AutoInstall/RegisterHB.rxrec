@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="c8073cc8-23bf-41dc-8ca0-e4df727944a5"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		RegisterHB
 	</name>

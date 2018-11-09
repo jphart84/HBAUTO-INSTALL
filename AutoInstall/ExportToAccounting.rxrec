@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="507f40bf-32e8-44d2-983b-6ee9afa4dae4"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ExportToAccounting
 	</name>

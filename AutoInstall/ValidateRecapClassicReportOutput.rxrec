@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="ed72442e-bafc-4ad6-82e2-4b1f1e8c270d"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateRecapClassicReportOutput
 	</name>

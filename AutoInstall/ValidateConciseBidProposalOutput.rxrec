@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="e7d73eeb-3a6a-4a1f-aa12-62def58c83af"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateConciseBidProposalOutput
 	</name>

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="40845dfb-b593-4feb-8ed3-f231d56123ba"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		ValidateEXEs
 	</name>

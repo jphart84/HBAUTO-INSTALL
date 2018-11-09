@@ -1,6 +1,13 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="Compare17Folders.UserCode.cs" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="AutoInstall.rxtst" />
+    <Element value="Compare17Folders.rxrec" />
+    <Element value="Compare17Folders.UserCode.cs" />
+  </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />
   </Properties>

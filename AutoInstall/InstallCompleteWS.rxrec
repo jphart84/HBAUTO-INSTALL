@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="8d902368-e261-4a13-ba0c-6d8b42340a43"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		InstallCompleteWS
 	</name>

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="f2e4f309-0bd7-44ab-8af9-c73c38a506fd"
 mode="Global"
-rxversion="8.2">
+rxversion="8.3">
 	<name>
 		UninstallCrystal
 	</name>

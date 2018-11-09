@@ -71,7 +71,7 @@ namespace AutoInstall
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -83,7 +83,7 @@ namespace AutoInstall
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -100,8 +100,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 1.3m.", new RecordItemIndex(1));
-                Delay.Duration(75000, false);
+                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 1m.", new RecordItemIndex(1));
+                Delay.Duration(60000, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {
