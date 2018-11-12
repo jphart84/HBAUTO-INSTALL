@@ -91,8 +91,8 @@ namespace AutoInstall
             repo.HeavyBidApp.DocumentInterface.Reports.CostReports.EquipmentReport.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(3));
+            Delay.Duration(20000, false);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Title~'Equipment') on item 'HBReportViewers.HeavyBidPivotReports'.", repo.HBReportViewers.HeavyBidPivotReports.SelfInfo, new RecordItemIndex(4));
             Validate.AttributeRegex(repo.HBReportViewers.HeavyBidPivotReports.SelfInfo, "Title", new Regex("Equipment"));

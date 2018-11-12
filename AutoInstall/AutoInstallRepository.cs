@@ -8086,7 +8086,7 @@ namespace AutoInstall
             public SaveAsExportAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SaveAsExport", "/form[@title='Save As']", parentFolder, 30000, null, false, "ab37c6b6-30fd-45aa-bbdc-3a374c38d759", "")
             {
-                _filepathurlInfo = new RepoItemInfo(this, "FilePathURL", ".//element[@class='Breadcrumb Parent']", 30000, null, "7e70db78-60b4-486d-8c00-89d996e95388");
+                _filepathurlInfo = new RepoItemInfo(this, "FilePathURL", "element[@class='WorkerW']/container[@controlid='40965']/element[@controlid='41477']//toolbar[@controlid='1001']", 30000, null, "7e70db78-60b4-486d-8c00-89d996e95388");
                 _filenameInfo = new RepoItemInfo(this, "FileName", "element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']//text[@accessiblename~'File name:']", 30000, null, "542c7fc9-9f7f-43f1-bff8-3e4118ea322f");
                 _savebuttonInfo = new RepoItemInfo(this, "SaveButton", "button[@text~'Save']", 30000, null, "3b603e92-fd94-47de-a5b7-c3b9c4f848e5");
             }
@@ -8119,11 +8119,11 @@ namespace AutoInstall
             /// The FilePathURL item.
             /// </summary>
             [RepositoryItem("7e70db78-60b4-486d-8c00-89d996e95388")]
-            public virtual Ranorex.Unknown FilePathURL
+            public virtual Ranorex.ToolBar FilePathURL
             {
                 get
                 {
-                    return _filepathurlInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _filepathurlInfo.CreateAdapter<Ranorex.ToolBar>(true);
                 }
             }
 

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2bee75517d1bec48"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/12/2018 8:54:22 AM"
+		timestampiso="2018-11-12T14:54:22"
+		endtime="11/12/2018 8:54:59 AM"
+		timeoutfactor="1"
+		module="CustomCostReportClassic">
+		<detail>
+			CustomCostReportClassic
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.859"
+			timeRelativeToTestModuleStartTime="00:34.859"
+			timeWallClock="08:54:57"
+			time="00:34.859"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.PrintToFile.NoButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Print to File']/button[@text~'No']"
+				itempath="button[@text~'No']"
+				fullname="AutoInstallRepository.HBReportViewers.PrintToFile.NoButton"
+				id="7da1fb2536a4494c98522da1f40f3b04"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CustomCostReportClassic.cs"
+				codeline="82"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

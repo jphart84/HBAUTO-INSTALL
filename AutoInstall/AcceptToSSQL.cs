@@ -79,8 +79,8 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton'", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new ActionTimeout(10000), new RecordItemIndex(0));
-            repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo.WaitForExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton'", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new ActionTimeout(20000), new RecordItemIndex(0));
+            repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo.WaitForExists(20000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton' at Center.", repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButtonInfo, new RecordItemIndex(1));
             repo.SQLServerInstallation.SQLInstaller.AcceptTermsRadioButton.Click();

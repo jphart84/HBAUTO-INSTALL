@@ -102,7 +102,7 @@ rxversion="8.3">
 			</info>
 		</mouseitem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="20000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -133,7 +133,7 @@ rxversion="8.3">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

@@ -137,9 +137,9 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(11)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(12));
-                repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
-                Delay.Milliseconds(200);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.ConfirmSaveAs.YesButton' at Center.", repo.HBReportViewers.ConfirmSaveAs.YesButtonInfo, new RecordItemIndex(12));
+                //repo.HBReportViewers.ConfirmSaveAs.YesButton.Click();
+                //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(12)); }
             
             try {

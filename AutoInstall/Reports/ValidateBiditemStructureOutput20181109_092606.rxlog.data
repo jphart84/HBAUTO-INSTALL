@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f822687e3fd6240"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/9/2018 9:26:11 AM"
+		timestampiso="2018-11-09T15:26:11"
+		endtime="11/9/2018 9:26:24 AM"
+		timeoutfactor="1"
+		module="ValidateBiditemStructureOutput">
+		<detail>
+			ValidateBiditemStructureOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.750"
+			timeRelativeToTestModuleStartTime="00:05.750"
+			timeWallClock="09:26:17"
+			time="00:05.750"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>RunLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.781"
+			timeRelativeToTestModuleStartTime="00:05.781"
+			timeWallClock="09:26:17"
+			time="00:05.781"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runBiditemStructure.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateBiditemStructureOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.906"
+			timeRelativeToTestModuleStartTime="00:05.906"
+			timeWallClock="09:26:17"
+			time="00:05.906"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 7s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateBiditemStructureOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.906"
+			timeRelativeToTestModuleStartTime="00:12.906"
+			timeWallClock="09:26:24"
+			time="00:12.906"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! BiditemStructureReport.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateBiditemStructureOutput.UserCode.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.922"
+			timeRelativeToTestModuleStartTime="00:12.922"
+			timeWallClock="09:26:24"
+			time="00:12.922"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\BiditemStructureReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\BiditemStructureReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateBiditemStructureOutput.UserCode.cs"
+				codeline="92"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

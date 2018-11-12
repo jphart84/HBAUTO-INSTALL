@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2ed85a2f4b189be4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/9/2018 9:50:34 AM"
+		timestampiso="2018-11-09T15:50:34"
+		endtime="11/9/2018 9:51:15 AM"
+		timeoutfactor="1"
+		module="ExportToHeavyJob">
+		<detail>
+			ExportToHeavyJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.157"
+			timeRelativeToTestModuleStartTime="00:06.157"
+			timeWallClock="09:50:40"
+			time="00:06.157"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>HJFilepath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.251"
+			timeRelativeToTestModuleStartTime="00:06.251"
+			timeWallClock="09:50:40"
+			time="00:06.251"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ExchangeTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Exchange']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ExchangeTab"
+				id="335aaa88e0234bafa4a4c3bb609ace02"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.546"
+			timeRelativeToTestModuleStartTime="00:13.546"
+			timeWallClock="09:50:47"
+			time="00:13.546"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Exchange.HJAndAccountingExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				itempath="?/?/toolbar/button[@text~'Accounting' and @text!~'Classic']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Exchange.HJAndAccountingExport"
+				id="8182ecf224f74be4ab7902bf628a7fb4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.201"
+			timeRelativeToTestModuleStartTime="00:15.201"
+			timeWallClock="09:50:49"
+			time="00:15.201"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJobButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?//button[@text~'Export to HeavyJob']"
+				itempath="?/?//button[@text~'Export to HeavyJob']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportToHeavyJobButton"
+				id="7240d090e159402d8559add9d5617a4a"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.638"
+			timeRelativeToTestModuleStartTime="00:18.638"
+			timeWallClock="09:50:52"
+			time="00:18.638"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$HJFilepath' with focus on 'HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]"
+				itempath="form[@title~'Export' and @title~'HeavyJob']/element[@class='DFDialogClass']/?/element[@class='DFform']/element[@class='DFentry'][1]"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.FilenameTextboxExportHJ"
+				id="1b300847611d4536a48220d67adc4032"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.355"
+			timeRelativeToTestModuleStartTime="00:23.355"
+			timeWallClock="09:50:57"
+			time="00:23.355"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				itempath="?/?/?/?/element[@class='DFbutton']/?/?/button[@accessiblename='Export']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Buttons.ExportButton"
+				id="2db6a250cf4f4383bacf321ac6b57879"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.714"
+			timeRelativeToTestModuleStartTime="00:25.714"
+			timeWallClock="09:50:59"
+			time="00:25.714"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'(C|c)omplete') on item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.036"
+			timeRelativeToTestModuleStartTime="00:29.036"
+			timeWallClock="09:51:03"
+			time="00:29.036"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.040"
+			timeRelativeToTestModuleStartTime="00:29.040"
+			timeWallClock="09:51:03"
+			time="00:29.040"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.OKButton"
+				id="281d6f1d4cf448a48d5ba581f9dadee7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.165"
+			timeRelativeToTestModuleStartTime="00:31.165"
+			timeWallClock="09:51:05"
+			time="00:31.165"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeRegex (Text~'(C|c)omplete') on item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="124"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.030"
+			timeRelativeToTestModuleStartTime="00:34.030"
+			timeWallClock="09:51:08"
+			time="00:34.030"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/text[@accessiblerole='StaticText']"
+				itempath="text[@accessiblerole='StaticText']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.MainTextPopup"
+				id="8b7a3a5127c2462cb116e65eaddbb4ee"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.038"
+			timeRelativeToTestModuleStartTime="00:34.038"
+			timeWallClock="09:51:08"
+			time="00:34.038"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left DoubleClick item 'HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.OKButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Export to HeavyJob']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromExchangeButtons.ExportToHeavyJob.OKButton"
+				id="281d6f1d4cf448a48d5ba581f9dadee7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="130"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.140"
+			timeRelativeToTestModuleStartTime="00:36.140"
+			timeWallClock="09:51:10"
+			time="00:36.140"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.cs"
+				codeline="135"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.154"
+			timeRelativeToTestModuleStartTime="00:41.154"
+			timeWallClock="09:51:15"
+			time="00:41.154"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! HeavyJobExport.xml exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ExportToHeavyJob.UserCode.cs"
+				codeline="43"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

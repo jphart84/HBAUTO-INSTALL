@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 name="AutoInstallRepository"
 rxversion="8.3">
@@ -2176,12 +2175,12 @@ SUVORK5CYII=
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
-				capname="unknown"
+				capname="toolbar"
 				id="7e70db78-60b4-486d-8c00-89d996e95388"
 				name="FilePathURL"
 				refimgid="dfb45867-90b3-475e-b377-f85489f73352"
 				searchtimeout="30000ms">
-					/form[@title='Save As']//element[@class='Breadcrumb Parent']
+					/form[@title='Save As']/element[@class='WorkerW']/container[@controlid='40965']/element[@controlid='41477']//toolbar[@controlid='1001']
 				</item>
 				<item
 				capname="text"

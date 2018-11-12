@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b837b319e106e2b"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/12/2018 9:06:17 AM"
+		timestampiso="2018-11-12T15:06:17"
+		endtime="11/12/2018 9:06:30 AM"
+		timeoutfactor="1"
+		module="ValidateRecapClassicReportOutput">
+		<detail>
+			ValidateRecapClassicReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.562"
+			timeRelativeToTestModuleStartTime="00:12.562"
+			timeWallClock="09:06:30"
+			time="00:12.562"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.640"
+			timeRelativeToTestModuleStartTime="00:12.640"
+			timeWallClock="09:06:30"
+			time="00:12.640"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runRecapReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

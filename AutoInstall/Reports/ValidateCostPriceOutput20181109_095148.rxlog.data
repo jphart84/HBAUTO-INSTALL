@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="192a9bb50196e028"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/9/2018 9:51:52 AM"
+		timestampiso="2018-11-09T15:51:52"
+		endtime="11/9/2018 9:52:04 AM"
+		timeoutfactor="1"
+		module="ValidateCostPriceOutput">
+		<detail>
+			ValidateCostPriceOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostPriceReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostPriceReportSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.442"
+			timeRelativeToTestModuleStartTime="00:06.443"
+			timeWallClock="09:51:58"
+			time="00:06.442"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.473"
+			timeRelativeToTestModuleStartTime="00:06.474"
+			timeWallClock="09:51:58"
+			time="00:06.473"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runCostPrice.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.583"
+			timeRelativeToTestModuleStartTime="00:06.584"
+			timeWallClock="09:51:58"
+			time="00:06.583"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.612"
+			timeRelativeToTestModuleStartTime="00:11.613"
+			timeWallClock="09:52:03"
+			time="00:11.612"
+			level="Success"
+			category="File Exist"
+			errimg=".\Validate_ac76d333_b1766ccd_trace.jpg"
+			errthumb=".\Validate_ac76d333_b1766ccd_trace_thumb.jpg">
+			<message>
+				Success! CostReport.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.UserCode.cs"
+				codeline="52"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.628"
+			timeRelativeToTestModuleStartTime="00:11.629"
+			timeWallClock="09:52:03"
+			time="00:11.628"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_ac76d333_b1766ccd_trace.jpg"
+			errthumb=".\Validate_ac76d333_b1766ccd_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostPriceReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostPriceReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.643"
+			timeRelativeToTestModuleStartTime="00:11.644"
+			timeWallClock="09:52:03"
+			time="00:11.643"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_ac76d333_b1766ccd_trace.jpg"
+			errthumb=".\Validate_ac76d333_b1766ccd_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostPriceReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostPriceReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.UserCode.cs:line 93
+   at AutoInstall.ValidateCostPriceOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostPriceOutput.UserCode.cs"
+				codeline="93"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

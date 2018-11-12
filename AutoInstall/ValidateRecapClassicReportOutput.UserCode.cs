@@ -32,11 +32,10 @@ namespace AutoInstall
         /// 
         
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-   //     string refDir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\";
-        string file = @"RecapReportClassic.txt";
+        string file = @"EstimateRecapReportClassic.txt";
         
-        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\RecapReportClassicSimiliarContent.txt";
-    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\RecapReportClassicSimiliarContent.txt";
+        string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapClassicSimiliarContent.txt";
+    	string filePath_Current = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapClassicSimiliarContent.txt";
         string customLogMessage = string.Empty;
         
         private void Init()

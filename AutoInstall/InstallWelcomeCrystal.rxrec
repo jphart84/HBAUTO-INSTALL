@@ -148,7 +148,7 @@ rxversion="8.3">
 		optional="True"
 		searchpropertyid="c0e382f4-0399-473d-a17c-d941baa152a7"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="45000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -319,7 +319,7 @@ rxversion="8.3">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

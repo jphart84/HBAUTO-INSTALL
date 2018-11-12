@@ -108,8 +108,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.FinishButton'", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new ActionTimeout(30000), new RecordItemIndex(6));
-                repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo.WaitForExists(30000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 45s to exist. Associated repository item: 'CrystalInstallation.CrystalInstaller.FinishButton'", repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo, new ActionTimeout(45000), new RecordItemIndex(6));
+                repo.CrystalInstallation.CrystalInstaller.FinishButtonInfo.WaitForExists(45000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
             try {

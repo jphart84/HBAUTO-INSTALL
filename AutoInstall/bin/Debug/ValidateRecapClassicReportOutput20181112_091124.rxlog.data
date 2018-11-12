@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e4546f215e1febc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/12/2018 9:11:27 AM"
+		timestampiso="2018-11-12T15:11:27"
+		endtime="11/12/2018 9:11:34 AM"
+		timeoutfactor="1"
+		module="ValidateRecapClassicReportOutput">
+		<detail>
+			ValidateRecapClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.046"
+			timeRelativeToTestModuleStartTime="00:07.046"
+			timeWallClock="09:11:34"
+			time="00:07.046"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_40a65f0_64f8188d_trace.jpg"
+			errthumb=".\Validate_40a65f0_64f8188d_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.140"
+			timeRelativeToTestModuleStartTime="00:07.140"
+			timeWallClock="09:11:34"
+			time="00:07.140"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_40a65f0_f0c52a7d_trace.jpg"
+			errthumb=".\Validate_40a65f0_f0c52a7d_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="90"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.156"
+			timeRelativeToTestModuleStartTime="00:07.156"
+			timeWallClock="09:11:34"
+			time="00:07.156"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_40a65f0_f0c52a7d_trace.jpg"
+			errthumb=".\Validate_40a65f0_f0c52a7d_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapReportSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapReportSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateRecapClassicReportOutput.ValidateContentRecapReport() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs:line 90
+   at AutoInstall.ValidateRecapClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="90"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,12 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Compare17Folders.UserCode.cs" />
+    <Element value="AcceptToSSQL.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="Compare17Folders.rxrec" />
-    <Element value="Compare17Folders.UserCode.cs" />
+    <Element value="ValidateRecapClassicReportOutput.rxrec" />
+    <Element value="ValidateRecapClassicReportOutput.UserCode.cs" />
+    <Element value="AcceptToSSQL.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />

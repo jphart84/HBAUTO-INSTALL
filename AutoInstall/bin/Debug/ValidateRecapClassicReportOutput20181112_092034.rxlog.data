@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b0a1b830ea3c3be"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/12/2018 9:20:37 AM"
+		timestampiso="2018-11-12T15:20:37"
+		endtime="11/12/2018 9:20:47 AM"
+		timeoutfactor="1"
+		module="ValidateRecapClassicReportOutput">
+		<detail>
+			ValidateRecapClassicReportOutput
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.870"
+			timeRelativeToTestModuleStartTime="00:04.870"
+			timeWallClock="09:20:42"
+			time="00:04.870"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.917"
+			timeRelativeToTestModuleStartTime="00:04.917"
+			timeWallClock="09:20:42"
+			time="00:04.917"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'runRecapReportClassicCompare.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.042"
+			timeRelativeToTestModuleStartTime="00:05.042"
+			timeWallClock="09:20:42"
+			time="00:05.042"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.073"
+			timeRelativeToTestModuleStartTime="00:10.073"
+			timeWallClock="09:20:47"
+			time="00:10.073"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! EstimateRecapReportClassic.txt exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="50"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.104"
+			timeRelativeToTestModuleStartTime="00:10.104"
+			timeWallClock="09:20:47"
+			time="00:10.104"
+			level="Success"
+			category="Validation">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\EstimateRecapClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\EstimateRecapClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateRecapClassicReportOutput.UserCode.cs"
+				codeline="90"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -91,8 +91,8 @@ namespace AutoInstall
             repo.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(3));
+            Delay.Duration(20000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.HeavyBidPivotReports.CloseButton'.", repo.HBReportViewers.HeavyBidPivotReports.CloseButtonInfo, new RecordItemIndex(4));
             Host.Current.CloseApplication(repo.HBReportViewers.HeavyBidPivotReports.CloseButton, new Duration(0));

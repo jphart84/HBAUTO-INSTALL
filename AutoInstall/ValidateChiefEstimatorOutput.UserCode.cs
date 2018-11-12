@@ -87,9 +87,11 @@ namespace AutoInstall
 		    else  
 		    {  
 		        string current = System.IO.File.ReadAllText(filePath_Current);  
-		        string expected = System.IO.File.ReadAllText(filePath_Expected);  
-		        // validate whether expected value equals to current value  
-		        Ranorex.Validate.AreEqual(current, expected, customLogMessage);  
+		        string expected = System.IO.File.ReadAllText(filePath_Expected);
+//		        string expected1 = System.IO.File.ReadAllText(filePath_Expected1);
+		        // validate whether expected value equals to current value
+		        //Ranorex.Validate.AreEqual(current, expected, customLogMessage);
+		         Ranorex.Validate.AreEqual(current,expected,customLogMessage);
 		    }  
         }
     }

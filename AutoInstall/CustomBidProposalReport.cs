@@ -138,9 +138,9 @@ namespace AutoInstall
             Delay.Duration(10000, false);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
-                repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
-                Delay.Milliseconds(200);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
+                //repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+                //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(15)); }
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(16));
