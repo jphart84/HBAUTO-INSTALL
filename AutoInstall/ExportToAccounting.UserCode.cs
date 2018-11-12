@@ -14,6 +14,7 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
 
 using Ranorex;
 using Ranorex.Core;
@@ -25,12 +26,23 @@ namespace AutoInstall
     public partial class ExportToAccounting
     {
         /// <summary>
+        string dir = @"C:\HeavyBidWS\HBSave\";
+        string file = @"Cost Code Data.txt";
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
         /// </summary>
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void HeavyJobtxtExists()
+        {
+            string path = Path.Combine(dir,file);
+      		if (File.Exists(path))
+			   { 	Report.Success("File Exist", "Success! " + file + " exists!");	}
+			else                  
+			   {	Report.Failure("File Exist", "Fail. " + file + " does not exists.");	}
         }
 
     }

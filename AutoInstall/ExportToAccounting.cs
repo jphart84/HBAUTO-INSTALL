@@ -91,17 +91,24 @@ namespace AutoInstall
             repo.HeavyBidApp.DocumentInterface.Buttons.ExportToAccountingButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExportButtonInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\HeavyBidWS\\HBSAVE\\Cost Code Data.txt'.", new RecordItemIndex(3));
+            Keyboard.Press("C:\\HeavyBidWS\\HBSAVE\\Cost Code Data.txt");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.DocumentInterface.Buttons.ExportButton' at Center.", repo.HeavyBidApp.DocumentInterface.Buttons.ExportButtonInfo, new RecordItemIndex(4));
             repo.HeavyBidApp.DocumentInterface.Buttons.ExportButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'HBPopUpScreens.FromExchangeButtons.ExportComplete.MainTextPopUp'.", repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.MainTextPopUpInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'HBPopUpScreens.FromExchangeButtons.ExportComplete.MainTextPopUp'.", repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.MainTextPopUpInfo, new RecordItemIndex(5));
             Validate.Exists(repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.MainTextPopUpInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButton' at Center.", repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButtonInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButton' at Center.", repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButtonInfo, new RecordItemIndex(6));
             repo.HBPopUpScreens.FromExchangeButtons.ExportComplete.OKButton.Click();
             Delay.Milliseconds(200);
+            
+            HeavyJobtxtExists();
+            Delay.Milliseconds(0);
             
         }
 
