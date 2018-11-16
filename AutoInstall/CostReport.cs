@@ -91,8 +91,8 @@ namespace AutoInstall
             repo.HeavyBidApp.DocumentInterface.Reports.CostReports.CostReport.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(3));
+            Delay.Duration(15000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo' at LowerCenter.", repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportToInfo, new RecordItemIndex(4));
             repo.HBReportViewers.HBReportPlus.HBReportPlusViewer.ExportTo.Click(Location.LowerCenter);

@@ -102,8 +102,10 @@ namespace AutoInstall
             BiditemStructureExists();
             Delay.Milliseconds(0);
             
-            ValidateContentBiditemStructure();
-            Delay.Milliseconds(0);
+            try {
+                ValidateContentBiditemStructure();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

@@ -100,8 +100,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 1m.", new RecordItemIndex(1));
-                Delay.Duration(60000, false);
+                Report.Log(ReportLevel.Info, "Delay", "(Optional Action)\r\nWaiting for 40s.", new RecordItemIndex(1));
+                Delay.Duration(40000, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {

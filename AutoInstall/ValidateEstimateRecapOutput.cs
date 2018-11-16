@@ -102,8 +102,10 @@ namespace AutoInstall
             EstimateRecapExists();
             Delay.Milliseconds(0);
             
-            ValidateContentEstimateRecap();
-            Delay.Milliseconds(0);
+            try {
+                ValidateContentEstimateRecap();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

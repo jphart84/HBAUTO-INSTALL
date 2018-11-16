@@ -254,21 +254,60 @@ rxversion="8.3">
 		<validationitem
 		action="AttributeRegex"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="0c179a99-18c2-4d74-8660-281e46659435">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1"
+			id="062c26b1-5ed7-4c9c-9746-07c7f3cc7be5"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="4"
+				prefcap="titlebar"
+				rect="685,483,1336,28"
+				role="titlebar"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						Spreadsheet Calculation
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Displays the name of the window and contains controls to manipulate it
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						TitleBar
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						Spreadsheet Calculation
+					</attribute>
+				</element>
 				<path>
-					/form[@title~'Spreadsheet Calculation']
+					/form[@title~'Spreadsheet']/titlebar[@accessiblerole='TitleBar']
 				</path>
 			</info>
 			<matchname>
-				Title
+				AccessibleValue
 			</matchname>
 			<matchvalue>
 				Spreadsheet Calculation
@@ -291,10 +330,59 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 			<info
-			id="bea879ce-a31c-4e33-b41b-471a9b4cd36c"
+			id="60bef7b7-dc71-4bb4-befa-9fadfbd0efa5"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="1590,192,47,30"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Closes the window
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
 				<path>
-					/form[@title~'Spreadsheet Calculation']/?/?/?/button[@text~'Close']
+					/form[@title~'Spreadsheet']/?/?/button[@text='Close' and @accessiblerole='PushButton' and @accessibledescription='Closes the window']
 				</path>
 			</info>
 		</mouseitem>
@@ -303,7 +391,7 @@ rxversion="8.3">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

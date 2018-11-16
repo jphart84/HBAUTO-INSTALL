@@ -106,12 +106,14 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Title~'Spreadsheet Calculation') on item 'HBReportViewers.SpreadsheetCalculationViewer'.", repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, new RecordItemIndex(7));
-            Validate.AttributeRegex(repo.HBReportViewers.SpreadsheetCalculationViewer.SelfInfo, "Title", new Regex("Spreadsheet Calculation"));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeRegex (AccessibleValue~'Spreadsheet Calculation') on item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculation'.", repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculationInfo, new RecordItemIndex(7));
+                Validate.AttributeRegex(repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculationInfo, "AccessibleValue", new Regex("Spreadsheet Calculation"), null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.SpreadsheetCalculationViewer.CloseButton' at Center.", repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButtonInfo, new RecordItemIndex(8));
-            repo.HBReportViewers.SpreadsheetCalculationViewer.CloseButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.Close' at Center.", repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.CloseInfo, new RecordItemIndex(8));
+            repo.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.Close.Click();
             Delay.Milliseconds(200);
             
         }

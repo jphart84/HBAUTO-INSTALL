@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14ba839746dfca82"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/16/2018 1:46:29 PM"
+		timestampiso="2018-11-16T19:46:29"
+		endtime="11/16/2018 1:46:36 PM"
+		timeoutfactor="1"
+		module="RunSpreadsheetCalculations">
+		<detail>
+			RunSpreadsheetCalculations
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.720"
+			timeRelativeToTestModuleStartTime="00:05.720"
+			timeWallClock="13:46:35"
+			time="00:05.720"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (AccessibleValue~'Spreadsheet Calculation') on item 'HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Spreadsheet']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculation"
+				id="062c26b15ed74c9c974607c7f3cc7be5"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="82"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.829"
+			timeRelativeToTestModuleStartTime="00:06.829"
+			timeWallClock="13:46:36"
+			time="00:06.829"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibleValue' of element for item 'AutoInstallRepository.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculation' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Spreadsheet']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="AutoInstallRepository.HBPopUpScreens.FromFileButtons.OpenEstimateRelated.SelectSpreadsheet.SpreadsheetCalculation"
+				id="062c26b15ed74c9c974607c7f3cc7be5"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\RunSpreadsheetCalculations.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

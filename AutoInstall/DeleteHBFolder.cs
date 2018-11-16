@@ -108,8 +108,8 @@ namespace AutoInstall
             DeleteHBDirectory(InstallLocation);
             Delay.Milliseconds(0);
             
-            DeleteHBDirectory(InstallWorkStation);
-            Delay.Milliseconds(0);
+            //DeleteHBDirectory(InstallWorkStation);
+            //Delay.Milliseconds(0);
             
         }
 

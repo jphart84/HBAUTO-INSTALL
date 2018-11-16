@@ -102,8 +102,10 @@ namespace AutoInstall
             CostPriceExists();
             Delay.Milliseconds(0);
             
-            ValidateContentCostPrice();
-            Delay.Milliseconds(0);
+            try {
+                ValidateContentCostPrice();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

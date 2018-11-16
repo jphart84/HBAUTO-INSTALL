@@ -102,8 +102,10 @@ namespace AutoInstall
             CostReportExists();
             Delay.Milliseconds(0);
             
-            ValidateContentCostReport();
-            Delay.Milliseconds(0);
+            try {
+                ValidateContentCostReport();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
         }
 

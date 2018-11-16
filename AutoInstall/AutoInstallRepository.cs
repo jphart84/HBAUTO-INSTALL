@@ -6058,6 +6058,8 @@ namespace AutoInstall
         public partial class SelectSpreadsheetAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _firstavailablecalculationsInfo;
+            RepoItemInfo _spreadsheetcalculationInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new SelectSpreadsheet  folder.
@@ -6066,6 +6068,8 @@ namespace AutoInstall
                     base("SelectSpreadsheet", "/form[@title~'Spreadsheet']", parentFolder, 30000, null, false, "370927f9-70b7-4337-abfe-9df4b629926f", "")
             {
                 _firstavailablecalculationsInfo = new RepoItemInfo(this, "FirstAvailableCalculations", "?/?//tree/?/?/treeitem/treeitem", 30000, null, "3554463e-4846-43e5-9df4-9a4e102c4bb4");
+                _spreadsheetcalculationInfo = new RepoItemInfo(this, "SpreadsheetCalculation", "titlebar[@accessiblerole='TitleBar']", 30000, null, "062c26b1-5ed7-4c9c-9746-07c7f3cc7be5");
+                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@text='Close' and @accessiblerole='PushButton' and @accessibledescription='Closes the window']", 30000, null, "60bef7b7-dc71-4bb4-befa-9fadfbd0efa5");
             }
 
             /// <summary>
@@ -6113,6 +6117,54 @@ namespace AutoInstall
                 get
                 {
                     return _firstavailablecalculationsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SpreadsheetCalculation item.
+            /// </summary>
+            [RepositoryItem("062c26b1-5ed7-4c9c-9746-07c7f3cc7be5")]
+            public virtual Ranorex.TitleBar SpreadsheetCalculation
+            {
+                get
+                {
+                    return _spreadsheetcalculationInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SpreadsheetCalculation item info.
+            /// </summary>
+            [RepositoryItemInfo("062c26b1-5ed7-4c9c-9746-07c7f3cc7be5")]
+            public virtual RepoItemInfo SpreadsheetCalculationInfo
+            {
+                get
+                {
+                    return _spreadsheetcalculationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("60bef7b7-dc71-4bb4-befa-9fadfbd0efa5")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("60bef7b7-dc71-4bb4-befa-9fadfbd0efa5")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
         }
@@ -7841,7 +7893,6 @@ namespace AutoInstall
         {
             AutoInstallRepositoryFolders.ConfirmSaveAsAppFolder _confirmsaveas;
             AutoInstallRepositoryFolders.SaveAsExportAppFolder _saveasexport;
-            AutoInstallRepositoryFolders.SpreadsheetCalculationViewerAppFolder _spreadsheetcalculationviewer;
             AutoInstallRepositoryFolders.HeavyBidPivotReportsAppFolder _heavybidpivotreports;
             AutoInstallRepositoryFolders.PrintPreviewAppFolder _printpreview;
             AutoInstallRepositoryFolders.CustomizedBidProposalAppFolder _customizedbidproposal;
@@ -7861,7 +7912,6 @@ namespace AutoInstall
             {
                 _confirmsaveas = new AutoInstallRepositoryFolders.ConfirmSaveAsAppFolder(this);
                 _saveasexport = new AutoInstallRepositoryFolders.SaveAsExportAppFolder(this);
-                _spreadsheetcalculationviewer = new AutoInstallRepositoryFolders.SpreadsheetCalculationViewerAppFolder(this);
                 _heavybidpivotreports = new AutoInstallRepositoryFolders.HeavyBidPivotReportsAppFolder(this);
                 _printpreview = new AutoInstallRepositoryFolders.PrintPreviewAppFolder(this);
                 _customizedbidproposal = new AutoInstallRepositoryFolders.CustomizedBidProposalAppFolder(this);
@@ -7902,15 +7952,6 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.SaveAsExportAppFolder SaveAsExport
             {
                 get { return _saveasexport; }
-            }
-
-            /// <summary>
-            /// The SpreadsheetCalculationViewer folder.
-            /// </summary>
-            [RepositoryFolder("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-            public virtual AutoInstallRepositoryFolders.SpreadsheetCalculationViewerAppFolder SpreadsheetCalculationViewer
-            {
-                get { return _spreadsheetcalculationviewer; }
             }
 
             /// <summary>
@@ -8184,72 +8225,6 @@ namespace AutoInstall
                 get
                 {
                     return _savebuttonInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The SpreadsheetCalculationViewerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-        public partial class SpreadsheetCalculationViewerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _closebuttonInfo;
-
-            /// <summary>
-            /// Creates a new SpreadsheetCalculationViewer  folder.
-            /// </summary>
-            public SpreadsheetCalculationViewerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SpreadsheetCalculationViewer", "/form[@title~'^HB\\ 2019\\ -\\ 1-BRIDGE\\ -\\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']", parentFolder, 30000, null, false, "60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1", "")
-            {
-                _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "?/?/?/button[@text~'Close']", 30000, null, "bea879ce-a31c-4e33-b41b-471a9b4cd36c");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-            public virtual Ranorex.Button Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CloseButton item.
-            /// </summary>
-            [RepositoryItem("bea879ce-a31c-4e33-b41b-471a9b4cd36c")]
-            public virtual Ranorex.Button CloseButton
-            {
-                get
-                {
-                    return _closebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CloseButton item info.
-            /// </summary>
-            [RepositoryItemInfo("bea879ce-a31c-4e33-b41b-471a9b4cd36c")]
-            public virtual RepoItemInfo CloseButtonInfo
-            {
-                get
-                {
-                    return _closebuttonInfo;
                 }
             }
         }

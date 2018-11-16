@@ -99,8 +99,8 @@ namespace AutoInstall
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(1));
-            Delay.Duration(15000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));
+            Delay.Duration(20000, false);
             
             try {
                 ValidateEXEReport();

@@ -5,7 +5,7 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="ValidateCostReportOutput.rxrec" />
+    <Element value="OpenExistingEstimate.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections">

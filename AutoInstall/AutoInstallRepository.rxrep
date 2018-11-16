@@ -1706,6 +1706,26 @@ SUVORK5CYII=
 						searchtimeout="30000ms">
 							/form[@title~'Spreadsheet']/?/?//tree/?/?/treeitem/treeitem
 						</item>
+						<item
+						addcaps="titlebar,accessible"
+						capname="titlebar"
+						id="062c26b1-5ed7-4c9c-9746-07c7f3cc7be5"
+						name="SpreadsheetCalculation"
+						refimgid="520bdc71-206a-4710-9110-a9a3e4d66fc0"
+						refpath="/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']"
+						searchtimeout="30000ms">
+							/form[@title~'Spreadsheet']/titlebar[@accessiblerole='TitleBar']
+						</item>
+						<item
+						addcaps="button,accessible"
+						capname="button"
+						id="60bef7b7-dc71-4bb4-befa-9fadfbd0efa5"
+						name="Close"
+						refimgid="07cb4406-1c98-4203-aa68-ebc15ab53631"
+						refpath="/form[@controlname='SpreadsheetActivityEditorForm']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+						searchtimeout="30000ms">
+							/form[@title~'Spreadsheet']/?/?/button[@text='Close' and @accessiblerole='PushButton' and @accessibledescription='Closes the window']
+						</item>
 						<basepath>
 							/form[@title~'Spreadsheet']
 						</basepath>
@@ -2200,24 +2220,6 @@ SUVORK5CYII=
 				</item>
 				<basepath>
 					/form[@title='Save As']
-				</basepath>
-			</appfolder>
-			<appfolder
-			capname="button"
-			id="60ac4011-bfb2-4e15-a8d1-0ddbc7e342e1"
-			isrooted="True"
-			name="SpreadsheetCalculationViewer"
-			searchtimeout="30000ms"
-			usecache="False">
-				<item
-				capname="button"
-				id="bea879ce-a31c-4e33-b41b-471a9b4cd36c"
-				name="CloseButton"
-				searchtimeout="30000ms">
-					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']/?/?/?/button[@text~'Close']
-				</item>
-				<basepath>
-					/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/?/?/form[@controlid='512']/element[@controlid='3843']/?/?/button[@accessiblerole='PushButton']
 				</basepath>
 			</appfolder>
 			<appfolder
