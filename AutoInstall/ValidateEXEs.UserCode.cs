@@ -42,7 +42,7 @@ namespace AutoInstall
         {
 			            
             string pathSR = Path.Combine(dir,fileServ);
-            string pathWS = Path.Combine(refDir,fileServ);
+            string pathWS = Path.Combine(dir,fileWS);
             
       		if (File.Exists(pathSR))
 			   {

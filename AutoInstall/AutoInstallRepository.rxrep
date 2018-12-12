@@ -2238,6 +2238,16 @@ SUVORK5CYII=
 				searchtimeout="30000ms">
 					/form[@title~'HeavyBid Pivot Reports']/?/?/?/button[@text~'Close']
 				</item>
+				<item
+				addcaps="titlebar,uiautomation"
+				capname="titlebar"
+				id="46cebd02-07f4-4870-bd85-1e264fe8f5d3"
+				name="TitleBar"
+				refimgid="65358709-c02e-4e79-9e8c-835b78d0de20"
+				refpath="/form[@name='HeavyBid Pivot Reports']/titlebar[@automationid='TitleBar']"
+				searchtimeout="30000ms">
+					/form[@title~'HeavyBid Pivot Reports']/titlebar[@automationid='TitleBar']
+				</item>
 				<basepath>
 					/form[@title~'HeavyBid Pivot Reports']
 				</basepath>

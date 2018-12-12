@@ -51,27 +51,6 @@ namespace AutoInstall
 			   {	Report.Failure("File Exist", "Fail. " + file + " does not exists.");	}
         }
 
-        public void ValidateWSComparisonReport()
-        {
-        	
-            string path = Path.Combine(dir,file);
-            
-        	string contents = System.IO.File.ReadAllText(path);
-			string msg = "There are no differences between the server and workstation BIN folders!";
-			Ranorex.Validate.Equals(contents, "There are no differences between the server and workstation BIN folders!");
-			//Ranorex.Validate.Equals(contents, "Random Dx!");
-
-			if (Ranorex.Validate.Equals(contents, msg))
-			{
-				Report.Success ("good", "good!");
-			}
-			else 
-			{
-				Report.Failure("bad","bad");
-			}
-        
-        }
-
     public void ValidateWSComparisonReportContent()
     {
     	

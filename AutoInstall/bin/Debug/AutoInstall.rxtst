@@ -9,6 +9,10 @@ rxversion="8.3">
 			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="03817834-d8a2-4a73-b111-71be1515181e"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="040ff654-b2a0-40f0-a8fc-79239b4aacde"
 			name="ValidateEXEs"
@@ -205,6 +209,12 @@ rxversion="8.3">
 			id="278b8420-8e4e-4e20-a51e-390434d1fb15"
 			name="InstallCrystal">
 			</testcase>
+			<testmodule
+			id="27a3028c-8608-4777-bbd9-be2ad7ebfe13"
+			name="DeleteReports"
+			ref="2767274b-a6dd-4c9f-8e2e-539006b6590a"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="2b9fdabc-2163-4bf4-ae4e-18be97a89520"
 			name="EquipmentReport"
@@ -810,6 +820,12 @@ rxversion="8.3">
 			name="InstallSQL">
 			</testcase>
 			<testmodule
+			id="ad5f5d1c-8170-47e2-a931-960619a8e4e9"
+			name="DeleteCompareFiles"
+			ref="eb5cca40-0426-49a9-b1ca-b4ca441b9353"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="ad9fe996-1afa-4004-a24b-123299830849"
 			name="ValidateXMLInstanceKey"
 			ref="d7ad1879-29dd-45c1-b888-80a6d59d0282"
@@ -1249,6 +1265,10 @@ rxversion="8.3">
 			ref="85c3e46c-dfcf-4590-a7cf-73993648af60"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="f49a5190-157e-4941-a8de-4311a0a3e16c"
+			name="teardown">
+			</teardown>
 			<testcase
 			datasource="HBLocation"
 			id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
@@ -1434,6 +1454,14 @@ rxversion="8.3">
 									name="Compare17Folders">
 									</testmodule>
 								</testcase>
+								<teardown
+								id="03817834-d8a2-4a73-b111-71be1515181e"
+								name="teardown">
+									<testmodule
+									id="ad5f5d1c-8170-47e2-a931-960619a8e4e9"
+									name="DeleteCompareFiles">
+									</testmodule>
+								</teardown>
 							</smartfoldernode>
 							<testcase
 							id="f56438ac-1bd6-4683-b5db-eb6565b67e7f"
@@ -1911,6 +1939,14 @@ rxversion="8.3">
 									</testmodule>
 								</testcase>
 							</smartfoldernode>
+							<teardown
+							id="f49a5190-157e-4941-a8de-4311a0a3e16c"
+							name="teardown">
+								<testmodule
+								id="27a3028c-8608-4777-bbd9-be2ad7ebfe13"
+								name="DeleteReports">
+								</testmodule>
+							</teardown>
 						</smartfoldernode>
 						<smartfoldernode
 						id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87"
@@ -2379,24 +2415,6 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87">
-			</testcontainer>
-			<testcontainer
-			id="eb269b62-171b-46e6-a194-de77eefa5ac4">
-			</testcontainer>
-			<testcontainer
-			id="febe7363-b15c-4a59-80ce-69f92cfeac38">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

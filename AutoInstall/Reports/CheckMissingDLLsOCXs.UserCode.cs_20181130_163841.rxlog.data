@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14be7556febf3460"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/30/2018 4:38:47 PM"
+		timestampiso="2018-11-30T22:38:47"
+		endtime="11/30/2018 4:39:06 PM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.272"
+			timeRelativeToTestModuleStartTime="00:17.272"
+			timeWallClock="16:39:04"
+			time="00:17.272"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.397"
+			timeRelativeToTestModuleStartTime="00:17.397"
+			timeWallClock="16:39:04"
+			time="00:17.397"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatCert.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.397"
+			timeRelativeToTestModuleStartTime="00:17.397"
+			timeWallClock="16:39:04"
+			time="00:17.397"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatImap.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.397"
+			timeRelativeToTestModuleStartTime="00:17.397"
+			timeWallClock="16:39:04"
+			time="00:17.397"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatMail_v8.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.397"
+			timeRelativeToTestModuleStartTime="00:17.397"
+			timeWallClock="16:39:04"
+			time="00:17.397"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatUtil.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.397"
+			timeRelativeToTestModuleStartTime="00:17.397"
+			timeWallClock="16:39:04"
+			time="00:17.397"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! ChilkatXml.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! Codejock.CommandBars.v13.2.1.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! Codejock.ReportControl.v13.4.2.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! Codejock.SkinFramework.v13.4.2.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! dsoframer.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! HHActiveX.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! officeviewer.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! RICHTX32.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! schedocx.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! wspell.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.412"
+			timeRelativeToTestModuleStartTime="00:17.412"
+			timeWallClock="16:39:04"
+			time="00:17.412"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! XCDZIP35.ocx exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.428"
+			timeRelativeToTestModuleStartTime="00:17.428"
+			timeWallClock="16:39:04"
+			time="00:17.428"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

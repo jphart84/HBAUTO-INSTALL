@@ -8236,6 +8236,7 @@ namespace AutoInstall
         public partial class HeavyBidPivotReportsAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _closebuttonInfo;
+            RepoItemInfo _titlebarInfo;
 
             /// <summary>
             /// Creates a new HeavyBidPivotReports  folder.
@@ -8244,6 +8245,7 @@ namespace AutoInstall
                     base("HeavyBidPivotReports", "/form[@title~'HeavyBid Pivot Reports']", parentFolder, 30000, null, false, "bae78860-d83b-4734-a95d-0878f5e7f9d2", "")
             {
                 _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "?/?/?/button[@text~'Close']", 30000, null, "fc1e7fdd-a2b9-4bb9-87fe-224e293b2469");
+                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@automationid='TitleBar']", 30000, null, "46cebd02-07f4-4870-bd85-1e264fe8f5d3");
             }
 
             /// <summary>
@@ -8291,6 +8293,30 @@ namespace AutoInstall
                 get
                 {
                     return _closebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item.
+            /// </summary>
+            [RepositoryItem("46cebd02-07f4-4870-bd85-1e264fe8f5d3")]
+            public virtual Ranorex.TitleBar TitleBar
+            {
+                get
+                {
+                    return _titlebarInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item info.
+            /// </summary>
+            [RepositoryItemInfo("46cebd02-07f4-4870-bd85-1e264fe8f5d3")]
+            public virtual RepoItemInfo TitleBarInfo
+            {
+                get
+                {
+                    return _titlebarInfo;
                 }
             }
         }

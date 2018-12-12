@@ -376,6 +376,18 @@
       <UserCode>true</UserCode>
       <id>b01ffd89-c796-4a8a-8258-684d210c163e</id>
     </Compile>
+    <Compile Include="DeleteCompareFiles.cs">
+      <BoundTo>5bf18527-3bf5-47cd-bfcd-8f5904941ba6</BoundTo>
+      <DependentUpon>DeleteCompareFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed4ec86a-f9a8-4d14-80b3-702b3b7460b1</id>
+    </Compile>
+    <Compile Include="DeleteCompareFiles.UserCode.cs">
+      <BoundTo>5bf18527-3bf5-47cd-bfcd-8f5904941ba6</BoundTo>
+      <DependentUpon>DeleteCompareFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>301a9a5f-420a-4073-a33c-a74d26d7239c</id>
+    </Compile>
     <Compile Include="DeleteHBFolder.cs">
       <BoundTo>359c093a-74ef-40bc-8e67-78441867f476</BoundTo>
       <DependentUpon>DeleteHBFolder.rxrec</DependentUpon>
@@ -387,6 +399,18 @@
       <DependentUpon>DeleteHBFolder.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>b8807fc0-0e2a-4dfb-aa63-900eec02a2c6</id>
+    </Compile>
+    <Compile Include="DeleteReports.cs">
+      <BoundTo>ed69346c-2191-424b-be62-3e532b152589</BoundTo>
+      <DependentUpon>DeleteReports.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98dc9ab0-929d-4dc7-b131-7c361cde1f43</id>
+    </Compile>
+    <Compile Include="DeleteReports.UserCode.cs">
+      <BoundTo>ed69346c-2191-424b-be62-3e532b152589</BoundTo>
+      <DependentUpon>DeleteReports.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c50eb466-6f70-4ca3-a12e-b396280eea10</id>
     </Compile>
     <Compile Include="EquipmentReport.cs">
       <BoundTo>75f28445-c0bb-42cc-8202-a34f4af98051</BoundTo>
@@ -1292,10 +1316,20 @@
       <id>a377adeb-13a1-4849-ab7a-b91c341d8040</id>
       <recordtableid>86517749-ad94-4a26-9fc2-cc4e93b3c806</recordtableid>
     </None>
+    <None Include="DeleteCompareFiles.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>5bf18527-3bf5-47cd-bfcd-8f5904941ba6</id>
+      <recordtableid>eb5cca40-0426-49a9-b1ca-b4ca441b9353</recordtableid>
+    </None>
     <None Include="DeleteHBFolder.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>359c093a-74ef-40bc-8e67-78441867f476</id>
       <recordtableid>a011b0c9-7a7b-4515-9444-0fb7f1a336c4</recordtableid>
+    </None>
+    <None Include="DeleteReports.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>ed69346c-2191-424b-be62-3e532b152589</id>
+      <recordtableid>2767274b-a6dd-4c9f-8e2e-539006b6590a</recordtableid>
     </None>
     <None Include="EquipmentReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

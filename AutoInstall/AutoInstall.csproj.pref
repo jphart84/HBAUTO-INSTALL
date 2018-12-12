@@ -1,15 +1,17 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="BackupEstimate.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="ValidateCostReportOutput.rxrec" />
-    <Element value="ValidateCostReportOutput.UserCode.cs" />
+    <Element value="BackupEstimate.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections">
+      <Element value="AutoInstall.DeleteReports.DeleteReportDirectory(String FileName)" />
+      <Element value="AutoInstall.DeleteReports.DeleteHBDirectory(String FileName)" />
+      <Element value="AutoInstall.DeleteCompareFiles.DeleteHBDirectory(String FileDirectory)" />
       <Element value="AutoInstall.ExportToAccounting.HeavyJobtxtExists()" />
     </Array>
   </Properties>

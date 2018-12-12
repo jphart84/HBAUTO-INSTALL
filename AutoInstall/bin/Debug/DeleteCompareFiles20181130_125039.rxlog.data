@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="357eb89df15507c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/30/2018 12:50:48 PM"
+		timestampiso="2018-11-30T18:50:48"
+		endtime="11/30/2018 12:50:58 PM"
+		timeoutfactor="1"
+		module="DeleteCompareFiles">
+		<detail>
+			DeleteCompareFiles
+		</detail>
+		<errormessage>
+			The directory name is invalid.&#10;
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.039"
+			timeRelativeToTestModuleStartTime="00:10.039"
+			timeWallClock="12:50:58"
+			time="00:10.039"
+			level="Error"
+			category="Module"
+			errimg=".\DeleteCo_167f5039_6588149a_trace.jpg"
+			errthumb=".\DeleteCo_167f5039_6588149a_trace_thumb.jpg">
+			<message>
+				The directory name is invalid.&#10;
+			</message>
+			<metainfo
+				stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)&#13;&#10;   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA&amp; data)&#13;&#10;   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)&#13;&#10;   at System.IO.Directory.Delete(String path, Boolean recursive)&#13;&#10;   at AutoInstall.DeleteCompareFiles.DeleteHBDirectory(String FileName) in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\DeleteCompareFiles.UserCode.cs:line 40&#13;&#10;   at AutoInstall.DeleteCompareFiles.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\DeleteCompareFiles.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\DeleteCompareFiles.UserCode.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

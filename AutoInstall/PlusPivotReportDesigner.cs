@@ -94,9 +94,13 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(3));
             Delay.Duration(20000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.HeavyBidPivotReports.CloseButton'.", repo.HBReportViewers.HeavyBidPivotReports.CloseButtonInfo, new RecordItemIndex(4));
-            Host.Current.CloseApplication(repo.HBReportViewers.HeavyBidPivotReports.CloseButton, new Duration(0));
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='HeavyBid Pivot Reports') on item 'HBReportViewers.HeavyBidPivotReports.TitleBar'.", repo.HBReportViewers.HeavyBidPivotReports.TitleBarInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HBReportViewers.HeavyBidPivotReports.TitleBarInfo, "Text", "HeavyBid Pivot Reports");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at 12;9.", repo.HBReportViewers.HeavyBidPivotReports.CloseButtonInfo, new RecordItemIndex(5));
+            repo.HBReportViewers.HeavyBidPivotReports.CloseButton.Click("12;9");
+            Delay.Milliseconds(200);
             
         }
 

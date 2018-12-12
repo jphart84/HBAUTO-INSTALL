@@ -136,9 +136,9 @@ rxversion="8.3">
 			</bindings>
 		</explicitdelayitem>
 		<WaitForRecordItem
-		enabled="False"
+		enabled="True"
 		matchname="Text"
-		matchvalue="hcss.com"
+		matchvalue="HB625"
 		optional="True"
 		searchpropertyid="e367998d-86c6-447f-98a7-be2994040de3"
 		waitaction="AttributeContains"
@@ -157,7 +157,7 @@ rxversion="8.3">
 		</WaitForRecordItem>
 		<validationitem
 		action="AttributeContains"
-		enabled="False"
+		enabled="True"
 		optional="True"
 		searchpropertyid="2558fef9-5944-4b2e-bde5-8c6b128b8b45">
 			<comment>
@@ -176,7 +176,7 @@ rxversion="8.3">
 				Text
 			</matchname>
 			<matchvalue>
-				help.hcss.com
+				HB625
 			</matchvalue>
 		</validationitem>
 		<WaitForRecordItem
@@ -392,7 +392,7 @@ y60R+lEX7FO+NwPZf0ANRuj9SrXs31pNZtfVQq4nq5emRhz3E2Eqdhf8NqZbAAAAAElFTkSuQmCC
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">
