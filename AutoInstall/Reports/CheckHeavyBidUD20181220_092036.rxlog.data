@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5d61d9e9ca0c024"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/20/2018 9:20:44 AM"
+		timestampiso="2018-12-20T15:20:44"
+		endtime="12/20/2018 9:20:56 AM"
+		timeoutfactor="1"
+		module="CheckHeavyBidUD">
+		<detail>
+			CheckHeavyBidUD
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.474"
+			timeRelativeToTestModuleStartTime="00:10.475"
+			timeWallClock="09:20:55"
+			time="00:10.474"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'EXCEL.exe' with arguments '%appdata%/HCSS/HeavyBid-UD.xml' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHeavyBidUD.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

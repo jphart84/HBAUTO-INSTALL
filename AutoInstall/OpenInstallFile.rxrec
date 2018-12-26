@@ -45,16 +45,12 @@ rxversion="8.3">
 				B.1
 			</comment>
 			<bindings>
-				<binding
-				target="WorkingDirectory"
-				variable="InstallLocation">
-				</binding>
 			</bindings>
 			<filename>
-				PullLatestInstall.bat
+				HeavyBidMaster_2018-11-07_14-42-40_Regression.msi
 			</filename>
 			<workingdir>
-				C:\Users\hayyaan.merchant\Downloads\HBInstallAuto1-master\HBInstallAuto1-master\Script
+				\\hbbuild\Installs\master
 			</workingdir>
 			<args>
 			</args>
@@ -64,7 +60,7 @@ rxversion="8.3">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

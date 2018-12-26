@@ -96,8 +96,8 @@ namespace AutoInstall
             Host.Local.RunApplication("runCostReport.bat", "", ScriptLocation, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
             
             CostReportExists();
             Delay.Milliseconds(0);

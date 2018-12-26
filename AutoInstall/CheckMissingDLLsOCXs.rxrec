@@ -28,84 +28,14 @@ rxversion="8.3">
 	</codegen>
 	<variables>
 		<var
-		id="442a3d90-24df-4f19-96fe-bb7293cac6df"
-		name="ScriptLocation">
-			\\hbtestserv\HeavyBidShare\HBDaily\InstallAutomation\Script\
+		id="22f653b1-83ed-4798-891e-198e424ff63f"
+		name="DLL">
+			ChilkatCert.dll
 		</var>
 	</variables>
 	<recorditems>
-		<runapprecorditem
-		enabled="False"
-		maximized="False"
-		optional="False">
-			<comment>
-				script to check DLL and OCX in HB against masterlist on V:
-			</comment>
-			<bindings>
-				<binding
-				target="WorkingDirectory"
-				variable="ScriptLocation">
-				</binding>
-			</bindings>
-			<filename>
-				runDLLcomparison.bat
-			</filename>
-			<workingdir>
-				V:\alex.kwie\Script
-			</workingdir>
-			<args>
-			</args>
-		</runapprecorditem>
-		<userrecorditem
-		classname="CheckMissingDLLsOCXs"
-		enabled="False"
-		isexternaltestmethod="False"
-		methodname="ValidateDLLComparison"
-		namespace="AutoInstall"
-		optional="True"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="f7a91878-145c-493d-9d0b-68bc25b65ae7">
-			</arguments>
-		</userrecorditem>
-		<userrecorditem
-		classname="CheckMissingDLLsOCXs"
-		enabled="False"
-		isexternaltestmethod="False"
-		methodname="ValidateDLLReportContent"
-		namespace="AutoInstall"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="fe47bd9f-1a07-4f6f-8409-491945a41cb9">
-			</arguments>
-		</userrecorditem>
-		<userrecorditem
-		classname="CheckMissingDLLsOCXs"
-		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidateDLLComparison"
-		namespace="AutoInstall"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="a0f14b15-9234-4e7b-b416-f6d5440773b6">
-			</arguments>
-		</userrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="100ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -113,12 +43,38 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<userrecorditem
+		classname="CheckMissingDLLsOCXs"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateDLLComparison"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f6b09d16-5cd3-462f-8ec2-8b1e6d916deb">
+				<argument
+				argname="FileName"
+				id="75983932-0654-48a8-9dc5-ffd522663682"
+				variable="DLL">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

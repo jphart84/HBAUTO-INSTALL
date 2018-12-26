@@ -41,6 +41,11 @@ rxversion="8.3">
 			name="HBReportPlus">
 			</smartfoldernode>
 			<testcase
+			datasource="BinFileExist"
+			id="054ec3d8-d627-4748-bcf2-d7343e226466"
+			name="CheckNewFiles">
+			</testcase>
+			<testcase
 			id="05d0f263-7c7b-4f54-8342-9631388d54dc"
 			name="BackupEstimateSystem">
 			</testcase>
@@ -101,10 +106,10 @@ rxversion="8.3">
 			type="Recording">
 				<databinding>
 					<var
-					dataname="ScriptLocation"
-					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
-					variableid="442a3d90-24df-4f19-96fe-bb7293cac6df"
-					variablename="ScriptLocation">
+					dataname="DLLOCXFiles"
+					datasourceid="3003d59e-33a0-4868-ac67-ae527b0b1867"
+					variableid="22f653b1-83ed-4798-891e-198e424ff63f"
+					variablename="DLL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -210,6 +215,7 @@ rxversion="8.3">
 			name="InstallCrystal">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="27a3028c-8608-4777-bbd9-be2ad7ebfe13"
 			name="DeleteReports"
 			ref="2767274b-a6dd-4c9f-8e2e-539006b6590a"
@@ -448,6 +454,7 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="52f8bfbc-20ef-43ff-bbb6-5684ad85b677"
 			name="RunSpreadsheetCalculations"
 			ref="876a05d5-6364-4981-8a07-566fcef62b75"
@@ -471,6 +478,10 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="5791c81a-88ac-4cc5-9a93-a5913d7ea939"
+			name="ValidateDefaultPreference">
+			</testcase>
 			<testcase
 			datasource="HBLocation"
 			id="59cf7465-c849-4b31-82c4-30d6c0747528"
@@ -699,6 +710,16 @@ rxversion="8.3">
 			ref="c221907e-09d3-4656-b4d7-b53d220313ca"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="8f1005ca-3b58-493f-a229-c628646e2a23"
+			name="HeavyBidPostInstall">
+			</testcase>
+			<testmodule
+			id="905e23a3-5f58-4273-9a57-c4c42dfc09bb"
+			name="postInstallPopUp"
+			ref="eefa1164-eca3-4847-b2cd-6da314952537"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="92ad197e-f908-4139-afb9-0c09ea5d0c04"
 			name="OpenExistingEstimate"
@@ -799,6 +820,20 @@ rxversion="8.3">
 			id="a6f7ae50-dc48-4177-97ab-f056fadf2423"
 			name="ValidateFunctionalityHB">
 			</smartfoldernode>
+			<testmodule
+			id="a6f8fa6b-37fc-4202-b84e-cbbe2442a561"
+			name="CheckNewFiles"
+			ref="b9f439a3-5184-4ea6-98d9-c5e278302c1a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="FileName"
+					datasourceid="f37d29ee-d3ce-4325-8c38-4177957c5a81"
+					variableid="95bfc4b1-c90a-4d36-acc2-ffa5029c8cca"
+					variablename="FileName">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="a86a90e0-dbe8-4c52-bc18-880baee9c3a1"
 			name="setup">
@@ -820,6 +855,7 @@ rxversion="8.3">
 			name="InstallSQL">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="ad5f5d1c-8170-47e2-a931-960619a8e4e9"
 			name="DeleteCompareFiles"
 			ref="eb5cca40-0426-49a9-b1ca-b4ca441b9353"
@@ -1014,6 +1050,7 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d284b2d0-4e0e-47fc-b9b7-b98130589130"
 			name="OpenExistingEstimate"
 			ref="9beb9865-cef9-4f02-bb97-99994fd79861"
@@ -1207,6 +1244,12 @@ rxversion="8.3">
 			id="e85c240a-6f3f-46cd-aaa3-23a906084d7c"
 			name="TestNavigationLink">
 			</testcase>
+			<testmodule
+			id="e8f57adc-4f61-43fe-b485-eda19afc9e96"
+			name="ValidateDefaultPreference"
+			ref="92201f53-3f07-451d-b330-2d1b3ccd1b6b"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="HBLocation"
 			id="eadc5bef-9c56-48a2-b7b6-cec597079296"
@@ -1249,7 +1292,7 @@ rxversion="8.3">
 			showinvisiblechars="True">
 			</testsuite>
 			<testcase
-			datasource="HBLocation"
+			datasource="DLL_OCX"
 			id="f1b43b6c-fed6-4dbd-a2d1-84a7432b46cf"
 			name="CheckMissingDLLs">
 			</testcase>
@@ -1415,6 +1458,14 @@ rxversion="8.3">
 								name="ReadyToInstallSQL">
 								</testmodule>
 							</testcase>
+							<testcase
+							id="8f1005ca-3b58-493f-a229-c628646e2a23"
+							name="HeavyBidPostInstall">
+								<testmodule
+								id="905e23a3-5f58-4273-9a57-c4c42dfc09bb"
+								name="postInstallPopUp">
+								</testmodule>
+							</testcase>
 						</smartfoldernode>
 						<smartfoldernode
 						id="e2647272-bd9d-4014-811f-c32ebdcd6137"
@@ -1452,6 +1503,14 @@ rxversion="8.3">
 									<testmodule
 									id="429a4229-6e64-46d0-b24c-148691a5268b"
 									name="Compare17Folders">
+									</testmodule>
+								</testcase>
+								<testcase
+								id="054ec3d8-d627-4748-bcf2-d7343e226466"
+								name="CheckNewFiles">
+									<testmodule
+									id="a6f8fa6b-37fc-4202-b84e-cbbe2442a561"
+									name="CheckNewFiles">
 									</testmodule>
 								</testcase>
 								<teardown
@@ -1600,6 +1659,14 @@ rxversion="8.3">
 									<testmodule
 									id="b06267ff-0d8e-4ddd-886f-e7977dd6692d"
 									name="WhatsNewButton">
+									</testmodule>
+								</testcase>
+								<testcase
+								id="5791c81a-88ac-4cc5-9a93-a5913d7ea939"
+								name="ValidateDefaultPreference">
+									<testmodule
+									id="e8f57adc-4f61-43fe-b485-eda19afc9e96"
+									name="ValidateDefaultPreference">
 									</testmodule>
 								</testcase>
 								<smartfoldernode
@@ -1999,6 +2066,23 @@ rxversion="8.3">
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
+		filename="V:\hayyaan.merchant\FileName.xlsx"
+		id="f37d29ee-d3ce-4325-8c38-4177957c5a81"
+		includefile="Unchecked"
+		lastknownrowcount="92"
+		name="BinFileExist"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sheet1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					FileName
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
 		id="b489e916-dd3d-4045-b7c1-d5e7404839d8"
 		lastknownrowcount="1"
 		name="CompanyInfo"
@@ -2067,6 +2151,23 @@ rxversion="8.3">
 					</td>
 				</tr>
 			</table>
+		</DataSource>
+		<DataSource
+		filename="V:\hayyaan.merchant\DLL-OCX files.xlsx"
+		id="3003d59e-33a0-4868-ac67-ae527b0b1867"
+		includefile="Unchecked"
+		lastknownrowcount="16"
+		name="DLL_OCX"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sheet1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					DLLOCXFiles
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
 		</DataSource>
 		<DataSource
 		id="49ffcb08-922f-4991-87bb-3b85517c7bd1"
@@ -2415,6 +2516,27 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="04dfa699-f965-475f-986a-37b2cb22ef8d">
+			</testcontainer>
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae">
+			</testcontainer>
+			<testcontainer
+			id="378888a4-f9ca-424a-8655-56a5032d02ba">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			</testcontainer>
+			<testcontainer
+			id="d6b2a929-96d8-4811-a0c5-d2081a4c6f46">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

@@ -1643,12 +1643,45 @@ JooofUF/kalt/wAe0X+4P5VLRRTe5K2CiiikMKKKKACiiigAooooAKKKKACiiigAooooAQ0HpRRQ
 e2WaiikB/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="859e3a0c-e7b0-430f-8378-fbbb081bfc47"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c9475558-9c96-43c5-b948-4269fdd17c67"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'Programs and Features']/?/?/button[@text='Close']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

@@ -208,6 +208,18 @@
       <UserCode>true</UserCode>
       <id>185e87bd-c725-43f1-a05d-5d4961ffca97</id>
     </Compile>
+    <Compile Include="CheckHeavyBidUD.cs">
+      <BoundTo>4d2ac4a9-b550-4949-b58a-7e8d8822ef09</BoundTo>
+      <DependentUpon>CheckHeavyBidUD.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e8a22824-108e-464d-a632-1a5d1df8fb76</id>
+    </Compile>
+    <Compile Include="CheckHeavyBidUD.UserCode.cs">
+      <BoundTo>4d2ac4a9-b550-4949-b58a-7e8d8822ef09</BoundTo>
+      <DependentUpon>CheckHeavyBidUD.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>477dc562-b37b-4793-952f-4c6a590b9068</id>
+    </Compile>
     <Compile Include="CheckMissingDLLsOCXs.cs">
       <BoundTo>98540fd6-53db-4c7e-85f3-9e725153cd6b</BoundTo>
       <DependentUpon>CheckMissingDLLsOCXs.rxrec</DependentUpon>
@@ -219,6 +231,18 @@
       <DependentUpon>CheckMissingDLLsOCXs.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>a1a2136b-f270-4d37-abc8-91cfb6f3bdce</id>
+    </Compile>
+    <Compile Include="CheckNewFiles.cs">
+      <BoundTo>496e035d-bf19-42fd-a341-42772932e774</BoundTo>
+      <DependentUpon>CheckNewFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e9497e01-4f17-479a-bc87-14a2c0bfab2b</id>
+    </Compile>
+    <Compile Include="CheckNewFiles.UserCode.cs">
+      <BoundTo>496e035d-bf19-42fd-a341-42772932e774</BoundTo>
+      <DependentUpon>CheckNewFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9eee778-3989-4e2b-b1e1-266cfd66b0be</id>
     </Compile>
     <Compile Include="ChiefEstimatorAnalysisReport.cs">
       <BoundTo>e0beca2c-6a84-4d5f-90fa-e1f828b0066f</BoundTo>
@@ -616,6 +640,18 @@
       <UserCode>true</UserCode>
       <id>9cc54051-0061-4377-8a53-a18784b8837c</id>
     </Compile>
+    <Compile Include="postInstallPopUp.cs">
+      <BoundTo>b214fb51-274b-4ce6-b79d-fd1aff7a9a0c</BoundTo>
+      <DependentUpon>postInstallPopUp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33b11b7d-5085-4481-9ac4-3f1d9f91dea9</id>
+    </Compile>
+    <Compile Include="postInstallPopUp.UserCode.cs">
+      <BoundTo>b214fb51-274b-4ce6-b79d-fd1aff7a9a0c</BoundTo>
+      <DependentUpon>postInstallPopUp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ee7a7709-7390-4aa9-baad-f2edc9f408b3</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>0c551e5a-3f7e-44ca-97ac-2d7c683276a9</id>
     </Compile>
@@ -979,6 +1015,18 @@
       <UserCode>true</UserCode>
       <id>0d5db3e1-2206-43bb-9ff2-e2c75d01058c</id>
     </Compile>
+    <Compile Include="ValidateDefaultPreference.cs">
+      <BoundTo>c4aaf68a-78d7-424f-96b6-ac29f3a088e9</BoundTo>
+      <DependentUpon>ValidateDefaultPreference.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d4d795d-84b8-4ff3-a674-96cb7b012c96</id>
+    </Compile>
+    <Compile Include="ValidateDefaultPreference.UserCode.cs">
+      <BoundTo>c4aaf68a-78d7-424f-96b6-ac29f3a088e9</BoundTo>
+      <DependentUpon>ValidateDefaultPreference.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a74e6450-b363-4987-b7ea-92c1fcdd9ff3</id>
+    </Compile>
     <Compile Include="ValidateEstimateRecapOutput.cs">
       <BoundTo>c27a4658-9477-4969-88e9-7b6bc760eba7</BoundTo>
       <DependentUpon>ValidateEstimateRecapOutput.rxrec</DependentUpon>
@@ -1246,10 +1294,20 @@
       <id>f4e3e7a1-d15a-4a92-aef6-01ab6a7bd7d4</id>
       <recordtableid>49c14881-6b01-47a9-a300-59c912a2c2cf</recordtableid>
     </None>
+    <None Include="CheckHeavyBidUD.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>4d2ac4a9-b550-4949-b58a-7e8d8822ef09</id>
+      <recordtableid>a01cb096-af7e-4282-89ec-d2ec8f974931</recordtableid>
+    </None>
     <None Include="CheckMissingDLLsOCXs.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>98540fd6-53db-4c7e-85f3-9e725153cd6b</id>
       <recordtableid>a6f15c91-1e6d-43df-ab08-61a8a5bb251d</recordtableid>
+    </None>
+    <None Include="CheckNewFiles.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>496e035d-bf19-42fd-a341-42772932e774</id>
+      <recordtableid>b9f439a3-5184-4ea6-98d9-c5e278302c1a</recordtableid>
     </None>
     <None Include="ChiefEstimatorAnalysisReport.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
@@ -1421,6 +1479,11 @@
       <id>c941561c-1ac0-43c1-8e3c-b645fd680afb</id>
       <recordtableid>93bcf539-70b4-4c3d-ae01-ed7828f6ed04</recordtableid>
     </None>
+    <None Include="postInstallPopUp.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>b214fb51-274b-4ce6-b79d-fd1aff7a9a0c</id>
+      <recordtableid>eefa1164-eca3-4847-b2cd-6da314952537</recordtableid>
+    </None>
     <None Include="ReadyToInstallCrystal.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>40dcc5ee-4584-468e-a41a-dd338629e108</id>
@@ -1565,6 +1628,11 @@
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>05b7b23c-5258-45f3-bb83-af2fd9d45782</id>
       <recordtableid>c72ff7a6-47fa-4473-8ec4-5be94722d871</recordtableid>
+    </None>
+    <None Include="ValidateDefaultPreference.rxrec">
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
+      <id>c4aaf68a-78d7-424f-96b6-ac29f3a088e9</id>
+      <recordtableid>92201f53-3f07-451d-b330-2d1b3ccd1b6b</recordtableid>
     </None>
     <None Include="ValidateEstimateRecapOutput.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

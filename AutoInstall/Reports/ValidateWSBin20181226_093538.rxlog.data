@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1130e3ee6bddd154"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/26/2018 9:35:42 AM"
+		timestampiso="2018-12-26T15:35:42"
+		endtime="12/26/2018 9:35:47 AM"
+		timeoutfactor="1"
+		module="ValidateWSBin">
+		<detail>
+			ValidateWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.265"
+			timeRelativeToTestModuleStartTime="00:05.265"
+			timeWallClock="09:35:47"
+			time="00:05.265"
+			level="Success"
+			category="Folder Exist">
+			<message>
+				Success. \BIN does not exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateWSBin.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -130,12 +130,31 @@ namespace AutoInstall
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Text957' at UpperCenter.", repo.HeavyBidServerSetup.Text957Info, new RecordItemIndex(6));
+            repo.HeavyBidServerSetup.Text957.Click(Location.UpperCenter);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'GoogleChrome.ArticleList'", repo.GoogleChrome.ArticleListInfo, new ActionTimeout(15000), new RecordItemIndex(7));
+            repo.GoogleChrome.ArticleListInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Article List') on item 'GoogleChrome.ArticleList'.", repo.GoogleChrome.ArticleListInfo, new RecordItemIndex(8));
+            Validate.AttributeEqual(repo.GoogleChrome.ArticleListInfo, "Text", "Article List");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'help.hcss') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(9));
+            Validate.AttributeRegex(repo.GoogleChrome.AddressBarInfo, "Text", new Regex("help.hcss"));
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome.Pane1' at 1895;7.", repo.GoogleChrome.Pane1Info, new RecordItemIndex(10));
+            repo.GoogleChrome.Pane1.Click("1895;7");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Buttons.NextButton' at Center.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidServerSetup.Buttons.NextButton' at Center.", repo.HeavyBidServerSetup.Buttons.NextButtonInfo, new RecordItemIndex(12));
             repo.HeavyBidServerSetup.Buttons.NextButton.Click();
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(0);
             
         }
 

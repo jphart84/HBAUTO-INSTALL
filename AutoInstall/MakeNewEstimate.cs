@@ -168,6 +168,9 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.NewEstimateRelated.NewEstimate.FinishButton.Click();
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(12));
+            Delay.Duration(15000, false);
+            
             ValidateEstimateExists();
             Delay.Milliseconds(0);
             

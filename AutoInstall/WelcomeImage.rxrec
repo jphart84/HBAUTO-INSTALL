@@ -92,7 +92,7 @@ rxversion="8.3">
 			</info>
 		</WaitForRecordItem>
 		<closeapprecorditem
-		enabled="True"
+		enabled="False"
 		graceperiod="10000ms"
 		method="CloseWindow"
 		optional="False"
@@ -255,12 +255,174 @@ y60R+lEX7FO+NwPZf0ANRuj9SrXs31pNZtfVQq4nq5emRhz3E2Eqdhf8NqZbAAAAAElFTkSuQmCC
 				</path>
 			</info>
 		</closeapprecorditem>
+		<keyitem
+		action="Press"
+		data="W, Control"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		scancode="17"
+		searchpropertyid="51b461d1-eaec-4139-9bf2-c96db01ef4b6"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keyitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
+		loc="1893;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="db47fe18-6435-4def-90fb-e446153f3d4d"
+		sx="1893"
+		sy="7"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ed0ac78b-7c08-49ce-b0f9-94cd1b71a380"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="container"
+				rect="0,0,1920,71"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Pane
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@processname~'chrome']/container[@accessiblename='New Tab - Google Chrome']/container/container[2]/container[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="02f5c6fa-a12f-43e5-b3b0-aedaf9d47623">
+				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
+PoaAFopMn0NGT6GgBaKTJ9DRk+hoAWikyfQ0ZPoaAFopMn0NGT6GgBaKTJ9DRk+hoAWikyfQ0ZPo
+aAFopMn0NFAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFBOBk0V
+DeI0lpKiDLFTx6+1ABHdwyOFVjlvukoQG+hIwfwqaqMl0rywrA8T/MAYthLr6nr8uPcVFCrObctN
+MfMLhv3hGQM4+n4UAadRtPGrlC3zAgYwep6Vlyzt9liUu2/yiQTMUJPtjlj7VM0jPKu5iRviI545
+FAnoaVBOBk0Uj/cb6UMYkbrLGsiHKsAQfUU6sdN32MkSSL5dmjqFYgA4PP6VNLIYDcLvkK7YzzIR
+gsSCc84H06U2gNKisqOYmJg8pWET4ZhKThdoI+Y84z396QyuIh+8Jh81wXeYp9BuAzSA1qKyZJnE
+MTvOCdhKgSsm7ngg4wxxjgj+daynKg4IyOhoAKbK/lxO+M7VJx64p1Nl3+U/l/f2nb9e1AFL+0v9
+E8/yf49m3d7Z9Ke1/tlgTyv9aqnO7pn8KZ/xMPsn/Tbf/s/dx+XWnt9t82Db9zavmfd69/8AIoAu
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADJ
+YzIoAkeMg5DJjP68UQxCGPaCW5JJbqSepp9FABRRRQAU2VPMidM43KRn0zTqKAKH9m/6J5Hnfx79
+232xjrT2sN0sD+b/AKpVGNvXH41cooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="11b61090-9075-421f-b761-0520957f8b67">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e7acade6-bed6-418d-9687-3159f4910c60"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname~'chrome']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

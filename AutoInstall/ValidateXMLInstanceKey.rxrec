@@ -146,7 +146,7 @@ rxversion="8.3">
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem
-		enabled="True"
+		enabled="False"
 		graceperiod="10000ms"
 		method="CloseWindow"
 		optional="True"
@@ -163,6 +163,410 @@ rxversion="8.3">
 				</path>
 			</info>
 		</closeapprecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e141736c-1b79-4d7b-a81d-600be2f5d03e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d61f02de-d569-4686-adfd-88ab15c48d7b"
+			sourcename="RepositoryEditor">
+				<path>
+					/?/?/element[@name~'^Microsoft\ Office\ Activati']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a37fdc26-7c5d-49fa-897b-8142b16a5249"
+		sx="1169"
+		sy="720"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="45bd0353-eca4-48b3-85dc-f6de61070fbb"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="True"
+				index="16"
+				prefcap="button"
+				rect="1126,707,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accesskey"
+					type="System.String">
+						ALT+C
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						NetUIButton
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4452
+					</attribute>
+				</element>
+				<path>
+					/?/?/element[@name~'^Microsoft\ Office\ Activati']/button[@name='Close']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a9a6f8e3-85e9-4ad7-b7ce-41872b5eca57">
+				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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3b1facdf-c473-4a54-b72b-a874a4787f01">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d61f02de-d569-4686-adfd-88ab15c48d7b"
+			sourcename="RepositoryEditor">
+				<path>
+					/?/?/element[@name~'^Microsoft\ Office\ Activati']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="CenterRight"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a92238df-2cb1-4f5d-a1f9-0b7dcc0c982b"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57d66d6f-d1ce-4a86-870a-5a7c182d1117"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="4"
+				prefcap="button"
+				rect="1774,0,146,22"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						NetUIAppFrameHelper
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="helptext"
+					type="System.String">
+						Closes the window
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						3252
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='EXCEL']/element[2]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close' and @classname='NetUIAppFrameHelper']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="b3eefd56-631a-4ae2-80eb-e6c38f8bb31d"
+		sx="959"
+		sy="551"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="76d2eed8-acf8-4b5f-8ade-702863f4ea61"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="922,540,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Don't Save
+					</attribute>
+					<attribute
+					name="accesskey"
+					type="System.String">
+						ALT+n
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						NetUIButton
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Don't Save
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						6804
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Microsoft Excel']//button[@name='Don''t Save']
+				</path>
+			</info>
+		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -261,7 +665,7 @@ rxversion="8.3">
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

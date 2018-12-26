@@ -42,10 +42,9 @@ namespace AutoInstall
         AutoInstallRepositoryFolders.CrystalInstallationFolder _crystalinstallation;
         AutoInstallRepositoryFolders.SQLServerInstallationFolder _sqlserverinstallation;
         AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder _hcssheavybidreportspluspivotreportsd;
-        AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder _thekingsavatarchapter518webnove;
         AutoInstallRepositoryFolders.RanorexStudioProjectsAppFolder _ranorexstudioprojects;
-        AutoInstallRepositoryFolders.ExplorerAppFolder _explorer;
         AutoInstallRepositoryFolders.LinesFormAppFolder _linesform;
+        AutoInstallRepositoryFolders.MicrosoftWindowsShellExperienceHostAppFolder _microsoftwindowsshellexperiencehost;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutoInstallRepository element repository.
@@ -77,10 +76,9 @@ namespace AutoInstall
             _crystalinstallation = new AutoInstallRepositoryFolders.CrystalInstallationFolder(this);
             _sqlserverinstallation = new AutoInstallRepositoryFolders.SQLServerInstallationFolder(this);
             _hcssheavybidreportspluspivotreportsd = new AutoInstallRepositoryFolders.HCSSHeavyBidReportsPlusPivotReportsDAppFolder(this);
-            _thekingsavatarchapter518webnove = new AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder(this);
             _ranorexstudioprojects = new AutoInstallRepositoryFolders.RanorexStudioProjectsAppFolder(this);
-            _explorer = new AutoInstallRepositoryFolders.ExplorerAppFolder(this);
             _linesform = new AutoInstallRepositoryFolders.LinesFormAppFolder(this);
+            _microsoftwindowsshellexperiencehost = new AutoInstallRepositoryFolders.MicrosoftWindowsShellExperienceHostAppFolder(this);
         }
 
 #region Variables
@@ -271,15 +269,6 @@ namespace AutoInstall
         }
 
         /// <summary>
-        /// The TheKingsAvatarChapter518Webnove folder.
-        /// </summary>
-        [RepositoryFolder("03099fc5-2495-4c70-a226-53ebd95a9a2f")]
-        public virtual AutoInstallRepositoryFolders.TheKingsAvatarChapter518WebnoveAppFolder TheKingsAvatarChapter518Webnove
-        {
-            get { return _thekingsavatarchapter518webnove; }
-        }
-
-        /// <summary>
         /// The RanorexStudioProjects folder.
         /// </summary>
         [RepositoryFolder("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
@@ -289,21 +278,21 @@ namespace AutoInstall
         }
 
         /// <summary>
-        /// The Explorer folder.
-        /// </summary>
-        [RepositoryFolder("d7dc9781-3b44-4ae6-9241-b92b366af112")]
-        public virtual AutoInstallRepositoryFolders.ExplorerAppFolder Explorer
-        {
-            get { return _explorer; }
-        }
-
-        /// <summary>
         /// The LinesForm folder.
         /// </summary>
         [RepositoryFolder("bc2a4a10-85b4-4ac4-b8e2-db9c5aa62d3d")]
         public virtual AutoInstallRepositoryFolders.LinesFormAppFolder LinesForm
         {
             get { return _linesform; }
+        }
+
+        /// <summary>
+        /// The MicrosoftWindowsShellExperienceHost folder.
+        /// </summary>
+        [RepositoryFolder("6520dcbb-cb42-4ba8-b07e-90c62a996581")]
+        public virtual AutoInstallRepositoryFolders.MicrosoftWindowsShellExperienceHostAppFolder MicrosoftWindowsShellExperienceHost
+        {
+            get { return _microsoftwindowsshellexperiencehost; }
         }
     }
 
@@ -323,6 +312,7 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.TextContainersForValidationFolder _textcontainersforvalidation;
             AutoInstallRepositoryFolders.InstallTypesFolder _installtypes;
             RepoItemInfo _iacceptthetermsinthelicenseagreemInfo;
+            RepoItemInfo _text957Info;
 
             /// <summary>
             /// Creates a new HeavyBidServerSetup  folder.
@@ -334,6 +324,7 @@ namespace AutoInstall
                 _textcontainersforvalidation = new AutoInstallRepositoryFolders.TextContainersForValidationFolder(this);
                 _installtypes = new AutoInstallRepositoryFolders.InstallTypesFolder(this);
                 _iacceptthetermsinthelicenseagreemInfo = new RepoItemInfo(this, "IAcceptTheTermsInTheLicenseAgreem", "checkbox[@text~'terms']", 30000, null, "f13cd8b9-49c3-44c9-a77a-a4beb262908f");
+                _text957Info = new RepoItemInfo(this, "Text957", "text[@accessiblename='How to install/update HeavyBid']", 30000, null, "30cae964-aa25-45b9-a35a-94e8977179e0");
             }
 
             /// <summary>
@@ -381,6 +372,30 @@ namespace AutoInstall
                 get
                 {
                     return _iacceptthetermsinthelicenseagreemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text957 item.
+            /// </summary>
+            [RepositoryItem("30cae964-aa25-45b9-a35a-94e8977179e0")]
+            public virtual Ranorex.Text Text957
+            {
+                get
+                {
+                    return _text957Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text957 item info.
+            /// </summary>
+            [RepositoryItemInfo("30cae964-aa25-45b9-a35a-94e8977179e0")]
+            public virtual RepoItemInfo Text957Info
+            {
+                get
+                {
+                    return _text957Info;
                 }
             }
 
@@ -1494,15 +1509,21 @@ namespace AutoInstall
         {
             RepoItemInfo _addressbarInfo;
             RepoItemInfo _tabInfo;
+            RepoItemInfo _paneInfo;
+            RepoItemInfo _articlelistInfo;
+            RepoItemInfo _pane1Info;
 
             /// <summary>
             /// Creates a new GoogleChrome  folder.
             /// </summary>
             public GoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("GoogleChrome", "/form[@processname~'chrome']", parentFolder, 30000, null, true, "e7acade6-bed6-418d-9687-3159f4910c60", "")
+                    base("GoogleChrome", "/form[@processname~'chrome']", parentFolder, 5000, null, true, "e7acade6-bed6-418d-9687-3159f4910c60", "")
             {
                 _addressbarInfo = new RepoItemInfo(this, "AddressBar", ".//text[@accessiblename='Address and search bar']", 30000, null, "668646e4-6280-41bf-b692-57ae40a528b2");
                 _tabInfo = new RepoItemInfo(this, "Tab", ".//tabpage[@selected='True']", 30000, null, "7c40f878-c55b-4e41-9ad4-b3b65419a942");
+                _paneInfo = new RepoItemInfo(this, "Pane", ".//container/container[2]/container[2]", 30000, null, "ed0ac78b-7c08-49ce-b0f9-94cd1b71a380");
+                _articlelistInfo = new RepoItemInfo(this, "ArticleList", "container[@accessiblename~'^Article\\ List\\ -\\ Google\\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']", 30000, null, "adcb9a85-6b4b-40e8-bfd6-fe704a8111fe");
+                _pane1Info = new RepoItemInfo(this, "Pane1", "container[@accessiblename~'^Article\\ List\\ -\\ Google\\ Chr']/container/container[2]/container[1]", 30000, null, "1b04f890-88f5-421b-9c68-97ef46228224");
             }
 
             /// <summary>
@@ -1576,6 +1597,78 @@ namespace AutoInstall
                     return _tabInfo;
                 }
             }
+
+            /// <summary>
+            /// The Pane item.
+            /// </summary>
+            [RepositoryItem("ed0ac78b-7c08-49ce-b0f9-94cd1b71a380")]
+            public virtual Ranorex.Container Pane
+            {
+                get
+                {
+                    return _paneInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pane item info.
+            /// </summary>
+            [RepositoryItemInfo("ed0ac78b-7c08-49ce-b0f9-94cd1b71a380")]
+            public virtual RepoItemInfo PaneInfo
+            {
+                get
+                {
+                    return _paneInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ArticleList item.
+            /// </summary>
+            [RepositoryItem("adcb9a85-6b4b-40e8-bfd6-fe704a8111fe")]
+            public virtual Ranorex.Text ArticleList
+            {
+                get
+                {
+                    return _articlelistInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ArticleList item info.
+            /// </summary>
+            [RepositoryItemInfo("adcb9a85-6b4b-40e8-bfd6-fe704a8111fe")]
+            public virtual RepoItemInfo ArticleListInfo
+            {
+                get
+                {
+                    return _articlelistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pane1 item.
+            /// </summary>
+            [RepositoryItem("1b04f890-88f5-421b-9c68-97ef46228224")]
+            public virtual Ranorex.Container Pane1
+            {
+                get
+                {
+                    return _pane1Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pane1 item info.
+            /// </summary>
+            [RepositoryItemInfo("1b04f890-88f5-421b-9c68-97ef46228224")]
+            public virtual RepoItemInfo Pane1Info
+            {
+                get
+                {
+                    return _pane1Info;
+                }
+            }
         }
 
         /// <summary>
@@ -1589,6 +1682,7 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.ButtonsFolder3 _buttons;
             RepoItemInfo _xtptoolbarInfo;
             RepoItemInfo _element3244Info;
+            RepoItemInfo _preferencesInfo;
 
             /// <summary>
             /// Creates a new HeavyBidApp  folder.
@@ -1601,6 +1695,7 @@ namespace AutoInstall
                 _buttons = new AutoInstallRepositoryFolders.ButtonsFolder3(this);
                 _xtptoolbarInfo = new RepoItemInfo(this, "XTPToolBar", "element[@controlid='59419']/element[2]", 30000, null, "92495397-6ba9-4eb8-92bd-f9adb754e2ef");
                 _element3244Info = new RepoItemInfo(this, "Element3244", "element[@controlid='3244']", 30000, null, "465591da-c980-449d-96d9-ae986c05b864");
+                _preferencesInfo = new RepoItemInfo(this, "Preferences", ".////button[@accessiblename='Preferences']", 30000, null, "f253a25e-f149-4a9a-aaf0-4ee6247f4af4");
             }
 
             /// <summary>
@@ -1672,6 +1767,30 @@ namespace AutoInstall
                 get
                 {
                     return _element3244Info;
+                }
+            }
+
+            /// <summary>
+            /// The Preferences item.
+            /// </summary>
+            [RepositoryItem("f253a25e-f149-4a9a-aaf0-4ee6247f4af4")]
+            public virtual Ranorex.Button Preferences
+            {
+                get
+                {
+                    return _preferencesInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Preferences item info.
+            /// </summary>
+            [RepositoryItemInfo("f253a25e-f149-4a9a-aaf0-4ee6247f4af4")]
+            public virtual RepoItemInfo PreferencesInfo
+            {
+                get
+                {
+                    return _preferencesInfo;
                 }
             }
 
@@ -4471,6 +4590,12 @@ namespace AutoInstall
             RepoItemInfo _okbuttonInfo;
             RepoItemInfo _closeInfo;
             RepoItemInfo _cancelInfo;
+            RepoItemInfo _estimateentryInfo;
+            RepoItemInfo _copynotesInfo;
+            RepoItemInfo _usesourcematerialratesInfo;
+            RepoItemInfo _outlineInfo;
+            RepoItemInfo _externalprogramsInfo;
+            RepoItemInfo _useprimaveraintegrationapiwebservicInfo;
 
             /// <summary>
             /// Creates a new ListOfEstimatesPopup  folder.
@@ -4482,6 +4607,12 @@ namespace AutoInstall
                 _okbuttonInfo = new RepoItemInfo(this, "OKButton", ".//button[@text~'OK']", 30000, null, "40be3ffb-ecab-442d-9710-36a7c66920fe");
                 _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Close']", 30000, null, "53c2d8d9-d2c4-40b3-aa15-2d81d0c0efc5");
                 _cancelInfo = new RepoItemInfo(this, "Cancel", "element[@controlid='2376']/?/?/button[@accessiblename='Cancel']", 30000, null, "ea46238a-d60b-4249-89e0-f10e02abb1a0");
+                _estimateentryInfo = new RepoItemInfo(this, "EstimateEntry", ".//treeitem[@accessiblename='Estimate Preferences']/treeitem[@accessiblename='Estimate Entry']", 30000, null, "3b0a7374-ab43-41ec-bca3-88e4ca5ccf93");
+                _copynotesInfo = new RepoItemInfo(this, "CopyNotes", ".////checkbox[@text='Copy Notes']", 30000, null, "1375413e-139f-45c1-bb51-eb92b1a2981e");
+                _usesourcematerialratesInfo = new RepoItemInfo(this, "UseSourceMaterialRates", ".////checkbox[@text='Use Source Material Rates']", 30000, null, "e70345d4-6cd9-4ba9-bb24-2e0f9cc8f80a");
+                _outlineInfo = new RepoItemInfo(this, "Outline", "?/?/tree[@accessiblerole='Outline']", 30000, null, "37092a98-361d-4f6f-a2eb-8b6abeb26c4a");
+                _externalprogramsInfo = new RepoItemInfo(this, "ExternalPrograms", ".//treeitem[@accessiblename='User Preferences']/treeitem[@accessiblename='External Programs']", 30000, null, "1e3837fc-c30d-4bd9-9c37-3eb5803edbcd");
+                _useprimaveraintegrationapiwebservicInfo = new RepoItemInfo(this, "UsePrimaveraIntegrationAPIWebServic", ".//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']", 30000, null, "d86e7718-5fc7-4ec3-b712-8502d4ea5ff2");
             }
 
             /// <summary>
@@ -4601,6 +4732,150 @@ namespace AutoInstall
                 get
                 {
                     return _cancelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EstimateEntry item.
+            /// </summary>
+            [RepositoryItem("3b0a7374-ab43-41ec-bca3-88e4ca5ccf93")]
+            public virtual Ranorex.TreeItem EstimateEntry
+            {
+                get
+                {
+                    return _estimateentryInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EstimateEntry item info.
+            /// </summary>
+            [RepositoryItemInfo("3b0a7374-ab43-41ec-bca3-88e4ca5ccf93")]
+            public virtual RepoItemInfo EstimateEntryInfo
+            {
+                get
+                {
+                    return _estimateentryInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CopyNotes item.
+            /// </summary>
+            [RepositoryItem("1375413e-139f-45c1-bb51-eb92b1a2981e")]
+            public virtual Ranorex.CheckBox CopyNotes
+            {
+                get
+                {
+                    return _copynotesInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CopyNotes item info.
+            /// </summary>
+            [RepositoryItemInfo("1375413e-139f-45c1-bb51-eb92b1a2981e")]
+            public virtual RepoItemInfo CopyNotesInfo
+            {
+                get
+                {
+                    return _copynotesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UseSourceMaterialRates item.
+            /// </summary>
+            [RepositoryItem("e70345d4-6cd9-4ba9-bb24-2e0f9cc8f80a")]
+            public virtual Ranorex.CheckBox UseSourceMaterialRates
+            {
+                get
+                {
+                    return _usesourcematerialratesInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UseSourceMaterialRates item info.
+            /// </summary>
+            [RepositoryItemInfo("e70345d4-6cd9-4ba9-bb24-2e0f9cc8f80a")]
+            public virtual RepoItemInfo UseSourceMaterialRatesInfo
+            {
+                get
+                {
+                    return _usesourcematerialratesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Outline item.
+            /// </summary>
+            [RepositoryItem("37092a98-361d-4f6f-a2eb-8b6abeb26c4a")]
+            public virtual Ranorex.Tree Outline
+            {
+                get
+                {
+                    return _outlineInfo.CreateAdapter<Ranorex.Tree>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Outline item info.
+            /// </summary>
+            [RepositoryItemInfo("37092a98-361d-4f6f-a2eb-8b6abeb26c4a")]
+            public virtual RepoItemInfo OutlineInfo
+            {
+                get
+                {
+                    return _outlineInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ExternalPrograms item.
+            /// </summary>
+            [RepositoryItem("1e3837fc-c30d-4bd9-9c37-3eb5803edbcd")]
+            public virtual Ranorex.TreeItem ExternalPrograms
+            {
+                get
+                {
+                    return _externalprogramsInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ExternalPrograms item info.
+            /// </summary>
+            [RepositoryItemInfo("1e3837fc-c30d-4bd9-9c37-3eb5803edbcd")]
+            public virtual RepoItemInfo ExternalProgramsInfo
+            {
+                get
+                {
+                    return _externalprogramsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UsePrimaveraIntegrationAPIWebServic item.
+            /// </summary>
+            [RepositoryItem("d86e7718-5fc7-4ec3-b712-8502d4ea5ff2")]
+            public virtual Ranorex.CheckBox UsePrimaveraIntegrationAPIWebServic
+            {
+                get
+                {
+                    return _useprimaveraintegrationapiwebservicInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UsePrimaveraIntegrationAPIWebServic item info.
+            /// </summary>
+            [RepositoryItemInfo("d86e7718-5fc7-4ec3-b712-8502d4ea5ff2")]
+            public virtual RepoItemInfo UsePrimaveraIntegrationAPIWebServicInfo
+            {
+                get
+                {
+                    return _useprimaveraintegrationapiwebservicInfo;
                 }
             }
         }
@@ -8245,7 +8520,7 @@ namespace AutoInstall
                     base("HeavyBidPivotReports", "/form[@title~'HeavyBid Pivot Reports']", parentFolder, 30000, null, false, "bae78860-d83b-4734-a95d-0878f5e7f9d2", "")
             {
                 _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "?/?/?/button[@text~'Close']", 30000, null, "fc1e7fdd-a2b9-4bb9-87fe-224e293b2469");
-                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@automationid='TitleBar']", 30000, null, "46cebd02-07f4-4870-bd85-1e264fe8f5d3");
+                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@text='HeavyBid Pivot Reports']", 30000, null, "46cebd02-07f4-4870-bd85-1e264fe8f5d3");
             }
 
             /// <summary>
@@ -8368,6 +8643,7 @@ namespace AutoInstall
         public partial class CustomizedBidProposalAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _exportreportbuttonInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new CustomizedBidProposal  folder.
@@ -8376,6 +8652,7 @@ namespace AutoInstall
                     base("CustomizedBidProposal", "/form[@title='Customized Bid Proposal']", parentFolder, 30000, null, false, "959dd8da-908d-4810-a350-c3a5e4b9b839", "")
             {
                 _exportreportbuttonInfo = new RepoItemInfo(this, "ExportReportButton", ".//button[@accessiblename='Export Report']", 30000, null, "284b62a2-bd5b-4d63-8f20-14d542e4b14c");
+                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Close']", 30000, null, "f30cb4b8-927d-4ef1-bb1a-8e87d2a73a69");
             }
 
             /// <summary>
@@ -8423,6 +8700,30 @@ namespace AutoInstall
                 get
                 {
                     return _exportreportbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("f30cb4b8-927d-4ef1-bb1a-8e87d2a73a69")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("f30cb4b8-927d-4ef1-bb1a-8e87d2a73a69")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
         }
@@ -9171,6 +9472,7 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.ButtonsFolder5 _buttons;
             RepoItemInfo _searcheditboxInfo;
             RepoItemInfo _buttinuninstallorchangeInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new ProgramsAndFeatures  folder.
@@ -9182,6 +9484,7 @@ namespace AutoInstall
                 _buttons = new AutoInstallRepositoryFolders.ButtonsFolder5(this);
                 _searcheditboxInfo = new RepoItemInfo(this, "SearchEditBox", "?/?/?/?/element[@class='Search Box']", 30000, null, "9c992ed7-95b4-43ac-b064-7b105340fbb8");
                 _buttinuninstallorchangeInfo = new RepoItemInfo(this, "ButtinUninstallOrChange", ".//container[@automationid='FolderLayoutContainer']/container[@classname='Element']/toolbar/button[@text~'Uninstall']", 30000, null, "7ed5be48-9821-4fb0-8953-d33c45a0aef7");
+                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@text='Close']", 30000, null, "c9475558-9c96-43c5-b948-4269fdd17c67");
             }
 
             /// <summary>
@@ -9253,6 +9556,30 @@ namespace AutoInstall
                 get
                 {
                     return _buttinuninstallorchangeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("c9475558-9c96-43c5-b948-4269fdd17c67")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("c9475558-9c96-43c5-b948-4269fdd17c67")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
 
@@ -9575,6 +9902,7 @@ namespace AutoInstall
             AutoInstallRepositoryFolders.ExcelXMLPopupAppFolder _excelxmlpopup;
             AutoInstallRepositoryFolders.OpenXMLAppFolder _openxml;
             AutoInstallRepositoryFolders.ExcelAppFolder _excel;
+            AutoInstallRepositoryFolders.MicrosoftOfficeActivationWizardAppFolder _microsoftofficeactivationwizard;
 
             /// <summary>
             /// Creates a new ExcelRelated  folder.
@@ -9586,6 +9914,7 @@ namespace AutoInstall
                 _excelxmlpopup = new AutoInstallRepositoryFolders.ExcelXMLPopupAppFolder(this);
                 _openxml = new AutoInstallRepositoryFolders.OpenXMLAppFolder(this);
                 _excel = new AutoInstallRepositoryFolders.ExcelAppFolder(this);
+                _microsoftofficeactivationwizard = new AutoInstallRepositoryFolders.MicrosoftOfficeActivationWizardAppFolder(this);
             }
 
             /// <summary>
@@ -9634,6 +9963,15 @@ namespace AutoInstall
             public virtual AutoInstallRepositoryFolders.ExcelAppFolder Excel
             {
                 get { return _excel; }
+            }
+
+            /// <summary>
+            /// The MicrosoftOfficeActivationWizard folder.
+            /// </summary>
+            [RepositoryFolder("d61f02de-d569-4686-adfd-88ab15c48d7b")]
+            public virtual AutoInstallRepositoryFolders.MicrosoftOfficeActivationWizardAppFolder MicrosoftOfficeActivationWizard
+            {
+                get { return _microsoftofficeactivationwizard; }
             }
         }
 
@@ -9719,7 +10057,7 @@ namespace AutoInstall
                     base("ExcelXMLPopup", "/form[@title='Microsoft Excel']", parentFolder, 30000, null, false, "f23e3827-0e11-408b-9729-7df20a6e6272", "")
             {
                 _okbuttonInfo = new RepoItemInfo(this, "OKButton", "button[@text='OK']", 30000, null, "f93f462d-4b56-42f6-b0c5-78f32bd1c9d0");
-                _dontsavebuttonInfo = new RepoItemInfo(this, "DontSaveButton", ".//button[@name='Don''t Save']", 30000, null, "76d2eed8-acf8-4b5f-8ade-702863f4ea61");
+                _dontsavebuttonInfo = new RepoItemInfo(this, "DontSaveButton", ".//button[@name='Don''t Save']", 2000, null, "76d2eed8-acf8-4b5f-8ade-702863f4ea61");
             }
 
             /// <summary>
@@ -9898,6 +10236,7 @@ namespace AutoInstall
             RepoItemInfo _cellc10Info;
             RepoItemInfo _cellc12Info;
             RepoItemInfo _cella1Info;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new Excel  folder.
@@ -9910,6 +10249,7 @@ namespace AutoInstall
                 _cellc10Info = new RepoItemInfo(this, "CellC10", ".//table/row[@index='10']/cell[@address='C10']", 30000, null, "86a21613-7afc-4f61-94d9-7da4289efbff");
                 _cellc12Info = new RepoItemInfo(this, "CellC12", ".//table/row[@index='12']/cell[@address='C12']", 30000, null, "9baba109-2fce-40ad-88fd-793fee312931");
                 _cella1Info = new RepoItemInfo(this, "CellA1", ".//table/row[@index='1']/cell[@address='A1']", 30000, null, "23902e6e-d05b-4875-a08c-e4e055ca2a43");
+                _closeInfo = new RepoItemInfo(this, "Close", "element[2]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close' and @classname='NetUIAppFrameHelper']", 30000, null, "57d66d6f-d1ce-4a86-870a-5a7c182d1117");
             }
 
             /// <summary>
@@ -10053,6 +10393,96 @@ namespace AutoInstall
                 get
                 {
                     return _cella1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("57d66d6f-d1ce-4a86-870a-5a7c182d1117")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("57d66d6f-d1ce-4a86-870a-5a7c182d1117")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MicrosoftOfficeActivationWizardAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("d61f02de-d569-4686-adfd-88ab15c48d7b")]
+        public partial class MicrosoftOfficeActivationWizardAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _closebuttonInfo;
+
+            /// <summary>
+            /// Creates a new MicrosoftOfficeActivationWizard  folder.
+            /// </summary>
+            public MicrosoftOfficeActivationWizardAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MicrosoftOfficeActivationWizard", "/?/?/element[@name~'^Microsoft\\ Office\\ Activati']", parentFolder, 10000, null, true, "d61f02de-d569-4686-adfd-88ab15c48d7b", "")
+            {
+                _closebuttonInfo = new RepoItemInfo(this, "CloseButton", "button[@name='Close']", 30000, null, "45bd0353-eca4-48b3-85dc-f6de61070fbb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("d61f02de-d569-4686-adfd-88ab15c48d7b")]
+            public virtual Ranorex.Unknown Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d61f02de-d569-4686-adfd-88ab15c48d7b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CloseButton item.
+            /// </summary>
+            [RepositoryItem("45bd0353-eca4-48b3-85dc-f6de61070fbb")]
+            public virtual Ranorex.Button CloseButton
+            {
+                get
+                {
+                    return _closebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CloseButton item info.
+            /// </summary>
+            [RepositoryItemInfo("45bd0353-eca4-48b3-85dc-f6de61070fbb")]
+            public virtual RepoItemInfo CloseButtonInfo
+            {
+                get
+                {
+                    return _closebuttonInfo;
                 }
             }
         }
@@ -10464,72 +10894,6 @@ namespace AutoInstall
         }
 
         /// <summary>
-        /// The TheKingsAvatarChapter518WebnoveAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("03099fc5-2495-4c70-a226-53ebd95a9a2f")]
-        public partial class TheKingsAvatarChapter518WebnoveAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _ptaghowinterestingwithyInfo;
-
-            /// <summary>
-            /// Creates a new TheKingsAvatarChapter518Webnove  folder.
-            /// </summary>
-            public TheKingsAvatarChapter518WebnoveAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("TheKingsAvatarChapter518Webnove", "/dom[@domain='www.webnovel.com']", parentFolder, 30000, null, false, "03099fc5-2495-4c70-a226-53ebd95a9a2f", "")
-            {
-                _ptaghowinterestingwithyInfo = new RepoItemInfo(this, "PTagHowInterestingWithY", ".//div[#'page']/div[1]/div[2]/div[11]//p[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \"How\\ interes']", 30000, null, "d3bd900e-8ed1-4cad-a591-9a258bc05db0");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("03099fc5-2495-4c70-a226-53ebd95a9a2f")]
-            public virtual Ranorex.WebDocument Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("03099fc5-2495-4c70-a226-53ebd95a9a2f")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PTagHowInterestingWithY item.
-            /// </summary>
-            [RepositoryItem("d3bd900e-8ed1-4cad-a591-9a258bc05db0")]
-            public virtual Ranorex.PTag PTagHowInterestingWithY
-            {
-                get
-                {
-                    return _ptaghowinterestingwithyInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PTagHowInterestingWithY item info.
-            /// </summary>
-            [RepositoryItemInfo("d3bd900e-8ed1-4cad-a591-9a258bc05db0")]
-            public virtual RepoItemInfo PTagHowInterestingWithYInfo
-            {
-                get
-                {
-                    return _ptaghowinterestingwithyInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The RanorexStudioProjectsAppFolder folder.
         /// </summary>
         [RepositoryFolder("f15cdfe5-ea5a-40b3-b182-2081363105c7")]
@@ -10596,72 +10960,6 @@ namespace AutoInstall
         }
 
         /// <summary>
-        /// The ExplorerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("d7dc9781-3b44-4ae6-9241-b92b366af112")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _heavybidreportsplusInfo;
-
-            /// <summary>
-            /// Creates a new Explorer  folder.
-            /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/form[@processname='explorer' and @class='TaskListThumbnailWnd']", parentFolder, 30000, null, false, "d7dc9781-3b44-4ae6-9241-b92b366af112", "")
-            {
-                _heavybidreportsplusInfo = new RepoItemInfo(this, "HeavyBidReportsPlus", "?/?/listitem[@accessiblename='HeavyBid Reports Plus']", 30000, null, "83589fbc-d7f6-4bc4-ad7d-1d6d9e66efec");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("d7dc9781-3b44-4ae6-9241-b92b366af112")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("d7dc9781-3b44-4ae6-9241-b92b366af112")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The HeavyBidReportsPlus item.
-            /// </summary>
-            [RepositoryItem("83589fbc-d7f6-4bc4-ad7d-1d6d9e66efec")]
-            public virtual Ranorex.ListItem HeavyBidReportsPlus
-            {
-                get
-                {
-                    return _heavybidreportsplusInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The HeavyBidReportsPlus item info.
-            /// </summary>
-            [RepositoryItemInfo("83589fbc-d7f6-4bc4-ad7d-1d6d9e66efec")]
-            public virtual RepoItemInfo HeavyBidReportsPlusInfo
-            {
-                get
-                {
-                    return _heavybidreportsplusInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The LinesFormAppFolder folder.
         /// </summary>
         [RepositoryFolder("bc2a4a10-85b4-4ac4-b8e2-db9c5aa62d3d")]
@@ -10723,6 +11021,46 @@ namespace AutoInstall
                 get
                 {
                     return _buttonokInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MicrosoftWindowsShellExperienceHostAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6520dcbb-cb42-4ba8-b07e-90c62a996581")]
+        public partial class MicrosoftWindowsShellExperienceHostAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new MicrosoftWindowsShellExperienceHost  folder.
+            /// </summary>
+            public MicrosoftWindowsShellExperienceHostAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MicrosoftWindowsShellExperienceHost", "/winapp[@appid='App' and @classname='Windows.UI.Core.CoreWindow' and @processname='ShellExperienceHost' and @instance='0']", parentFolder, 30000, null, true, "6520dcbb-cb42-4ba8-b07e-90c62a996581", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6520dcbb-cb42-4ba8-b07e-90c62a996581")]
+            public virtual Ranorex.WindowsApp Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WindowsApp>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6520dcbb-cb42-4ba8-b07e-90c62a996581")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

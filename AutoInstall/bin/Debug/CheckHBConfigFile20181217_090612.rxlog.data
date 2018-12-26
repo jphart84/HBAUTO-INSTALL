@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d1c1166ae4e178c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/17/2018 9:06:16 AM"
+		timestampiso="2018-12-17T15:06:16"
+		endtime="12/17/2018 9:06:56 AM"
+		timeoutfactor="1"
+		module="CheckHBConfigFile">
+		<detail>
+			CheckHBConfigFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.197"
+			timeRelativeToTestModuleStartTime="00:07.198"
+			timeWallClock="09:06:23"
+			time="00:07.197"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Run application 'Excel.EXE' with arguments 'C:\HeavyBid\BIN\HeavyBid.exe.config' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.298"
+			timeRelativeToTestModuleStartTime="00:07.299"
+			timeWallClock="09:06:24"
+			time="00:07.298"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.101"
+			timeRelativeToTestModuleStartTime="00:11.102"
+			timeWallClock="09:06:27"
+			time="00:11.101"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC10' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='10']/cell[@address='C10']"
+				itempath=".//table/row[@index='10']/cell[@address='C10']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC10"
+				id="86a216137afc4f6194d97da4289efbff"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="89"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.103"
+			timeRelativeToTestModuleStartTime="00:11.104"
+			timeWallClock="09:06:27"
+			time="00:11.103"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;'2.4') on item 'ExcelRelated.Excel.CellC12'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.874"
+			timeRelativeToTestModuleStartTime="00:12.875"
+			timeWallClock="09:06:29"
+			time="00:12.874"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.ExcelRelated.Excel.CellC12' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table/row[@index='12']/cell[@address='C12']"
+				itempath=".//table/row[@index='12']/cell[@address='C12']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.CellC12"
+				id="9baba1092fce40ad88fd793fee312931"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.875"
+			timeRelativeToTestModuleStartTime="00:12.876"
+			timeWallClock="09:06:29"
+			time="00:12.875"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ExcelRelated.MicrosoftOfficeActivationWizard'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				itempath="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				fullname="AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self"
+				id="d61f02ded5694686adfd88ab15c48d7b"
+				timeout="10000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="102"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.946"
+			timeRelativeToTestModuleStartTime="00:13.947"
+			timeWallClock="09:06:30"
+			time="00:13.946"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				itempath="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				fullname="AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self"
+				id="d61f02ded5694686adfd88ab15c48d7b"
+				timeout="10000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.947"
+			timeRelativeToTestModuleStartTime="00:13.948"
+			timeWallClock="09:06:30"
+			time="00:13.947"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExcelRelated.MicrosoftOfficeActivationWizard.CloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/?/?/element[@name~'^Microsoft\ Office\ Activati']/button[@name='Close']"
+				itempath="button[@name='Close']"
+				fullname="AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.CloseButton"
+				id="45bd0353eca448b385dcf6de61070fbb"
+				timeout="40000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="105"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.180"
+			timeRelativeToTestModuleStartTime="00:14.181"
+			timeWallClock="09:06:30"
+			time="00:14.180"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating NotExists on item 'ExcelRelated.MicrosoftOfficeActivationWizard'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				itempath="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				fullname="AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self"
+				id="d61f02ded5694686adfd88ab15c48d7b"
+				timeout="10000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.882"
+			timeRelativeToTestModuleStartTime="00:24.883"
+			timeWallClock="09:06:41"
+			time="00:24.882"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self' does not exist (Failed to find item 'AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self'. No element found for path '/?/?/element[@name~'^Microsoft\ Office\ Activati']' within 10s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				itempath="/?/?/element[@name~'^Microsoft\ Office\ Activati']"
+				fullname="AutoInstallRepository.ExcelRelated.MicrosoftOfficeActivationWizard.Self"
+				id="d61f02ded5694686adfd88ab15c48d7b"
+				timeout="10000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.882"
+			timeRelativeToTestModuleStartTime="00:24.883"
+			timeWallClock="09:06:41"
+			time="00:24.882"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExcelRelated.Excel.Close' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[2]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close' and @classname='NetUIAppFrameHelper']"
+				itempath="element[2]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close' and @classname='NetUIAppFrameHelper']"
+				fullname="AutoInstallRepository.ExcelRelated.Excel.Close"
+				id="57d66d6fd1ce4a86870a5a7c182d1117"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.728"
+			timeRelativeToTestModuleStartTime="00:25.729"
+			timeWallClock="09:06:42"
+			time="00:25.728"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Microsoft Excel']//button[@name='Don''t Save']"
+				itempath=".//button[@name='Don''t Save']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.DontSaveButton"
+				id="76d2eed8acf84b5f8ade702863f4ea61"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="115"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.056"
+			timeRelativeToTestModuleStartTime="00:40.057"
+			timeWallClock="09:06:56"
+			time="00:40.056"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'AutoInstallRepository.ExcelRelated.ExcelXMLPopup.DontSaveButton'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckHBConfigFile.cs"
+				codeline="117"
+				loglvl="Warn"
+				id="76d2eed8acf84b5f8ade702863f4ea61"
+				path="/form[@title='Microsoft Excel']//button[@name='Don''t Save']"
+				fullname="AutoInstallRepository.ExcelRelated.ExcelXMLPopup.DontSaveButton">
+			</metainfo>
+		</item>
+	</activity>
+</report>

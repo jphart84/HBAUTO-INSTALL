@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1645104f0b359fb8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/20/2018 9:00:49 AM"
+		timestampiso="2018-12-20T15:00:49"
+		endtime="12/20/2018 9:01:04 AM"
+		timeoutfactor="1"
+		module="VerifyServerReleaseVersion">
+		<detail>
+			VerifyServerReleaseVersion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.789"
+			timeRelativeToTestModuleStartTime="00:06.790"
+			timeWallClock="09:00:56"
+			time="00:06.789"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>currentVersion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.908"
+			timeRelativeToTestModuleStartTime="00:06.909"
+			timeWallClock="09:00:56"
+			time="00:06.908"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidServerSetup.Text957' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@controlid='957']"
+				itempath="text[@controlid='957']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.Text957"
+				id="30cae964aa2545b9a35a94e8977179e0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="95"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

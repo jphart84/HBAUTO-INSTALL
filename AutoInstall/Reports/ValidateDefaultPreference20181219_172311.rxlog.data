@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.6m"
+		durationms="154115"
+		type="root"
+		rid="136e68f1249af1be"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/19/2018 5:23:19 PM"
+		timestampiso="2018-12-19T23:23:19"
+		endtime="12/19/2018 5:25:53 PM"
+		timeoutfactor="1"
+		module="ValidateDefaultPreference">
+		<detail>
+			ValidateDefaultPreference
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="02:09.616"
+			timeRelativeToTestModuleStartTime="02:09.617"
+			timeWallClock="17:25:29"
+			time="02:09.616"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ToolsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:21.867"
+			timeRelativeToTestModuleStartTime="02:21.868"
+			timeWallClock="17:25:41"
+			time="02:21.867"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Preferences' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']////button[@accessiblename='Preferences']"
+				itempath=".////button[@accessiblename='Preferences']"
+				fullname="AutoInstallRepository.HeavyBidApp.Preferences"
+				id="f253a25ef1494a9aaaf04ee6247f4af4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:23.828"
+			timeRelativeToTestModuleStartTime="02:23.829"
+			timeWallClock="17:25:43"
+			time="02:23.828"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.Estimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Estimate']"
+				itempath="?/?/menuitem[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.Estimate"
+				id="946675a5690847e583ea655a6f7dd425"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:34.114"
+			timeRelativeToTestModuleStartTime="02:34.115"
+			timeWallClock="17:25:53"
+			time="02:34.114"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

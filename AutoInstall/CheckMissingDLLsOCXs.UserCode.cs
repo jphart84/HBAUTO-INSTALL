@@ -33,50 +33,24 @@ namespace AutoInstall
         /// 
 
         string directory = @"C:\Program Files (x86)\Common Files\HCSS";
-        int numOfDll = 15;
-        string ChilkatCert = @"ChilkatCert.dll";
-        string ChikatImap = @"ChilkatImap.dll";
-        string ChilkatMailv8 = @"ChilkatMail_v8.dll";
-        string ChilkatUtil = @"ChilkatUtil.dll";
-        string ChilkatXml = @"ChilkatXml.dll";
-        string CodejockCommandBarsv1321 = @"Codejock.CommandBars.v13.2.1.ocx";
-        string CodejockReportControlv1342 = @"Codejock.ReportControl.v13.4.2.ocx";
-        string CodejockSkinFrameworkv1342 = @"Codejock.SkinFramework.v13.4.2.ocx";
-        string dsoframer = @"dsoframer.ocx";
-        string HHActiveX = @"HHActiveX.dll";
-        string officeviewer = @"officeviewer.ocx";
-        string RICHTX32 = @"RICHTX32.ocx";
-        string schedocx = @"schedocx.ocx";
-        string wspell = @"wspell.ocx"; 
-        string XCDZIP = @"XCDZIP35.ocx";
         	
         private void Init()
         {
             // Your recording specific initialization code goes here.
         }
 
-        public void ValidateDLLComparison()
+        public void ValidateDLLComparison(string FileName)
         {
-        	string[] dllArray = {ChilkatCert, ChikatImap, ChilkatMailv8, ChilkatUtil, ChilkatXml, CodejockCommandBarsv1321, CodejockReportControlv1342, CodejockSkinFrameworkv1342, dsoframer, HHActiveX, officeviewer, RICHTX32, schedocx, wspell, XCDZIP};
-        	string [] dllPath = new string[numOfDll];
-
-        	for (int pathcounter = 0; pathcounter <numOfDll; pathcounter++)
-        	{
-        		dllPath[pathcounter] = Path.Combine(directory, dllArray[pathcounter]);
-        	}
-        	
-        	for(int i = 0; i<numOfDll;i++)
-        	{
-        		if (File.Exists(dllPath[i]))
+        	string FilePath = Path.Combine(directory,FileName);
+               if (File.Exists(FilePath))
 			   {
-        			Report.Success("File Exist", "Success! " + dllArray[i] + " exists!");
+        			Report.Success("File Exist", "Success! " + FilePath + " exists!");
 			   }
 				else                  
 			   {
-					Report.Failure("File Exist", "Fail. " + dllArray[i] + " does not exists.");
+					Report.Failure("File Exist", "Fail. " + FilePath + " does not exists.");
 			   }
         	}
 
     }
-}
 }

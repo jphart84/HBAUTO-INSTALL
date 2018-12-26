@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5195ac30a40421a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/19/2018 5:10:44 PM"
+		timestampiso="2018-12-19T23:10:44"
+		endtime="12/19/2018 5:11:17 PM"
+		timeoutfactor="1"
+		module="ValidateDefaultPreference">
+		<detail>
+			ValidateDefaultPreference
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.425"
+			timeRelativeToTestModuleStartTime="00:12.425"
+			timeWallClock="17:10:56"
+			time="00:12.425"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ToolsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Tools']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ToolsTab"
+				id="10c418f8df8945d4ab0612340733a28d"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.945"
+			timeRelativeToTestModuleStartTime="00:20.945"
+			timeWallClock="17:11:05"
+			time="00:20.945"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Preferences' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']////button[@accessiblename='Preferences']"
+				itempath=".////button[@accessiblename='Preferences']"
+				fullname="AutoInstallRepository.HeavyBidApp.Preferences"
+				id="f253a25ef1494a9aaaf04ee6247f4af4"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.907"
+			timeRelativeToTestModuleStartTime="00:22.907"
+			timeWallClock="17:11:07"
+			time="00:22.907"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBDropDownOptions.Estimate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='HEAVYBID' and @class='XTPPopupBar']/?/?/menuitem[@text~'Estimate']"
+				itempath="?/?/menuitem[@text~'Estimate']"
+				fullname="AutoInstallRepository.HBDropDownOptions.Estimate"
+				id="946675a5690847e583ea655a6f7dd425"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.669"
+			timeRelativeToTestModuleStartTime="00:23.669"
+			timeWallClock="17:11:07"
+			time="00:23.669"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.EstimateEntry' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//treeitem[@accessiblename='Estimate Preferences']/treeitem[@accessiblename='Estimate Entry']"
+				itempath=".//treeitem[@accessiblename='Estimate Preferences']/treeitem[@accessiblename='Estimate Entry']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.EstimateEntry"
+				id="3b0a7374ab4341ecbca388e4ca5ccf93"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.905"
+			timeRelativeToTestModuleStartTime="00:24.905"
+			timeWallClock="17:11:09"
+			time="00:24.905"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='True') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Copy Notes']"
+				itempath=".////checkbox[@text='Copy Notes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes"
+				id="1375413e139f45c1bb51eb92b1a2981e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.217"
+			timeRelativeToTestModuleStartTime="00:29.217"
+			timeWallClock="17:11:13"
+			time="00:29.217"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Copy Notes']"
+				itempath=".////checkbox[@text='Copy Notes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes"
+				id="1375413e139f45c1bb51eb92b1a2981e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.337"
+			timeRelativeToTestModuleStartTime="00:29.337"
+			timeWallClock="17:11:13"
+			time="00:29.337"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Copy Notes') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Copy Notes']"
+				itempath=".////checkbox[@text='Copy Notes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes"
+				id="1375413e139f45c1bb51eb92b1a2981e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.521"
+			timeRelativeToTestModuleStartTime="00:29.521"
+			timeWallClock="17:11:13"
+			time="00:29.521"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Copy Notes']"
+				itempath=".////checkbox[@text='Copy Notes']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.CopyNotes"
+				id="1375413e139f45c1bb51eb92b1a2981e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.642"
+			timeRelativeToTestModuleStartTime="00:29.642"
+			timeWallClock="17:11:13"
+			time="00:29.642"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Use Source Material Rates']"
+				itempath=".////checkbox[@text='Use Source Material Rates']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates"
+				id="e70345d46cd94ba9bb242e0f9cc8f80a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.846"
+			timeRelativeToTestModuleStartTime="00:29.846"
+			timeWallClock="17:11:14"
+			time="00:29.846"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Use Source Material Rates']"
+				itempath=".////checkbox[@text='Use Source Material Rates']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates"
+				id="e70345d46cd94ba9bb242e0f9cc8f80a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.959"
+			timeRelativeToTestModuleStartTime="00:29.959"
+			timeWallClock="17:11:14"
+			time="00:29.959"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Use Source Material Rates') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Use Source Material Rates']"
+				itempath=".////checkbox[@text='Use Source Material Rates']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates"
+				id="e70345d46cd94ba9bb242e0f9cc8f80a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.161"
+			timeRelativeToTestModuleStartTime="00:30.161"
+			timeWallClock="17:11:14"
+			time="00:30.161"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']////checkbox[@text='Use Source Material Rates']"
+				itempath=".////checkbox[@text='Use Source Material Rates']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UseSourceMaterialRates"
+				id="e70345d46cd94ba9bb242e0f9cc8f80a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="111"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.426"
+			timeRelativeToTestModuleStartTime="00:30.426"
+			timeWallClock="17:11:14"
+			time="00:30.426"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.Outline' at 11;207.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']/?/?/tree[@accessiblerole='Outline']"
+				itempath="?/?/tree[@accessiblerole='Outline']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.Outline"
+				id="37092a98361d4f6fa2eb8b6abeb26c4a"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.212"
+			timeRelativeToTestModuleStartTime="00:31.212"
+			timeWallClock="17:11:15"
+			time="00:31.212"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ExternalPrograms' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//treeitem[@accessiblename='User Preferences']/treeitem[@accessiblename='External Programs']"
+				itempath=".//treeitem[@accessiblename='User Preferences']/treeitem[@accessiblename='External Programs']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.ExternalPrograms"
+				id="1e3837fcc30d4bd99c373eb5803edbcd"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.005"
+			timeRelativeToTestModuleStartTime="00:32.005"
+			timeWallClock="17:11:16"
+			time="00:32.005"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				itempath=".//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic"
+				id="d86e77185fc74ec3b7128502d4ea5ff2"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.305"
+			timeRelativeToTestModuleStartTime="00:32.305"
+			timeWallClock="17:11:16"
+			time="00:32.305"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				itempath=".//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic"
+				id="d86e77185fc74ec3b7128502d4ea5ff2"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.419"
+			timeRelativeToTestModuleStartTime="00:32.419"
+			timeWallClock="17:11:16"
+			time="00:32.419"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Use Primavera Integration API/Web Services') on item 'HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				itempath=".//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic"
+				id="d86e77185fc74ec3b7128502d4ea5ff2"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.713"
+			timeRelativeToTestModuleStartTime="00:32.713"
+			timeWallClock="17:11:17"
+			time="00:32.713"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class~'DFDialogClass']//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				itempath=".//?/?//?/?/checkbox[@text='Use Primavera Integration API/Web Services']"
+				fullname="AutoInstallRepository.HBPopUpScreens.GridViewOfEstimatesPopup.ListOfEstimatesPopup.UsePrimaveraIntegrationAPIWebServic"
+				id="d86e77185fc74ec3b7128502d4ea5ff2"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateDefaultPreference.cs"
+				codeline="127"
+				loglvl="Success"
+				itemindex="11">
+			</metainfo>
+		</item>
+	</activity>
+</report>

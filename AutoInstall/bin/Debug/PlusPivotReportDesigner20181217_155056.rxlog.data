@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="235c6e148821cb10"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/17/2018 3:51:02 PM"
+		timestampiso="2018-12-17T21:51:02"
+		endtime="12/17/2018 3:51:39 PM"
+		timeoutfactor="1"
+		module="PlusPivotReportDesigner">
+		<detail>
+			PlusPivotReportDesigner
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.350"
+			timeRelativeToTestModuleStartTime="00:08.350"
+			timeWallClock="15:51:10"
+			time="00:08.350"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.QueryTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Query']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Query']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.QueryTab"
+				id="d67e9e897e0f43c3805d510a2b64275e"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.007"
+			timeRelativeToTestModuleStartTime="00:12.007"
+			timeWallClock="15:51:14"
+			time="00:12.007"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Query.PivotReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				itempath="?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Query.PivotReportsButton"
+				id="c426ef588e704534ad50cc8bf1d78e28"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.569"
+			timeRelativeToTestModuleStartTime="00:13.569"
+			timeWallClock="15:51:16"
+			time="00:13.569"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				itempath="?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner"
+				id="225b396430ef400682189c808d58925e"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.335"
+			timeRelativeToTestModuleStartTime="00:15.335"
+			timeWallClock="15:51:17"
+			time="00:15.335"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 20s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.343"
+			timeRelativeToTestModuleStartTime="00:35.343"
+			timeWallClock="15:51:37"
+			time="00:35.343"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'HeavyBid Pivot Reports') on item 'HBReportViewers.HeavyBidPivotReports.TitleBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/titlebar[@text='HeavyBid Pivot Reports']"
+				itempath="titlebar[@text='HeavyBid Pivot Reports']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.TitleBar"
+				id="46cebd0207f44870bd851e264fe8f5d3"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.406"
+			timeRelativeToTestModuleStartTime="00:35.406"
+			timeWallClock="15:51:38"
+			time="00:35.406"
+			level="Warn"
+			category="Win32">
+			<message>
+				The automating process does not have the required security permissions to access the process 'HCSS.HeavyBid.ReportsPlus.PivotReports.Designer'. UI element identification capabilities for controls in that process are limited.<br/>Process: 'HCSS.HeavyBid.ReportsPlus.PivotReports.Designer' (pid 7016)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#Win32BasedApplications<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="ProcessPermissions"
+				showInProgressDialog="False"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="98"
+				loglvl="Warn"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.453"
+			timeRelativeToTestModuleStartTime="00:35.453"
+			timeWallClock="15:51:38"
+			time="00:35.453"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.TitleBar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/titlebar[@text='HeavyBid Pivot Reports']"
+				itempath="titlebar[@text='HeavyBid Pivot Reports']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.TitleBar"
+				id="46cebd0207f44870bd851e264fe8f5d3"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="98"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.562"
+			timeRelativeToTestModuleStartTime="00:35.562"
+			timeWallClock="15:51:38"
+			time="00:35.562"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at 12;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid Pivot Reports']/?/?/?/button[@text~'Close']"
+				itempath="?/?/?/button[@text~'Close']"
+				fullname="AutoInstallRepository.HBReportViewers.HeavyBidPivotReports.CloseButton"
+				id="fc1e7fdda2b94bb987fe224e293b2469"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

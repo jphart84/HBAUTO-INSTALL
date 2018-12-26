@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="179b66f1381ca32a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/26/2018 9:36:15 AM"
+		timestampiso="2018-12-26T15:36:15"
+		endtime="12/26/2018 9:36:20 AM"
+		timeoutfactor="1"
+		module="DeleteHBFolder">
+		<detail>
+			DeleteHBFolder
+		</detail>
+		<errormessage>
+			Could not find a part of the path 'C:\HeavyBid'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.234"
+			timeRelativeToTestModuleStartTime="00:04.234"
+			timeWallClock="09:36:20"
+			time="00:04.234"
+			level="Warn"
+			category="Data"
+			errimg=".\DeleteHB_cd4e3f64_712d2d87_trace.jpg"
+			errthumb=".\DeleteHB_cd4e3f64_712d2d87_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>InstallLocation, InstallWorkStation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.328"
+			timeRelativeToTestModuleStartTime="00:04.328"
+			timeWallClock="09:36:20"
+			time="00:04.328"
+			level="Error"
+			category="Module"
+			errimg=".\DeleteHB_cd4e3f64_d80202fd_trace.jpg"
+			errthumb=".\DeleteHB_cd4e3f64_d80202fd_trace_thumb.jpg">
+			<message>
+				Could not find a part of the path 'C:\HeavyBid'.
+			</message>
+			<metainfo
+				stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at AutoInstall.DeleteHBFolder.DeleteHBDirectory(String HBDirectory) in c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\DeleteHBFolder.UserCode.cs:line 40
+   at AutoInstall.DeleteHBFolder.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\DeleteHBFolder.cs:line 108
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\DeleteHBFolder.UserCode.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

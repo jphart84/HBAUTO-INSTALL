@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15ad2ed7ecf01ce7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/20/2018 9:03:58 AM"
+		timestampiso="2018-12-20T15:03:58"
+		endtime="12/20/2018 9:04:21 AM"
+		timeoutfactor="1"
+		module="VerifyServerReleaseVersion">
+		<detail>
+			VerifyServerReleaseVersion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.683"
+			timeRelativeToTestModuleStartTime="00:07.683"
+			timeWallClock="09:04:05"
+			time="00:07.683"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>currentVersion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.806"
+			timeRelativeToTestModuleStartTime="00:07.806"
+			timeWallClock="09:04:05"
+			time="00:07.806"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'HeavyBidServerSetup'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']"
+				itempath="/form[@title~'HeavyBid' and @title~'Setup']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.Self"
+				id="2e44eb69e64f4865a068d42ddcd932f4"
+				timeout="30000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.882"
+			timeRelativeToTestModuleStartTime="00:14.882"
+			timeWallClock="09:04:12"
+			time="00:14.882"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="100"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.098"
+			timeRelativeToTestModuleStartTime="00:15.098"
+			timeWallClock="09:04:13"
+			time="00:15.098"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.103"
+			timeRelativeToTestModuleStartTime="00:15.103"
+			timeWallClock="09:04:13"
+			time="00:15.103"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="107"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.151"
+			timeRelativeToTestModuleStartTime="00:15.151"
+			timeWallClock="09:04:13"
+			time="00:15.151"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.156"
+			timeRelativeToTestModuleStartTime="00:15.156"
+			timeWallClock="09:04:13"
+			time="00:15.156"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeContains (Text&gt;$currentVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="114"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.207"
+			timeRelativeToTestModuleStartTime="00:15.207"
+			timeWallClock="09:04:13"
+			time="00:15.207"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.210"
+			timeRelativeToTestModuleStartTime="00:15.210"
+			timeWallClock="09:04:13"
+			time="00:15.210"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~$currentVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][2]"
+				itempath="text[@accessiblerole~'StaticText'][2]"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleText"
+				id="9fe9891eebc9425ca6dbf64dbacb3e93"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="121"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.356"
+			timeRelativeToTestModuleStartTime="00:15.356"
+			timeWallClock="09:04:13"
+			time="00:15.356"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleText' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText'][2]"
+				itempath="text[@accessiblerole~'StaticText'][2]"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.TitleText"
+				id="9fe9891eebc9425ca6dbf64dbacb3e93"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="122"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.359"
+			timeRelativeToTestModuleStartTime="00:15.359"
+			timeWallClock="09:04:13"
+			time="00:15.359"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~$currentVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText']"
+				itempath="text[@accessiblerole~'StaticText']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainText"
+				id="65f21614c0714cfea2e64dcd56d23514"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="128"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.445"
+			timeRelativeToTestModuleStartTime="00:15.445"
+			timeWallClock="09:04:13"
+			time="00:15.445"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainText' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblerole~'StaticText']"
+				itempath="text[@accessiblerole~'StaticText']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.WelcomeScreen.MainText"
+				id="65f21614c0714cfea2e64dcd56d23514"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="129"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.449"
+			timeRelativeToTestModuleStartTime="00:15.449"
+			timeWallClock="09:04:13"
+			time="00:15.449"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidServerSetup.Text957' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblename='How to install/update HeavyBid']"
+				itempath="text[@accessiblename='How to install/update HeavyBid']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.Text957"
+				id="30cae964aa2545b9a35a94e8977179e0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="133"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.055"
+			timeRelativeToTestModuleStartTime="00:16.055"
+			timeWallClock="09:04:14"
+			time="00:16.055"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'GoogleChrome.ArticleList'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="5000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="137"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.246"
+			timeRelativeToTestModuleStartTime="00:19.246"
+			timeWallClock="09:04:17"
+			time="00:19.246"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Article List') on item 'GoogleChrome.ArticleList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="35000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="140"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.318"
+			timeRelativeToTestModuleStartTime="00:19.318"
+			timeWallClock="09:04:17"
+			time="00:19.318"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.ArticleList' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="35000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="141"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.463"
+			timeRelativeToTestModuleStartTime="00:19.463"
+			timeWallClock="09:04:17"
+			time="00:19.463"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'help.hcss') on item 'GoogleChrome.AddressBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="35000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="144"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.724"
+			timeRelativeToTestModuleStartTime="00:19.724"
+			timeWallClock="09:04:17"
+			time="00:19.724"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.AddressBar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="35000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="145"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.728"
+			timeRelativeToTestModuleStartTime="00:19.728"
+			timeWallClock="09:04:17"
+			time="00:19.728"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.738"
+			timeRelativeToTestModuleStartTime="00:22.738"
+			timeWallClock="09:04:20"
+			time="00:22.738"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidServerSetup.Buttons.NextButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/button[@text~'Next']"
+				itempath="button[@text~'Next']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.Buttons.NextButton"
+				id="fb6149476e784d5d9b27bd5901e708a2"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="151"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

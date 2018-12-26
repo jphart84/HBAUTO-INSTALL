@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29b4ab973a8cd1e2"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/19/2018 4:47:01 PM"
+		timestampiso="2018-12-19T22:47:01"
+		endtime="12/19/2018 4:47:07 PM"
+		timeoutfactor="1"
+		module="CheckNewFiles">
+		<detail>
+			CheckNewFiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.437"
+			timeRelativeToTestModuleStartTime="00:05.437"
+			timeWallClock="16:47:07"
+			time="00:05.437"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FileName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.531"
+			timeRelativeToTestModuleStartTime="00:05.531"
+			timeWallClock="16:47:07"
+			time="00:05.531"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! C:\HeavyBid\BIN/DevExpress.Data.v17.1.dll exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckNewFiles.UserCode.cs"
+				codeline="43"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

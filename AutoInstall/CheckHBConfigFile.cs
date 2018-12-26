@@ -95,14 +95,31 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(3));
-                Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, 10000);
+                //Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'ExcelRelated.Excel'.", repo.ExcelRelated.Excel.SelfInfo, new RecordItemIndex(3));
+                //Host.Current.CloseApplication(repo.ExcelRelated.Excel.Self, 10000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ExcelRelated.MicrosoftOfficeActivationWizard'.", repo.ExcelRelated.MicrosoftOfficeActivationWizard.SelfInfo, new RecordItemIndex(4));
+            Validate.Exists(repo.ExcelRelated.MicrosoftOfficeActivationWizard.SelfInfo);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ExcelRelated.MicrosoftOfficeActivationWizard.CloseButton' at Center.", repo.ExcelRelated.MicrosoftOfficeActivationWizard.CloseButtonInfo, new RecordItemIndex(5));
+            repo.ExcelRelated.MicrosoftOfficeActivationWizard.CloseButton.Click();
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ExcelRelated.MicrosoftOfficeActivationWizard'.", repo.ExcelRelated.MicrosoftOfficeActivationWizard.SelfInfo, new RecordItemIndex(6));
+            Validate.NotExists(repo.ExcelRelated.MicrosoftOfficeActivationWizard.SelfInfo);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ExcelRelated.Excel.Close' at CenterRight.", repo.ExcelRelated.Excel.CloseInfo, new RecordItemIndex(7));
+            repo.ExcelRelated.Excel.Close.Click(Location.CenterRight);
+            
             try {
-                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(4));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(8));
+                repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ExcelRelated.ExcelXMLPopup.DontSaveButton' at Center.", repo.ExcelRelated.ExcelXMLPopup.DontSaveButtonInfo, new RecordItemIndex(9));
                 //repo.ExcelRelated.ExcelXMLPopup.DontSaveButton.Click();
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
             
         }
 

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b9f439a3-5184-4ea6-98d9-c5e278302c1a"
+mode="Global"
+rxversion="8.3">
+	<name>
+		CheckNewFiles
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckNewFiles"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+		<var
+		id="95bfc4b1-c90a-4d36-acc2-ffa5029c8cca"
+		name="FileName">
+			BIN/DevExpress.Data.v17.1.dll
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CheckNewFiles"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckNewFile"
+		namespace="AutoInstall"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ccf5b2f9-f425-42c2-9861-e023100d31ba">
+				<argument
+				argname="FileName"
+				id="1edf4a45-6bc1-4a88-86f3-48a81cf20255"
+				variable="FileName">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckNewFiles.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

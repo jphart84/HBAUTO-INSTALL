@@ -143,11 +143,15 @@ namespace AutoInstall
                 //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(15)); }
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(16));
-            Host.Current.CloseApplication(repo.HBReportViewers.CustomizedBidProposal.Self, new Duration(0));
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HBReportViewers.CustomizedBidProposal'.", repo.HBReportViewers.CustomizedBidProposal.SelfInfo, new RecordItemIndex(16));
+            //Host.Current.CloseApplication(repo.HBReportViewers.CustomizedBidProposal.Self, new Duration(0));
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.CustomizedBidProposal.Close' at Center.", repo.HBReportViewers.CustomizedBidProposal.CloseInfo, new RecordItemIndex(17));
+            repo.HBReportViewers.CustomizedBidProposal.Close.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton' at Center.", repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButtonInfo, new RecordItemIndex(18));
             repo.HBPopUpScreens.FromSummaryButtons.CustomizedBidProposalSetup.CancelButton.Click();
             Delay.Milliseconds(200);
             

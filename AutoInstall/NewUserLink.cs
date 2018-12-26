@@ -106,8 +106,23 @@ namespace AutoInstall
             Delay.Milliseconds(0);
             
             // E.6
-            Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(6));
-            Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
+            //Report.Log(ReportLevel.Info, "Application", "E.6\r\nClosing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(6));
+            //Host.Current.CloseApplication(repo.GoogleChrome.Self, 10000);
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+W' Press.", new RecordItemIndex(7));
+            Keyboard.Press(System.Windows.Forms.Keys.W | System.Windows.Forms.Keys.Control, 17, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome.Pane' at 1893;7.", repo.GoogleChrome.PaneInfo, new RecordItemIndex(8));
+            //repo.GoogleChrome.Pane.Click("1893;7");
+            //Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(10));
+            Validate.NotExists(repo.GoogleChrome.SelfInfo);
             Delay.Milliseconds(0);
             
         }

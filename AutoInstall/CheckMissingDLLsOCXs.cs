@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public CheckMissingDLLsOCXs()
         {
-            ScriptLocation = "\\\\hbtestserv\\HeavyBidShare\\HBDaily\\InstallAutomation\\Script\\";
+            DLL = "ChilkatCert.dll";
         }
 
         /// <summary>
@@ -54,16 +54,16 @@ namespace AutoInstall
 
 #region Variables
 
-        string _ScriptLocation;
+        string _DLL;
 
         /// <summary>
-        /// Gets or sets the value of variable ScriptLocation.
+        /// Gets or sets the value of variable DLL.
         /// </summary>
-        [TestVariable("442a3d90-24df-4f19-96fe-bb7293cac6df")]
-        public string ScriptLocation
+        [TestVariable("22f653b1-83ed-4798-891e-198e424ff63f")]
+        public string DLL
         {
-            get { return _ScriptLocation; }
-            set { _ScriptLocation = value; }
+            get { return _DLL; }
+            set { _DLL = value; }
         }
 
 #endregion
@@ -92,24 +92,11 @@ namespace AutoInstall
 
             Init();
 
-            // script to check DLL and OCX in HB against masterlist on V:
-            //Report.Log(ReportLevel.Info, "Application", "script to check DLL and OCX in HB against masterlist on V:\r\nRun application 'runDLLcomparison.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
-            //Host.Local.RunApplication("runDLLcomparison.bat", "", ScriptLocation, false);
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(0));
+            Delay.Duration(100, false);
             
-            try {
-                //ValidateDLLComparison();
-                //Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
-            
-            //ValidateDLLReportContent();
-            //Delay.Milliseconds(0);
-            
-            ValidateDLLComparison();
+            ValidateDLLComparison(DLL);
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
-            Delay.Duration(2000, false);
             
         }
 

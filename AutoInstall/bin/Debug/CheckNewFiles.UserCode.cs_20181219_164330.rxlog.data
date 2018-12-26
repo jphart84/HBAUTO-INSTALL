@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="129b12efd5b8f760"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/19/2018 4:43:38 PM"
+		timestampiso="2018-12-19T22:43:38"
+		endtime="12/19/2018 4:43:49 PM"
+		timeoutfactor="1"
+		module="CheckNewFiles">
+		<detail>
+			CheckNewFiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.697"
+			timeRelativeToTestModuleStartTime="00:10.697"
+			timeWallClock="16:43:49"
+			time="00:10.697"
+			level="Warn"
+			category="Data"
+			errimg=".\CheckNew_777360fc_b1ae928a_trace.jpg"
+			errthumb=".\CheckNew_777360fc_b1ae928a_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>FileName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.806"
+			timeRelativeToTestModuleStartTime="00:10.806"
+			timeWallClock="16:43:49"
+			time="00:10.806"
+			level="Failure"
+			category="File Exist"
+			errimg=".\CheckNew_777360fc_b1ae928a_trace.jpg"
+			errthumb=".\CheckNew_777360fc_b1ae928a_trace_thumb.jpg">
+			<message>
+				Fail. C:\HeavyBid\ does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\CheckNewFiles.UserCode.cs"
+				codeline="47"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.822"
+			timeRelativeToTestModuleStartTime="00:10.822"
+			timeWallClock="16:43:49"
+			time="00:10.822"
+			level="Error"
+			category="Module"
+			errimg=".\CheckNew_777360fc_b1ae928a_trace.jpg"
+			errthumb=".\CheckNew_777360fc_b1ae928a_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
