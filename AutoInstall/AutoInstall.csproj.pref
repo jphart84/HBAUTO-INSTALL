@@ -1,10 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="postInstallPopUp.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
+    <Element value="postInstallPopUp.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections">

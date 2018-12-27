@@ -897,6 +897,24 @@ rxversion="8.3">
 				</path>
 			</info>
 		</mouseitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c971df63-03d1-428c-9e36-4b4d7df6430a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e7acade6-bed6-418d-9687-3159f4910c60"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname~'chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
 		<explicitdelayitem
 		duration="3000ms"
 		enabled="True"

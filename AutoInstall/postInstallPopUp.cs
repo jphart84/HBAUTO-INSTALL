@@ -79,12 +79,8 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'WindowsMenuBar.HBInstallComplete' at Center.", repo.WindowsMenuBar.HBInstallCompleteInfo, new RecordItemIndex(0));
-            repo.WindowsMenuBar.HBInstallComplete.Click(System.Windows.Forms.MouseButtons.Right);
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MicrosoftWindowsShellExperienceHost' at 744;989.", repo.MicrosoftWindowsShellExperienceHost.SelfInfo, new RecordItemIndex(1));
-            repo.MicrosoftWindowsShellExperienceHost.Self.Click("744;989");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WindowsMenuBar.HBInstallComplete' at Center.", repo.WindowsMenuBar.HBInstallCompleteInfo, new RecordItemIndex(0));
+            repo.WindowsMenuBar.HBInstallComplete.Click();
             Delay.Milliseconds(200);
             
         }
