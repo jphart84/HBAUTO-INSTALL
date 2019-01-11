@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.02s"
+		durationms="1015"
+		type="root"
+		rid="100e4af5f30b53dc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/10/2019 3:33:52 PM"
+		timestampiso="2019-01-10T21:33:52"
+		endtime="1/10/2019 3:33:53 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.015"
+			timeRelativeToTestModuleStartTime="00:01.015"
+			timeWallClock="15:33:53"
+			time="00:01.015"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.547"
+			timeRelativeToTestModuleStartTime="00:01.547"
+			timeWallClock="15:33:53"
+			time="00:01.547"
+			level="Failure"
+			category="Module"
+			errimg=".\VerifySe_372aa617_95901b05_trace.jpg"
+			errthumb=".\VerifySe_372aa617_95901b05_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.InputDispatcher.EnsureReady()
+   at Ranorex.Keyboard.UpdateLowLevelKeyboardHookCallback()
+   at Ranorex.Keyboard.set_AbortKey(Keys value)
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

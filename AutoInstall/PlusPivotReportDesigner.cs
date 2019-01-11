@@ -79,8 +79,8 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Tabs.QueryTab' at Center.", repo.HeavyBidApp.Tabs.QueryTabInfo, new RecordItemIndex(0));
-            repo.HeavyBidApp.Tabs.QueryTab.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.", repo.HeavyBidApp.Tabs.ReportTabInfo, new RecordItemIndex(0));
+            repo.HeavyBidApp.Tabs.ReportTab.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Buttons.Query.PivotReportsButton' at Center.", repo.HeavyBidApp.Buttons.Query.PivotReportsButtonInfo, new RecordItemIndex(1));

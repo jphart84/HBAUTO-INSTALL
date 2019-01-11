@@ -83,6 +83,10 @@ namespace AutoInstall
             repo.WindowsMenuBar.HBInstallComplete.Click();
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(1));
+            Keyboard.Press("{Return}");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

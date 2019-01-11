@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.25s"
+		durationms="33250"
+		type="root"
+		rid="801b5e9cfc3786c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/8/2019 5:01:25 PM"
+		timestampiso="2019-01-08T23:01:25"
+		endtime="1/8/2019 5:01:58 PM"
+		timeoutfactor="1"
+		module="RunRSMeansSampleData">
+		<detail>
+			RunRSMeansSampleData
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.984"
+			timeRelativeToTestModuleStartTime="00:07.984"
+			timeWallClock="17:01:33"
+			time="00:07.984"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem"
+				itempath="treeitem/treeitem"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.FirstAvailableActivity"
+				id="96fc5c334e4642f9baafaba1ff09d141"
+				timeout="120000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\RunRSMeansSampleData.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.250"
+			timeRelativeToTestModuleStartTime="00:33.250"
+			timeWallClock="17:01:58"
+			time="00:33.250"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

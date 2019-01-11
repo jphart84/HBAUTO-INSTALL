@@ -31,7 +31,7 @@ namespace AutoInstall
         /// </summary>
         /// 
         string dir = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\";
-        string file = @"CostReport.txt";
+        string file = @"CostPriceReport.txt";
 
         
         string filePath_Expected = @"W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostPriceReportSimiliarContent.txt";

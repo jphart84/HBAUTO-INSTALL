@@ -46,10 +46,10 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 			<info
-			id="d67e9e89-7e0f-43c3-805d-510a2b64275e"
+			id="5048bb26-2beb-4526-b63f-95ca95f2b8d1"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Query']
+					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']
 				</path>
 			</info>
 		</mouseitem>

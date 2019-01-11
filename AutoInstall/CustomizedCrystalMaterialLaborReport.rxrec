@@ -548,7 +548,7 @@ rxversion="8.3">
 		</explicitdelayitem>
 		<mouseitem
 		action="Click"
-		button="Left"
+		button="XButton2"
 		duration="500ms"
 		enabled="False"
 		loc="Center"
@@ -704,7 +704,7 @@ rxversion="8.3">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="Center"
+		loc="CenterLeft"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="ffd6397c-2ad8-4f73-8bb4-a44d70830141"
@@ -732,6 +732,165 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd50434d-c3c7-4a39-8d87-ee0ef4398f21"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a7172f1-cf0d-43b6-b341-94940ace8d9b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="6"
+				prefcap="form"
+				rect="734,432,451,176"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE4SURBVDhPY2AKUO9kmez+m2Wqx3+SMFAPSC8D
+Ns0y8yP/yy+IwYm5Z/jCDWFA11xzfP5/XODfv3//A7bW/0/Y0/2fc7o3WD2GAWdf3f6/7s7h/ytu
+HQDj48+vQbX////2+6f/Xpuq/4fvaPmvuDAWuwGX39z/v/Phmf9b7p8A411A9pFnV8D43sfnKGpB
+mKAByJh+Biy+sfv/nKvbMTDRBsy/tvP/zMtbwPjx51f/cw5O+T/t8ub/9z++QFELwjgNmAHUDMLn
+gLFiuCIT7AWSDIC54OrbB//zDk39b7k6n3gDkAEo8ay/e/T/xdd3cRsAShSgxAFKJJMurP+/4Pou
+FPzi6zuwYbc/PMVuAChZgpKn8YosrHj5rf1gA7rPrcJiADQzgTIItowDw7LzozA0gzMTZdlZvRMA
+Ho93BGOp2uAAAAAASUVORK5CYII=
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Print Customized Crystal Report
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						DFDialogClass
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3277934
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						6296
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						HEAVYBID
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, WindowEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Caption, ClipChildren, ClipSiblings, Visible, Popup
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Print Customized Crystal Report
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'Print Customized Crystal Report']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"

@@ -96,10 +96,13 @@ namespace AutoInstall
             Delay.Milliseconds(200);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButton' at Center.", repo.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButtonInfo, new RecordItemIndex(4));
-                repo.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButton.Click();
-                Delay.Milliseconds(200);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButton' at Center.", repo.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButtonInfo, new RecordItemIndex(4));
+                //repo.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupExists.YesButton.Click();
+                //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(5));
+            Delay.Duration(20000, false);
             
             ValidateSystemBackup();
             Delay.Milliseconds(0);

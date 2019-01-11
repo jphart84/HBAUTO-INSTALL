@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="postInstallPopUp.rxrec" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="postInstallPopUp.rxrec" />
+    <Element value="EstimateRecapReportClassic.rxrec" />
   </Array>
   <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
     <Array name="recentusercodeselections">
       <Element value="AutoInstall.CheckNewFiles.CheckNewFile(String FileName)" />
       <Element value="AutoInstall.DeleteReports.DeleteReportDirectory(String FileName)" />

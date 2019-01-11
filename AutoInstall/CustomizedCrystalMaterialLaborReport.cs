@@ -140,17 +140,20 @@ namespace AutoInstall
             Delay.Duration(10000, false);
             
             try {
-                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
-                //repo.HBReportViewers.FileAlreadyExists.YesButton.Click();
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse XButton2 Click item 'HBReportViewers.FileAlreadyExists.YesButton' at Center.", repo.HBReportViewers.FileAlreadyExists.YesButtonInfo, new RecordItemIndex(15));
+                //repo.HBReportViewers.FileAlreadyExists.YesButton.Click(System.Windows.Forms.MouseButtons.XButton2);
                 //Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(15)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at Center.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButtonInfo, new RecordItemIndex(16));
-            repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton' at CenterLeft.", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButtonInfo, new RecordItemIndex(16));
+            repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.CustomCrystalBidProposalPreview.CloseXButton.Click(Location.CenterLeft);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(17));
             Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.PrintCustomizedCrystalReports'", repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.PrintCustomizedCrystalReports.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(18));
+            repo.HBPopUpScreens.FromReportsButton.CustomizedCrystalReports.PrintCustomizedCrystalReports.SelfInfo.WaitForNotExists(30000);
             
         }
 

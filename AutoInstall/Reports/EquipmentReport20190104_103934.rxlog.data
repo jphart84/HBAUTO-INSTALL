@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3e31934c68554b3"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/4/2019 10:39:39 AM"
+		timestampiso="2019-01-04T16:39:39"
+		endtime="1/4/2019 10:40:48 AM"
+		timeoutfactor="1"
+		module="EquipmentReport">
+		<detail>
+			EquipmentReport
+		</detail>
+		<errormessage>
+			Failed to find item 'AutoInstallRepository.HeavyBidApp.Tabs.ReportTab'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.672"
+			timeRelativeToTestModuleStartTime="00:08.672"
+			timeWallClock="10:39:47"
+			time="00:08.672"
+			level="Info"
+			category="Mouse"
+			errimg=".\Equipmen_76c69a3d_a8681d4e_trace.jpg"
+			errthumb=".\Equipmen_76c69a3d_a8681d4e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\EquipmentReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.813"
+			timeRelativeToTestModuleStartTime="01:08.813"
+			timeWallClock="10:40:47"
+			time="01:08.813"
+			level="Error"
+			category="Module"
+			errimg=".\Equipmen_76c69a3d_9e90e021_trace.jpg"
+			errthumb=".\Equipmen_76c69a3d_9e90e021_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AutoInstallRepository.HeavyBidApp.Tabs.ReportTab'.<br/>No element found for path '/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AutoInstall.AutoInstallRepositoryFolders.TabsFolder.get_ReportTab() in c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\AutoInstallRepository.cs:line 2872&#13;&#10;   at AutoInstall.EquipmentReport.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\EquipmentReport.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\HBAUTO-INSTALL\AutoInstall\EquipmentReport.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

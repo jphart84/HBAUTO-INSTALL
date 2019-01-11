@@ -145,9 +145,9 @@ namespace AutoInstall
             Validate.AttributeRegex(repo.GoogleChrome.AddressBarInfo, "Text", new Regex("help.hcss"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome.Pane1' at 1895;7.", repo.GoogleChrome.Pane1Info, new RecordItemIndex(10));
-            repo.GoogleChrome.Pane1.Click("1895;7");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoogleChrome.Pane1' at 1895;7.", repo.GoogleChrome.Pane1Info, new RecordItemIndex(10));
+            //repo.GoogleChrome.Pane1.Click("1895;7");
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'GoogleChrome'.", repo.GoogleChrome.SelfInfo, new RecordItemIndex(11));
             Host.Current.CloseApplication(repo.GoogleChrome.Self, new Duration(0));

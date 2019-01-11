@@ -162,6 +162,18 @@ jO7HPtRRRUglFsuhNurFeaM+X/Wv/vGm0UVC2HP4mFFFFMkKKKKACiiigAooooAKKKKACiiigD//
 2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="540106be-c4e8-4517-9f25-6e51dc1b5a19">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
