@@ -1,8 +1,10 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="AutoInstall.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="EstimateRecapReportClassic.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

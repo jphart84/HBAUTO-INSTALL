@@ -47,10 +47,10 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 			<filename>
-				HeavyBidMaster_2019-01-04_13-29-10_RC1.msi
+				PullLatestInstall.bat
 			</filename>
 			<workingdir>
-				\\hbbuild\Installs\master
+				W:\HBDaily\InstallAutomation\Script
 			</workingdir>
 			<args>
 			</args>

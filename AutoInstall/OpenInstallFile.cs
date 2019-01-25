@@ -93,8 +93,8 @@ namespace AutoInstall
             Init();
 
             // B.1
-            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'HeavyBidMaster_2019-01-04_13-29-10_RC1.msi' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("HeavyBidMaster_2019-01-04_13-29-10_RC1.msi", "", "\\\\hbbuild\\Installs\\master", false);
+            Report.Log(ReportLevel.Info, "Application", "B.1\r\nRun application 'PullLatestInstall.bat' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("PullLatestInstall.bat", "", "W:\\HBDaily\\InstallAutomation\\Script", false);
             Delay.Milliseconds(0);
             
         }

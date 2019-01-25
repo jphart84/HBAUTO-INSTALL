@@ -103,8 +103,8 @@ namespace AutoInstall
             repo.HBPopUpScreens.FromFileButtons.BackupEstimateRelated.BackupEstimate.FinishButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(6));
+            Delay.Duration(15000, false);
             
             ValidateBackupEstimate();
             Delay.Milliseconds(0);
