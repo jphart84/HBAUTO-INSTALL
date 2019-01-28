@@ -643,6 +643,16 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 						searchtimeout="30000ms">
 							/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']//button[@accessiblename='Close']
 						</item>
+						<item
+						addcaps="tree,accessible"
+						capname="tree"
+						id="f46d2428-c589-484a-9ae1-409e4c5050ba"
+						name="PivotReportsDesigner"
+						refimgid="55927593-ba3f-45f2-a3bb-940917d31724"
+						refpath="/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/element[@controlid='3244']/form[@controlid='513']/element[@controlid='3298']/tree[@accessiblename='Pivot Reports Designer']"
+						searchtimeout="30000ms">
+							/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']/?/?/tree[@accessiblename='Pivot Reports Designer']
+						</item>
 						<basepath>
 							/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']
 						</basepath>
@@ -729,6 +739,25 @@ qNhKiGrDlHy7OPrv7KSNu461qwo+9p86xIXkOeufJi0SyQ8zjcog1KF4oQAAAABJRU5ErkJggg==
 					name="FirstAvailableActivity"
 					searchtimeout="30000ms">
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem/treeitem
+					</item>
+					<item
+					addcaps="treeitem,accessible,accessibletreeitem"
+					capname="treeitem"
+					id="262dc046-fd1d-40b5-8be5-a6c47fa51f29"
+					name="EstimateResourcesReports"
+					refimgid="dd6a50b5-f1fb-4e85-8500-034c742ed6a1"
+					refpath="/form[@title~'^HB\ 2019\ -\ 1-BRIDGE\ -\ Brid']/element[@controlid='3244']/form[@controlid='513']/element[@controlid='3298']/tree/treeitem[@accessiblename~'^Estimate\ Resources\ Report']"
+					searchtimeout="30000ms">
+						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem[@accessiblename~'^Estimate\ Resources\ Report']
+					</item>
+					<item
+					addcaps="treeitem,accessible,accessibletreeitem"
+					capname="treeitem"
+					id="c25b85d5-2697-471e-89dd-735f2e782316"
+					name="ReportsPlusPivotReports"
+					refimgid="1248b217-d864-4f8b-8fa7-1ba8334402b8"
+					searchtimeout="30000ms">
+						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem[@accessiblename='Reports Plus Pivot Reports']
 					</item>
 					<basepath>
 						/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree

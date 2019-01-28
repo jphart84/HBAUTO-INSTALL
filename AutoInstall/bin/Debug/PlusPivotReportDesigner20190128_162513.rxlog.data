@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.77s"
+		durationms="20770"
+		type="root"
+		rid="14c5ab7ea550968c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/28/2019 4:25:17 PM"
+		timestampiso="2019-01-28T22:25:17"
+		endtime="1/28/2019 4:25:38 PM"
+		timeoutfactor="1"
+		module="PlusPivotReportDesigner">
+		<detail>
+			PlusPivotReportDesigner
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.453"
+			timeRelativeToTestModuleStartTime="00:07.453"
+			timeWallClock="16:25:24"
+			time="00:07.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']"
+				itempath=".///toolbar/tabpagelist/tabpage[@title~'Report']"
+				fullname="AutoInstallRepository.HeavyBidApp.Tabs.ReportTab"
+				id="5048bb262beb4526b63f95ca95f2b8d1"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.562"
+			timeRelativeToTestModuleStartTime="00:12.562"
+			timeWallClock="16:25:29"
+			time="00:12.562"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.Buttons.Query.PivotReportsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				itempath="?/?/toolbar[@accessiblename='Ribbon Bar']/button[@text~'Pivot Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.Query.PivotReportsButton"
+				id="c426ef588e704534ad50cc8bf1d78e28"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.031"
+			timeRelativeToTestModuleStartTime="00:14.031"
+			timeWallClock="16:25:31"
+			time="00:14.031"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidApp.DocumentInterface.Reports.ReportsPopup.PivotReportsDesigner' at 7;169.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/form[@title='Reports']/?/?/tree[@accessiblename='Pivot Reports Designer']"
+				itempath="?/?/tree[@accessiblename='Pivot Reports Designer']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.ReportsPopup.PivotReportsDesigner"
+				id="f46d2428c589484a9ae1409e4c5050ba"
+				timeout="120000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.109"
+			timeRelativeToTestModuleStartTime="00:15.109"
+			timeWallClock="16:25:32"
+			time="00:15.109"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Expanded to 'True' on item 'HeavyBidApp.DocumentInterface.TreeViewTree.ReportsPlusPivotReports'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem[@accessiblename='Reports Plus Pivot Reports']"
+				itempath="treeitem[@accessiblename='Reports Plus Pivot Reports']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.TreeViewTree.ReportsPlusPivotReports"
+				id="c25b85d52697471e89dd735f2e782316"
+				timeout="120000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.594"
+			timeRelativeToTestModuleStartTime="00:15.594"
+			timeWallClock="16:25:32"
+			time="00:15.594"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				itempath="?/?/?/tree/?/?/treeitem[@text~'Report Designer']"
+				fullname="AutoInstallRepository.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner"
+				id="225b396430ef400682189c808d58925e"
+				timeout="90000"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.125"
+			timeRelativeToTestModuleStartTime="00:17.125"
+			timeWallClock="16:25:34"
+			time="00:17.125"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 20s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\hayyaan.merchant\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\PlusPivotReportDesigner.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.770"
+			timeRelativeToTestModuleStartTime="00:20.770"
+			timeWallClock="16:25:38"
+			time="00:20.770"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

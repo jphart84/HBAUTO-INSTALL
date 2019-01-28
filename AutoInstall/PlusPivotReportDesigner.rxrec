@@ -46,10 +46,10 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 			<info
-			id="5048bb26-2beb-4526-b63f-95ca95f2b8d1"
+			id="d67e9e89-7e0f-43c3-805d-510a2b64275e"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Report']
+					/form[@title~'HB']///toolbar/tabpagelist/tabpage[@title~'Query']
 				</path>
 			</info>
 		</mouseitem>
@@ -77,6 +77,85 @@ rxversion="8.3">
 				</path>
 			</info>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="Expanded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="fb5161ef-a9b9-498b-aaac-8d492264093a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c25b85d5-2697-471e-89dd-735f2e782316"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible, accessibletreeitem"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="12"
+				prefcap="treeitem"
+				rect="-31941,-31545,142,18"
+				role="treeitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Reports Plus Pivot Reports
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Expand
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Reports Plus Pivot Reports
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						OutlineItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Collapsed, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'HB']/element[@class='DFMDIClient']/?/?/?/tree/treeitem[@accessiblename='Reports Plus Pivot Reports']
+				</path>
+			</info>
+			<AttributeValue>
+				True
+			</AttributeValue>
+		</setvaluerecorditem>
 		<mouseitem
 		action="DoubleClick"
 		button="Left"

@@ -2409,6 +2409,7 @@ namespace AutoInstall
         public partial class ReportsPopupFolder : RepoGenBaseFolder
         {
             RepoItemInfo _closebuttonInfo;
+            RepoItemInfo _pivotreportsdesignerInfo;
 
             /// <summary>
             /// Creates a new ReportsPopup  folder.
@@ -2417,6 +2418,7 @@ namespace AutoInstall
                     base("ReportsPopup", "form[@title='Reports']", parentFolder, 30000, null, false, "9535b42a-1055-4bda-b255-12433fb0eda3", "")
             {
                 _closebuttonInfo = new RepoItemInfo(this, "CloseButton", ".//button[@accessiblename='Close']", 30000, null, "a91822b6-7d62-4a45-9127-53b456a3a55e");
+                _pivotreportsdesignerInfo = new RepoItemInfo(this, "PivotReportsDesigner", "?/?/tree[@accessiblename='Pivot Reports Designer']", 30000, null, "f46d2428-c589-484a-9ae1-409e4c5050ba");
             }
 
             /// <summary>
@@ -2464,6 +2466,30 @@ namespace AutoInstall
                 get
                 {
                     return _closebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PivotReportsDesigner item.
+            /// </summary>
+            [RepositoryItem("f46d2428-c589-484a-9ae1-409e4c5050ba")]
+            public virtual Ranorex.Tree PivotReportsDesigner
+            {
+                get
+                {
+                    return _pivotreportsdesignerInfo.CreateAdapter<Ranorex.Tree>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PivotReportsDesigner item info.
+            /// </summary>
+            [RepositoryItemInfo("f46d2428-c589-484a-9ae1-409e4c5050ba")]
+            public virtual RepoItemInfo PivotReportsDesignerInfo
+            {
+                get
+                {
+                    return _pivotreportsdesignerInfo;
                 }
             }
         }
@@ -2686,6 +2712,8 @@ namespace AutoInstall
         {
             RepoItemInfo _firstavailablebiditemInfo;
             RepoItemInfo _firstavailableactivityInfo;
+            RepoItemInfo _estimateresourcesreportsInfo;
+            RepoItemInfo _reportspluspivotreportsInfo;
 
             /// <summary>
             /// Creates a new TreeViewTree  folder.
@@ -2695,6 +2723,8 @@ namespace AutoInstall
             {
                 _firstavailablebiditemInfo = new RepoItemInfo(this, "FirstAvailableBiditem", "treeitem/treeitem/treeitem", 30000, null, "18beab79-b869-4bc6-ba7a-7df4060cbb30");
                 _firstavailableactivityInfo = new RepoItemInfo(this, "FirstAvailableActivity", "treeitem/treeitem", 30000, null, "96fc5c33-4e46-42f9-baaf-aba1ff09d141");
+                _estimateresourcesreportsInfo = new RepoItemInfo(this, "EstimateResourcesReports", "treeitem[@accessiblename~'^Estimate\\ Resources\\ Report']", 30000, null, "262dc046-fd1d-40b5-8be5-a6c47fa51f29");
+                _reportspluspivotreportsInfo = new RepoItemInfo(this, "ReportsPlusPivotReports", "treeitem[@accessiblename='Reports Plus Pivot Reports']", 30000, null, "c25b85d5-2697-471e-89dd-735f2e782316");
             }
 
             /// <summary>
@@ -2766,6 +2796,54 @@ namespace AutoInstall
                 get
                 {
                     return _firstavailableactivityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EstimateResourcesReports item.
+            /// </summary>
+            [RepositoryItem("262dc046-fd1d-40b5-8be5-a6c47fa51f29")]
+            public virtual Ranorex.TreeItem EstimateResourcesReports
+            {
+                get
+                {
+                    return _estimateresourcesreportsInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EstimateResourcesReports item info.
+            /// </summary>
+            [RepositoryItemInfo("262dc046-fd1d-40b5-8be5-a6c47fa51f29")]
+            public virtual RepoItemInfo EstimateResourcesReportsInfo
+            {
+                get
+                {
+                    return _estimateresourcesreportsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ReportsPlusPivotReports item.
+            /// </summary>
+            [RepositoryItem("c25b85d5-2697-471e-89dd-735f2e782316")]
+            public virtual Ranorex.TreeItem ReportsPlusPivotReports
+            {
+                get
+                {
+                    return _reportspluspivotreportsInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ReportsPlusPivotReports item info.
+            /// </summary>
+            [RepositoryItemInfo("c25b85d5-2697-471e-89dd-735f2e782316")]
+            public virtual RepoItemInfo ReportsPlusPivotReportsInfo
+            {
+                get
+                {
+                    return _reportspluspivotreportsInfo;
                 }
             }
         }

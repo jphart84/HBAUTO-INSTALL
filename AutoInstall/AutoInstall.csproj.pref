@@ -1,6 +1,6 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ValidateWSBin.UserCode.cs" />
+    <Element value="PlusPivotReportDesigner.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
@@ -8,6 +8,7 @@
     <Element value="OpenInstallFile.rxrec" />
     <Element value="VerifyServerReleaseVersion.rxrec" />
     <Element value="ValidateWSBin.UserCode.cs" />
+    <Element value="PlusPivotReportDesigner.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

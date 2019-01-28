@@ -79,26 +79,30 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Tabs.ReportTab' at Center.", repo.HeavyBidApp.Tabs.ReportTabInfo, new RecordItemIndex(0));
-            repo.HeavyBidApp.Tabs.ReportTab.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Tabs.QueryTab' at Center.", repo.HeavyBidApp.Tabs.QueryTabInfo, new RecordItemIndex(0));
+            repo.HeavyBidApp.Tabs.QueryTab.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HeavyBidApp.Buttons.Query.PivotReportsButton' at Center.", repo.HeavyBidApp.Buttons.Query.PivotReportsButtonInfo, new RecordItemIndex(1));
             repo.HeavyBidApp.Buttons.Query.PivotReportsButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesignerInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Expanded to 'True' on item 'HeavyBidApp.DocumentInterface.TreeViewTree.ReportsPlusPivotReports'.", repo.HeavyBidApp.DocumentInterface.TreeViewTree.ReportsPlusPivotReportsInfo, new RecordItemIndex(2));
+            repo.HeavyBidApp.DocumentInterface.TreeViewTree.ReportsPlusPivotReports.Element.SetAttributeValue("Expanded", "True");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner' at Center.", repo.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesignerInfo, new RecordItemIndex(3));
             repo.HeavyBidApp.DocumentInterface.Reports.ReportsPlusPivot.ReportDesigner.DoubleClick();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(4));
             Delay.Duration(20000, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'HeavyBid Pivot Reports') on item 'HBReportViewers.HeavyBidPivotReports.TitleBar'.", repo.HBReportViewers.HeavyBidPivotReports.TitleBarInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'HeavyBid Pivot Reports') on item 'HBReportViewers.HeavyBidPivotReports.TitleBar'.", repo.HBReportViewers.HeavyBidPivotReports.TitleBarInfo, new RecordItemIndex(5));
             Validate.AttributeRegex(repo.HBReportViewers.HeavyBidPivotReports.TitleBarInfo, "Text", new Regex("HeavyBid Pivot Reports"));
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at 12;9.", repo.HBReportViewers.HeavyBidPivotReports.CloseButtonInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HBReportViewers.HeavyBidPivotReports.CloseButton' at 12;9.", repo.HBReportViewers.HeavyBidPivotReports.CloseButtonInfo, new RecordItemIndex(6));
             repo.HBReportViewers.HeavyBidPivotReports.CloseButton.Click("12;9");
             Delay.Milliseconds(200);
             
