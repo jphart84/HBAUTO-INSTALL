@@ -37,8 +37,8 @@ namespace AutoInstall
 
         public void ValidateWSBinRemoved()
         {
-            string path = @"C:\HeavyBidWS";
-        	string folder = @"\BIN";
+            string path = @"C:\HeavyBidWS\";
+        	string folder = "BIN";
 
         	
         	string pathCheck = Path.Combine(path,folder);

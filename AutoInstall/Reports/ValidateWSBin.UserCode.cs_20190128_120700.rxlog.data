@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e0fb3177282f506"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/28/2019 12:07:07 PM"
+		timestampiso="2019-01-28T18:07:07"
+		endtime="1/28/2019 12:07:18 PM"
+		timeoutfactor="1"
+		module="ValidateWSBin">
+		<detail>
+			ValidateWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.578"
+			timeRelativeToTestModuleStartTime="00:05.578"
+			timeWallClock="12:07:13"
+			time="00:05.578"
+			level="Success"
+			category="Folder Exist">
+			<message>
+				Success. \BIN does not exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateWSBin.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.610"
+			timeRelativeToTestModuleStartTime="00:05.610"
+			timeWallClock="12:07:13"
+			time="00:05.610"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateWSBin.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

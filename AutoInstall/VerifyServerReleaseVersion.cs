@@ -92,8 +92,8 @@ namespace AutoInstall
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'HeavyBidServerSetup'", repo.HeavyBidServerSetup.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(0));
-            repo.HeavyBidServerSetup.SelfInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'HeavyBidServerSetup'", repo.HeavyBidServerSetup.SelfInfo, new ActionTimeout(45000), new RecordItemIndex(0));
+            repo.HeavyBidServerSetup.SelfInfo.WaitForExists(45000);
             
             // B.3
             try {

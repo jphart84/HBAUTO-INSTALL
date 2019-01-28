@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="28832a0138563fa6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/28/2019 3:10:49 PM"
+		timestampiso="2019-01-28T21:10:49"
+		endtime="1/28/2019 3:11:00 PM"
+		timeoutfactor="1"
+		module="ValidateWSBin">
+		<detail>
+			ValidateWSBin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.032"
+			timeRelativeToTestModuleStartTime="00:06.048"
+			timeWallClock="15:10:55"
+			time="00:06.032"
+			level="Failure"
+			category="Folder Exist"
+			errimg=".\Validate_6af9fd1f_d1e15ef8_trace.jpg"
+			errthumb=".\Validate_6af9fd1f_d1e15ef8_trace_thumb.jpg">
+			<message>
+				Fail. BIN exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateWSBin.UserCode.cs"
+				codeline="50"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.048"
+			timeRelativeToTestModuleStartTime="00:06.064"
+			timeWallClock="15:10:55"
+			time="00:06.048"
+			level="Info"
+			category="Delay"
+			errimg=".\Validate_6af9fd1f_d1e15ef8_trace.jpg"
+			errthumb=".\Validate_6af9fd1f_d1e15ef8_trace_thumb.jpg">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\ValidateWSBin.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.048"
+			timeRelativeToTestModuleStartTime="00:11.064"
+			timeWallClock="15:11:00"
+			time="00:11.048"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_6af9fd1f_279c3e93_trace.jpg"
+			errthumb=".\Validate_6af9fd1f_279c3e93_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

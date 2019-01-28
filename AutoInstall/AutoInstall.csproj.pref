@@ -1,10 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="AutoInstall.rxtst" />
+    <Element value="ValidateWSBin.UserCode.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
+    <Element value="OpenInstallFile.rxrec" />
+    <Element value="VerifyServerReleaseVersion.rxrec" />
+    <Element value="ValidateWSBin.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
