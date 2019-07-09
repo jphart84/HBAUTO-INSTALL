@@ -463,13 +463,12 @@ VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
 			</item>
 			<item
 			addcaps="text,accessible"
-			capname="text"
+			capname="tabpage"
 			id="adcb9a85-6b4b-40e8-bfd6-fe704a8111fe"
 			name="ArticleList"
 			refimgid="dcd4cf8d-08f9-460a-b90d-89908f6bc858"
-			refpath="/form[@title='Article List - Google Chrome']/container[@accessiblename='Article List - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/tabpagelist[@accessiblerole='PageTabList']/tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']"
 			searchtimeout="30000ms">
-				/form[@processname~'chrome']/container[@accessiblename~'^Article\ List\ -\ Google\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']
+				/form[@processname~'chrome']/container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']
 			</item>
 			<item
 			addcaps="container,accessible"

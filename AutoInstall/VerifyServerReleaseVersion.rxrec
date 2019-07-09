@@ -760,7 +760,7 @@ rxversion="8.3">
 			</info>
 		</WaitForRecordItem>
 		<validationitem
-		action="AttributeEqual"
+		action="AttributeRegex"
 		duration="100ms"
 		enabled="True"
 		optional="False"

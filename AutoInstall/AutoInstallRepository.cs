@@ -1522,7 +1522,7 @@ namespace AutoInstall
                 _addressbarInfo = new RepoItemInfo(this, "AddressBar", ".//text[@accessiblename='Address and search bar']", 30000, null, "668646e4-6280-41bf-b692-57ae40a528b2");
                 _tabInfo = new RepoItemInfo(this, "Tab", ".//tabpage[@selected='True']", 30000, null, "7c40f878-c55b-4e41-9ad4-b3b65419a942");
                 _paneInfo = new RepoItemInfo(this, "Pane", ".//container/container[2]/container[2]", 30000, null, "ed0ac78b-7c08-49ce-b0f9-94cd1b71a380");
-                _articlelistInfo = new RepoItemInfo(this, "ArticleList", "container[@accessiblename~'^Article\\ List\\ -\\ Google\\ Chr']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Article List']/text[@accessiblename='Article List']", 30000, null, "adcb9a85-6b4b-40e8-bfd6-fe704a8111fe");
+                _articlelistInfo = new RepoItemInfo(this, "ArticleList", "container[@accessiblename~'^Article\\ List']////?/?/tabpage[@accessiblename='Article List']", 30000, null, "adcb9a85-6b4b-40e8-bfd6-fe704a8111fe");
                 _pane1Info = new RepoItemInfo(this, "Pane1", "container[@accessiblename~'^Article\\ List\\ -\\ Google\\ Chr']/container/container[2]/container[1]", 30000, null, "1b04f890-88f5-421b-9c68-97ef46228224");
             }
 
@@ -1626,11 +1626,11 @@ namespace AutoInstall
             /// The ArticleList item.
             /// </summary>
             [RepositoryItem("adcb9a85-6b4b-40e8-bfd6-fe704a8111fe")]
-            public virtual Ranorex.Text ArticleList
+            public virtual Ranorex.TabPage ArticleList
             {
                 get
                 {
-                    return _articlelistInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _articlelistInfo.CreateAdapter<Ranorex.TabPage>(true);
                 }
             }
 

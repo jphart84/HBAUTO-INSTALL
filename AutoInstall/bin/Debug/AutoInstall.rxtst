@@ -546,6 +546,7 @@ rxversion="8.3">
 			name="ValidateXMLKey">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="6de0076f-c146-4ef2-90f0-de885e8ba3ad"
 			name="OpenInstallFile"
 			ref="11626203-89c4-449a-9ed2-1d52561a7935"
@@ -803,6 +804,7 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="9fb3b791-4c32-4c94-b9b7-8e622e777d25"
 			name="VerifyServerReleaseVersion"
 			ref="bde2f0df-0f77-479a-b4a2-1a2a235f3d36"
@@ -2527,22 +2529,19 @@ rxversion="8.3">
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
 			</testcontainer>
 			<testcontainer
-			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae">
-			</testcontainer>
-			<testcontainer
-			id="378888a4-f9ca-424a-8655-56a5032d02ba">
+			id="41b20160-5e17-4b3c-95ea-ca9e3d5cde79">
 			</testcontainer>
 			<testcontainer
 			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
 			</testcontainer>
 			<testcontainer
-			id="72337b30-df2b-4edb-82a2-48fc246d00f5">
+			id="8eaf76f5-afd9-4d46-8e9f-f37a0d921f87">
 			</testcontainer>
 			<testcontainer
-			id="9daefe3a-0ed4-49ee-8088-bc757af5dbe2">
+			id="eb269b62-171b-46e6-a194-de77eefa5ac4">
 			</testcontainer>
 			<testcontainer
-			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			id="febe7363-b15c-4a59-80ce-69f92cfeac38">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

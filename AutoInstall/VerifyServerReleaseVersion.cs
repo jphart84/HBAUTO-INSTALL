@@ -137,8 +137,8 @@ namespace AutoInstall
             Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'GoogleChrome.ArticleList'", repo.GoogleChrome.ArticleListInfo, new ActionTimeout(15000), new RecordItemIndex(7));
             repo.GoogleChrome.ArticleListInfo.WaitForExists(15000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Article List') on item 'GoogleChrome.ArticleList'.", repo.GoogleChrome.ArticleListInfo, new RecordItemIndex(8));
-            Validate.AttributeEqual(repo.GoogleChrome.ArticleListInfo, "Text", "Article List");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'Article List') on item 'GoogleChrome.ArticleList'.", repo.GoogleChrome.ArticleListInfo, new RecordItemIndex(8));
+            Validate.AttributeRegex(repo.GoogleChrome.ArticleListInfo, "Text", new Regex("Article List"));
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (Text~'help.hcss') on item 'GoogleChrome.AddressBar'.", repo.GoogleChrome.AddressBarInfo, new RecordItemIndex(9));

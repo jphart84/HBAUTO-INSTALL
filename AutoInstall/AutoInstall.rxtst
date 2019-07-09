@@ -2073,7 +2073,7 @@ rxversion="8.3">
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="V:\hayyaan.merchant\FileName.xlsx"
+		filename="V:\joseph.hart\InstallationAutomationStuff\FileName.xlsx"
 		id="f37d29ee-d3ce-4325-8c38-4177957c5a81"
 		includefile="Unchecked"
 		lastknownrowcount="92"
@@ -2160,7 +2160,7 @@ rxversion="8.3">
 			</table>
 		</DataSource>
 		<DataSource
-		filename="V:\hayyaan.merchant\DLL-OCX files.xlsx"
+		filename="V:\joseph.hart\InstallationAutomationStuff\DLL-OCX files.xlsx"
 		id="3003d59e-33a0-4868-ac67-ae527b0b1867"
 		includefile="Unchecked"
 		lastknownrowcount="16"
@@ -2290,7 +2290,7 @@ rxversion="8.3">
 						C:\HeavyBid
 					</td>
 					<td>
-						2019
+						2019.1
 					</td>
 					<td>
 						C:\HeavyBidWS\HBSave\HeavyJobExport.xml
@@ -2302,7 +2302,7 @@ rxversion="8.3">
 						C:\HeavyBidWS\
 					</td>
 					<td>
-						2018.1
+						2019
 					</td>
 				</tr>
 			</table>
@@ -2523,27 +2523,6 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
-			</testcontainer>
-			<testcontainer
-			id="1fbc9953-5211-4b8e-b58e-b19f7c6bdaae">
-			</testcontainer>
-			<testcontainer
-			id="378888a4-f9ca-424a-8655-56a5032d02ba">
-			</testcontainer>
-			<testcontainer
-			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
-			</testcontainer>
-			<testcontainer
-			id="72337b30-df2b-4edb-82a2-48fc246d00f5">
-			</testcontainer>
-			<testcontainer
-			id="9daefe3a-0ed4-49ee-8088-bc757af5dbe2">
-			</testcontainer>
-			<testcontainer
-			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

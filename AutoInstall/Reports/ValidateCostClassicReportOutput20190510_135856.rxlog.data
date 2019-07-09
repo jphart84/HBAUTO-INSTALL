@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3ae823c721eb44a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/10/2019 1:59:00 PM"
+		timestampiso="2019-05-10T18:59:00"
+		endtime="5/10/2019 1:59:08 PM"
+		timeoutfactor="1"
+		module="ValidateCostClassicReportOutput">
+		<detail>
+			ValidateCostClassicReportOutput
+		</detail>
+		<errormessage>
+			Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.390"
+			timeRelativeToTestModuleStartTime="00:07.390"
+			timeWallClock="13:59:07"
+			time="00:07.390"
+			level="Warn"
+			category="Data"
+			errimg=".\Validate_401b1863_61e156f8_trace.jpg"
+			errthumb=".\Validate_401b1863_61e156f8_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.531"
+			timeRelativeToTestModuleStartTime="00:07.531"
+			timeWallClock="13:59:08"
+			time="00:07.531"
+			level="Failure"
+			category="Validation"
+			errimg=".\Validate_401b1863_71a72f89_trace.jpg"
+			errthumb=".\Validate_401b1863_71a72f89_trace_thumb.jpg">
+			<message>
+				Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.547"
+			timeRelativeToTestModuleStartTime="00:07.547"
+			timeWallClock="13:59:08"
+			time="00:07.547"
+			level="Error"
+			category="Module"
+			errimg=".\Validate_401b1863_71a72f89_trace.jpg"
+			errthumb=".\Validate_401b1863_71a72f89_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing content of files (W:\HBDaily\InstallAutomation\HBReportsExportFiles\Reference\CostReportClassicSimiliarContent.txt vs. W:\HBDaily\InstallAutomation\HBReportsExportFiles\CostReportClassicSimiliarContent.txt)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at AutoInstall.ValidateCostClassicReportOutput.ValidateContentCostReport() in c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs:line 95
+   at AutoInstall.ValidateCostClassicReportOutput.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\ValidateCostClassicReportOutput.UserCode.cs"
+				codeline="95"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -70,3 +70,12 @@ C:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\bin\Debug\Ranorex.Core
 C:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.csprojResolveAssemblyReference.cache
 C:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.exe
 C:\Users\joseph.hart\Downloads\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.pdb
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.rxtmg
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.rxtst
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.exe.config
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.exe
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\AutoInstall.pdb
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.csprojResolveAssemblyReference.cache
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.exe
+C:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\obj\x86\Debug\AutoInstall.pdb
