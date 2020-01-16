@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public WelcomeScreen()
         {
-            currentYear = "2019";
+            currentYear = "2020";
         }
 
         /// <summary>

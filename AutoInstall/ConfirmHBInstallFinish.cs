@@ -42,7 +42,7 @@ namespace AutoInstall
         public ConfirmHBInstallFinish()
         {
             HBInstallLocation = "C:\\HeavyBid\\";
-            currentVersion = "2019";
+            currentVersion = "2020";
         }
 
         /// <summary>

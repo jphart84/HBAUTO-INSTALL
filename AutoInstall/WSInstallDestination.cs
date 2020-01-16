@@ -42,7 +42,7 @@ namespace AutoInstall
         public WSInstallDestination()
         {
             WSInstallLocation = "C:\\HeavyBidWS\\";
-            currentVersion = "2019";
+            currentVersion = "2020";
         }
 
         /// <summary>

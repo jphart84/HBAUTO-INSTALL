@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public ValidateHBStrayDate()
         {
-            YearVersion = "2019";
+            YearVersion = "2020";
         }
 
         /// <summary>
@@ -123,8 +123,8 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='10/24/2018') on item 'ExcelRelated.Excel.CellB2'.", repo.ExcelRelated.Excel.CellB2Info, new RecordItemIndex(5));
-                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellB2Info, "Text", "10/24/2018", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='12/04/2019') on item 'ExcelRelated.Excel.CellB2'.", repo.ExcelRelated.Excel.CellB2Info, new RecordItemIndex(5));
+                Validate.AttributeEqual(repo.ExcelRelated.Excel.CellB2Info, "Text", "12/04/2019", null, false);
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             

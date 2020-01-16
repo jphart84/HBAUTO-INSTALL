@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public AboutHBButton()
         {
-            currentYear = "2019";
+            currentYear = "2020";
             CompanyName = "Test Company 999";
             HBType = "Advanced";
             Licenses = "100";

@@ -1,13 +1,8 @@
 ﻿<Properties>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ValidateHBStrayDate.rxrec" />
-    <Element value="ValidateEXEs.rxrec" />
     <Element value="AutoInstall.rxtst" />
-    <Element value="ValidateWSBin.UserCode.cs" />
-    <Element value="PlusPivotReportDesigner.rxrec" />
-    <Element value="CompareServerAndWSBin.rxrec" />
-    <Element value="CompareServerAndWSBin.UserCode.cs" />
+    <Element value="OpenInstallFile.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

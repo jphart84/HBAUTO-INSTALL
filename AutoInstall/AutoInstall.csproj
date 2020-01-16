@@ -1685,9 +1685,9 @@
       <recordtableid>bde2f0df-0f77-479a-b4a2-1a2a235f3d36</recordtableid>
     </None>
     <None Include="AcceptToSHB.rxrec">
-      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
       <id>a1efcdbb-ef44-4b4a-b3db-f39f79b044b5</id>
       <recordtableid>13904e02-f537-4efa-b319-b7d046036924</recordtableid>
+      <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>
     </None>
     <None Include="SelectInstallType.rxrec">
       <BoundTo>333471bd-827a-4c78-8900-64dfb5370cbf</BoundTo>

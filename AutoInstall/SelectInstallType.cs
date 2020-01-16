@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public SelectInstallType()
         {
-            currentVersion = "2019";
+            currentVersion = "2020";
         }
 
         /// <summary>

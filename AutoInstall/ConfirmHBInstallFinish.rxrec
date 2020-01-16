@@ -35,7 +35,7 @@ rxversion="8.3">
 		<var
 		id="6f040a5d-39be-430a-85e8-482002743329"
 		name="currentVersion">
-			2019
+			2020
 		</var>
 	</variables>
 	<recorditems>
@@ -817,7 +817,7 @@ gQtGaSigBaWkozTAWikzSZpAOopuaM0XHYdRmm5pKLhYdmjNJRRcLDs0ZpKKBC5opKWmB//Z
 	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
 	name="AutoInstallRepository"
 	relativepath="AutoInstallRepository.rxrep"
-	rxversion="8.2">
+	rxversion="8.3">
 		<codegen
 		classname="AutoInstallRepository"
 		namespace="AutoInstall">

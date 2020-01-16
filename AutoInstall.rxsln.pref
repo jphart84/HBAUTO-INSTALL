@@ -2,8 +2,11 @@
   <ActiveConfiguration value="Debug" />
   <ActivePlatform value="x86" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\Project targets a different Ranorex version&#xD;&#xA;Solution AutoInstall" />
+  <ProjectBrowserState value="[Solution AutoInstall[AutoInstall[]]]&#xD;&#xA;Solution AutoInstall\AutoInstall\OpenInstallFile.rxrec&#xD;&#xA;Solution AutoInstall\AutoInstall\EstimateRecapReportClassic.rxrec" />
   <StartupProject value="{BB0EE2AF-7DCE-4E09-92C1-B283B3F874A8}" />
 </Properties>

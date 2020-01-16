@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9d5a992aec194d0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/15/2020 7:01:03 PM"
+		timestampiso="2020-01-16T01:01:03"
+		endtime="1/15/2020 7:01:18 PM"
+		timeoutfactor="1"
+		module="OpenInstallFile">
+		<detail>
+			OpenInstallFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.003"
+			timeRelativeToTestModuleStartTime="00:14.003"
+			timeWallClock="19:01:17"
+			time="00:14.003"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>InstallLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.190"
+			timeRelativeToTestModuleStartTime="00:14.190"
+			timeWallClock="19:01:17"
+			time="00:14.190"
+			level="Info"
+			category="Application">
+			<message>
+				B.1<br/>Run application 'PullLatestInstall.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\OpenInstallFile.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

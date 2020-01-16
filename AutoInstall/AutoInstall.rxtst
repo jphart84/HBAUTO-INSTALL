@@ -70,16 +70,16 @@ rxversion="8.3">
 			type="Recording">
 				<databinding>
 					<var
-					dataname="HeavyBidReleaseYear"
-					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
-					variableid="70ba6dd1-192d-41e3-b58b-367f7f33f5a7"
-					variablename="currentVersion">
-					</var>
-					<var
 					dataname="HBInstallLocation"
 					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
 					variableid="d83907a1-d52b-4587-922a-f50af925709a"
 					variablename="HBInstallLocation">
+					</var>
+					<var
+					dataname="HeavyBidReleaseYear"
+					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
+					variableid="70ba6dd1-192d-41e3-b58b-367f7f33f5a7"
+					variablename="currentVersion">
 					</var>
 				</databinding>
 			</testmodule>
@@ -169,7 +169,6 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
-			datasource="HeavyBidRelease"
 			id="1b8494a2-49ac-4fe7-95a9-5041089272b9"
 			maxrange="1"
 			minrange="1"
@@ -264,16 +263,16 @@ rxversion="8.3">
 			type="Recording">
 				<databinding>
 					<var
-					dataname="HeavyBidReleaseYear"
-					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
-					variableid="6f040a5d-39be-430a-85e8-482002743329"
-					variablename="currentVersion">
-					</var>
-					<var
 					dataname="HBInstallLocation"
 					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
 					variableid="c3a112bd-b56e-42d3-ba27-0d1d1cc78000"
 					variablename="HBInstallLocation">
+					</var>
+					<var
+					dataname="HeavyBidReleaseYear"
+					datasourceid="5f0ee686-a6ee-45dc-96e5-bd9f69bb6d74"
+					variableid="6f040a5d-39be-430a-85e8-482002743329"
+					variablename="currentVersion">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2223,7 +2222,7 @@ rxversion="8.3">
 						C:\HeavyBid\
 					</td>
 					<td>
-						2019
+						2020
 					</td>
 					<td>
 						EST-1
@@ -2247,9 +2246,6 @@ rxversion="8.3">
 					HBInstallLocation
 				</column>
 				<column>
-					HeavyBidReleaseYear
-				</column>
-				<column>
 					HJFilePath
 				</column>
 				<column>
@@ -2261,6 +2257,9 @@ rxversion="8.3">
 				<column>
 					HeavyBidPreviousYear
 				</column>
+				<column>
+					HeavyBidReleaseYear
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -2268,9 +2267,6 @@ rxversion="8.3">
 				<tr>
 					<th>
 						HBInstallLocation
-					</th>
-					<th>
-						HeavyBidReleaseYear
 					</th>
 					<th>
 						HJFilePath
@@ -2284,13 +2280,13 @@ rxversion="8.3">
 					<th>
 						HeavyBidPreviousYear
 					</th>
+					<th>
+						HeavyBidReleaseYear
+					</th>
 				</tr>
 				<tr>
 					<td>
 						C:\HeavyBid
-					</td>
-					<td>
-						2019.1
 					</td>
 					<td>
 						C:\HeavyBidWS\HBSave\HeavyJobExport.xml
@@ -2302,7 +2298,10 @@ rxversion="8.3">
 						C:\HeavyBidWS\
 					</td>
 					<td>
-						2019
+						2019.1.1
+					</td>
+					<td>
+						2020
 					</td>
 				</tr>
 			</table>
@@ -2327,7 +2326,7 @@ rxversion="8.3">
 				</tr>
 				<tr>
 					<td>
-						2019
+						2020
 					</td>
 				</tr>
 			</table>
@@ -2513,7 +2512,7 @@ rxversion="8.3">
 						C:\HeavyBidWS\
 					</td>
 					<td>
-						2018.1
+						2020
 					</td>
 				</tr>
 			</table>

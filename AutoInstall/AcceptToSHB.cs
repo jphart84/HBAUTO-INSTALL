@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public AcceptToSHB()
         {
-            currentVersion = "2019";
+            currentVersion = "2020";
         }
 
         /// <summary>
