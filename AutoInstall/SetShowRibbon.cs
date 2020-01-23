@@ -80,10 +80,16 @@ namespace AutoInstall
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidApp.Buttons.HCSSIcon' at Center.", repo.HeavyBidApp.Buttons.HCSSIconInfo, new RecordItemIndex(0));
-                repo.HeavyBidApp.Buttons.HCSSIcon.Click();
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Move item 'HeavyBidApp.Buttons.HCSSIcon' at Center.", repo.HeavyBidApp.Buttons.HCSSIconInfo, new RecordItemIndex(0));
+                repo.HeavyBidApp.Buttons.HCSSIcon.MoveTo();
                 Delay.Milliseconds(200);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'HeavyBidApp.Buttons.HCSSIcon' at Center.", repo.HeavyBidApp.Buttons.HCSSIconInfo, new RecordItemIndex(1));
+                repo.HeavyBidApp.Buttons.HCSSIcon.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             ShowRibbon();
             Delay.Milliseconds(0);

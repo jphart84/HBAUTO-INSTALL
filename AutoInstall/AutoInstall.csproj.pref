@@ -1,14 +1,10 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="CompareServerAndWSBin.UserCode.cs" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="AutoInstall.rxtst" />
-    <Element value="CheckMissingDLLsOCXs.rxrec" />
-    <Element value="CheckNewFiles.rxrec" />
-    <Element value="CompareServerAndWSBin.rxrec" />
-    <Element value="CompareServerAndWSBin.UserCode.cs" />
+    <Element value="ValidateWSStrayDate.rxrec" />
+    <Element value="ValidateHBStrayDate.rxrec" />
+    <Element value="CheckHBConfigFile.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
