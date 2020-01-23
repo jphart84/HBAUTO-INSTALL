@@ -85,13 +85,13 @@ namespace AutoInstall
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'HB.2017.0') on item 'ExcelRelated.Excel.CellC10'.", repo.ExcelRelated.Excel.CellC10Info, new RecordItemIndex(1));
-                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC10Info, "Text", "HB.2017.0", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'HB.2017.0') on item 'ExcelRelated.Excel.CellC11'.", repo.ExcelRelated.Excel.CellC11Info, new RecordItemIndex(1));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC11Info, "Text", "HB.2017.0", null, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'2.4') on item 'ExcelRelated.Excel.CellC12'.", repo.ExcelRelated.Excel.CellC12Info, new RecordItemIndex(2));
-                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC12Info, "Text", "2.4", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeContains (Text>'2.4') on item 'ExcelRelated.Excel.CellC13'.", repo.ExcelRelated.Excel.CellC13Info, new RecordItemIndex(2));
+                Validate.AttributeContains(repo.ExcelRelated.Excel.CellC13Info, "Text", "2.4", null, false);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             try {

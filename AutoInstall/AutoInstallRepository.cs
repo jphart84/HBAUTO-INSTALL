@@ -10311,8 +10311,8 @@ namespace AutoInstall
         {
             RepoItemInfo _cella2Info;
             RepoItemInfo _cellb2Info;
-            RepoItemInfo _cellc10Info;
-            RepoItemInfo _cellc12Info;
+            RepoItemInfo _cellc11Info;
+            RepoItemInfo _cellc13Info;
             RepoItemInfo _cella1Info;
             RepoItemInfo _closeInfo;
 
@@ -10324,8 +10324,8 @@ namespace AutoInstall
             {
                 _cella2Info = new RepoItemInfo(this, "CellA2", ".//table/row[@index='2']/cell[@address='A2']", 30000, null, "ee3237ba-6bb6-41b0-80fd-694144dff066");
                 _cellb2Info = new RepoItemInfo(this, "CellB2", ".//table/row[@index='2']/cell[@address='B2']", 30000, null, "073df163-1873-4060-ae7a-b7ad13e81e01");
-                _cellc10Info = new RepoItemInfo(this, "CellC10", ".//table/row[@index='10']/cell[@address='C10']", 30000, null, "86a21613-7afc-4f61-94d9-7da4289efbff");
-                _cellc12Info = new RepoItemInfo(this, "CellC12", ".//table/row[@index='12']/cell[@address='C12']", 30000, null, "9baba109-2fce-40ad-88fd-793fee312931");
+                _cellc11Info = new RepoItemInfo(this, "CellC11", ".//table/row[@index='11']/cell[@address='C11']", 30000, null, "86a21613-7afc-4f61-94d9-7da4289efbff");
+                _cellc13Info = new RepoItemInfo(this, "CellC13", ".//table/row[@index='13']/cell[@address='C13']", 30000, null, "9baba109-2fce-40ad-88fd-793fee312931");
                 _cella1Info = new RepoItemInfo(this, "CellA1", ".//table/row[@index='1']/cell[@address='A1']", 30000, null, "23902e6e-d05b-4875-a08c-e4e055ca2a43");
                 _closeInfo = new RepoItemInfo(this, "Close", "element[2]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close' and @classname='NetUIAppFrameHelper']", 30000, null, "57d66d6f-d1ce-4a86-870a-5a7c182d1117");
             }
@@ -10403,50 +10403,50 @@ namespace AutoInstall
             }
 
             /// <summary>
-            /// The CellC10 item.
+            /// The CellC11 item.
             /// </summary>
             [RepositoryItem("86a21613-7afc-4f61-94d9-7da4289efbff")]
-            public virtual Ranorex.Cell CellC10
+            public virtual Ranorex.Cell CellC11
             {
                 get
                 {
-                    return _cellc10Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _cellc11Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The CellC10 item info.
+            /// The CellC11 item info.
             /// </summary>
             [RepositoryItemInfo("86a21613-7afc-4f61-94d9-7da4289efbff")]
-            public virtual RepoItemInfo CellC10Info
+            public virtual RepoItemInfo CellC11Info
             {
                 get
                 {
-                    return _cellc10Info;
+                    return _cellc11Info;
                 }
             }
 
             /// <summary>
-            /// The CellC12 item.
+            /// The CellC13 item.
             /// </summary>
             [RepositoryItem("9baba109-2fce-40ad-88fd-793fee312931")]
-            public virtual Ranorex.Cell CellC12
+            public virtual Ranorex.Cell CellC13
             {
                 get
                 {
-                    return _cellc12Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _cellc13Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The CellC12 item info.
+            /// The CellC13 item info.
             /// </summary>
             [RepositoryItemInfo("9baba109-2fce-40ad-88fd-793fee312931")]
-            public virtual RepoItemInfo CellC12Info
+            public virtual RepoItemInfo CellC13Info
             {
                 get
                 {
-                    return _cellc12Info;
+                    return _cellc13Info;
                 }
             }
 
