@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="41cc95bbddad6f0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/23/2020 7:21:36 AM"
+		timestampiso="2020-01-23T13:21:36"
+		endtime="1/23/2020 7:21:49 AM"
+		timeoutfactor="1"
+		module="VerifyServerReleaseVersion">
+		<detail>
+			VerifyServerReleaseVersion
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.ArticleList' does not match the specified RegEx (actual='(null)', regex='Article List').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.995"
+			timeRelativeToTestModuleStartTime="00:07.995"
+			timeWallClock="07:21:44"
+			time="00:07.995"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>currentVersion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.151"
+			timeRelativeToTestModuleStartTime="00:08.151"
+			timeWallClock="07:21:44"
+			time="00:08.151"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HeavyBidServerSetup.Text957' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@accessiblename='How to install/update HeavyBid']"
+				itempath="text[@accessiblename='How to install/update HeavyBid']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.Text957"
+				id="30cae964aa2545b9a35a94e8977179e0"
+				timeout="60000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="95"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.823"
+			timeRelativeToTestModuleStartTime="00:10.823"
+			timeWallClock="07:21:47"
+			time="00:10.823"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 15s to exist. Associated repository item: 'GoogleChrome.ArticleList'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="15000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="99"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.799"
+			timeRelativeToTestModuleStartTime="00:12.799"
+			timeWallClock="07:21:49"
+			time="00:12.799"
+			level="Info"
+			category="Validation"
+			errimg=".\VerifySe_52c2482_acaedf47_trace.jpg"
+			errthumb=".\VerifySe_52c2482_acaedf47_trace_thumb.jpg">
+			<message>
+				Validating AttributeRegex (Text~'Article List') on item 'GoogleChrome.ArticleList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="35000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="102"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.996"
+			timeRelativeToTestModuleStartTime="00:12.996"
+			timeWallClock="07:21:49"
+			time="00:12.996"
+			level="Failure"
+			category="Validation"
+			errimg=".\VerifySe_52c2482_2279cfab_trace.jpg"
+			errthumb=".\VerifySe_52c2482_2279cfab_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.ArticleList' does not match the specified RegEx (actual='(null)', regex='Article List').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="35000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="103"
+				loglvl="Failure"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.006"
+			timeRelativeToTestModuleStartTime="00:13.006"
+			timeWallClock="07:21:49"
+			time="00:13.006"
+			level="Error"
+			category="Module"
+			errimg=".\VerifySe_52c2482_2279cfab_trace.jpg"
+			errthumb=".\VerifySe_52c2482_2279cfab_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.ArticleList' does not match the specified RegEx (actual='(null)', regex='Article List').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass41_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex)&#13;&#10;   at AutoInstall.VerifyServerReleaseVersion.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs:line 103&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="103"
+				type="repoitem"
+				path="/form[@processname~'chrome']/container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				itempath="container[@accessiblename~'^Article\ List']////?/?/tabpage[@accessiblename='Article List']"
+				fullname="AutoInstallRepository.GoogleChrome.ArticleList"
+				id="adcb9a856b4b40e8bfd6fe704a8111fe"
+				timeout="35000"
+				loglvl="Error"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -762,7 +762,7 @@ rxversion="8.3">
 		<validationitem
 		action="AttributeRegex"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="da50158a-246d-4c0d-bc05-2137551785d4">
 			<comment>

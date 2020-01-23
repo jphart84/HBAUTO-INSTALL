@@ -41,7 +41,7 @@ namespace AutoInstall
         /// </summary>
         public CheckNewFiles()
         {
-            FileName = "BIN/DevExpress.Data.v17.1.dll";
+            FileName = "BIN/DOUTOUT.XML";
         }
 
         /// <summary>

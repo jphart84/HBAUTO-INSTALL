@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ba55a56e09f943a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/23/2020 7:23:08 AM"
+		timestampiso="2020-01-23T13:23:08"
+		endtime="1/23/2020 7:23:16 AM"
+		timeoutfactor="1"
+		module="VerifyServerReleaseVersion">
+		<detail>
+			VerifyServerReleaseVersion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.562"
+			timeRelativeToTestModuleStartTime="00:05.562"
+			timeWallClock="07:23:14"
+			time="00:05.562"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>currentVersion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.656"
+			timeRelativeToTestModuleStartTime="00:05.656"
+			timeWallClock="07:23:14"
+			time="00:05.656"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'help.hcss') on item 'GoogleChrome.AddressBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="35000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="95"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.609"
+			timeRelativeToTestModuleStartTime="00:07.609"
+			timeWallClock="07:23:16"
+			time="00:07.609"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.GoogleChrome.AddressBar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname~'chrome']//text[@accessiblename='Address and search bar']"
+				itempath=".//text[@accessiblename='Address and search bar']"
+				fullname="AutoInstallRepository.GoogleChrome.AddressBar"
+				id="668646e4628041bfb69257ae40a528b2"
+				timeout="35000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\VerifyServerReleaseVersion.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+	</activity>
+</report>

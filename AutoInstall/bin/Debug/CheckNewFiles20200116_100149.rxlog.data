@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2466a54925d405f8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/16/2020 10:01:53 AM"
+		timestampiso="2020-01-16T16:01:53"
+		endtime="1/16/2020 10:53:09 AM"
+		timeoutfactor="1"
+		module="CheckNewFiles">
+		<detail>
+			CheckNewFiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="51:16.373"
+			timeRelativeToTestModuleStartTime="51:16.373"
+			timeWallClock="10:53:09"
+			time="51:16.373"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FileName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="51:16.389"
+			timeRelativeToTestModuleStartTime="51:16.389"
+			timeWallClock="10:53:09"
+			time="51:16.389"
+			level="Success"
+			category="File Exist">
+			<message>
+				Success! C:\HeavyBid\BIN/NewSQL20.sp exists!
+			</message>
+			<metainfo
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\CheckNewFiles.UserCode.cs"
+				codeline="43"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>
