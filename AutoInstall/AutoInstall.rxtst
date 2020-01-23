@@ -2522,6 +2522,18 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="1b8494a2-49ac-4fe7-95a9-5041089272b9">
+			</testcontainer>
+			<testcontainer
+			id="378888a4-f9ca-424a-8655-56a5032d02ba">
+			</testcontainer>
+			<testcontainer
+			id="712c470d-3a96-4599-b475-7e17c8b5e64d">
+			</testcontainer>
+			<testcontainer
+			id="a6f7ae50-dc48-4177-97ab-f056fadf2423">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

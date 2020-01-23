@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4787a2611cf7fa0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="joseph.hart"
+		rxversion="8.3.0.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/23/2020 9:18:56 AM"
+		timestampiso="2020-01-23T15:18:56"
+		endtime="1/23/2020 9:19:12 AM"
+		timeoutfactor="1"
+		module="SetShowRibbon">
+		<detail>
+			SetShowRibbon
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.875"
+			timeRelativeToTestModuleStartTime="00:07.875"
+			timeWallClock="09:19:04"
+			time="00:07.875"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Move item 'HeavyBidApp.Buttons.HCSSIcon' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@accessiblename='App']"
+				itempath=".//toolbar/button[@accessiblename='App']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.HCSSIcon"
+				id="f421981e8e564722bdfab348867caef5"
+				timeout="60000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\SetShowRibbon.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.828"
+			timeRelativeToTestModuleStartTime="00:11.828"
+			timeWallClock="09:19:08"
+			time="00:11.828"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'HeavyBidApp.Buttons.HCSSIcon' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HB']//toolbar/button[@accessiblename='App']"
+				itempath=".//toolbar/button[@accessiblename='App']"
+				fullname="AutoInstallRepository.HeavyBidApp.Buttons.HCSSIcon"
+				id="f421981e8e564722bdfab348867caef5"
+				timeout="60000"
+				codefile="c:\Users\joseph.hart\Documents\GitHub\HBAUTO-INSTALL\AutoInstall\SetShowRibbon.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
